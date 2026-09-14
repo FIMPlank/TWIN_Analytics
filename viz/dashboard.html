@@ -1,0 +1,339 @@
+<title>Twin Transformation Data</title>
+<style>
+.viz-root {
+  color-scheme: light;
+  --surface-1:      #fcfcfb;
+  --page:           #f9f9f7;
+  --text-primary:   #0b0b0b;
+  --text-secondary: #52514e;
+  --text-muted:     #898781;
+  --grid:           #e1e0d9;
+  --axis:           #c3c2b7;
+  --border:         rgba(11,11,11,0.10);
+
+  --s1: #2a78d6; /* blue */
+  --s2: #eb6834; /* orange */
+  --s3: #1baf7a; /* aqua */
+  --s4: #eda100; /* yellow */
+  --s5: #e87ba4; /* magenta */
+  --s6: #008300; /* green */
+  --s7: #4a3aa7; /* violet */
+  --s8: #e34948; /* red */
+
+  font-family: system-ui, -apple-system, "Segoe UI", sans-serif;
+  background: var(--page);
+  color: var(--text-primary);
+}
+@media (prefers-color-scheme: dark) {
+  :root:where(:not([data-theme="light"])) .viz-root {
+    color-scheme: dark;
+    --surface-1:      #1a1a19;
+    --page:           #0d0d0d;
+    --text-primary:   #ffffff;
+    --text-secondary: #c3c2b7;
+    --text-muted:     #898781;
+    --grid:           #2c2c2a;
+    --axis:           #383835;
+    --border:         rgba(255,255,255,0.10);
+    --s1: #3987e5; --s2: #d95926; --s3: #199e70; --s4: #c98500;
+    --s5: #d55181; --s6: #008300; --s7: #9085e9; --s8: #e66767;
+  }
+}
+:root[data-theme="dark"] .viz-root {
+  color-scheme: dark;
+  --surface-1:      #1a1a19;
+  --page:           #0d0d0d;
+  --text-primary:   #ffffff;
+  --text-secondary: #c3c2b7;
+  --text-muted:     #898781;
+  --grid:           #2c2c2a;
+  --axis:           #383835;
+  --border:         rgba(255,255,255,0.10);
+  --s1: #3987e5; --s2: #d95926; --s3: #199e70; --s4: #c98500;
+  --s5: #d55181; --s6: #008300; --s7: #9085e9; --s8: #e66767;
+}
+
+* { box-sizing: border-box; }
+.viz-root { padding: 24px 16px 48px; }
+.wrap { max-width: 980px; margin: 0 auto; }
+
+header.page { margin-bottom: 28px; }
+header.page h1 { font-size: 22px; margin: 0 0 6px; letter-spacing: -0.01em; }
+header.page p { font-size: 14px; color: var(--text-secondary); margin: 0; max-width: 640px; line-height: 1.5; }
+
+.card {
+  background: var(--surface-1);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  padding: 20px 20px 12px;
+  margin-bottom: 20px;
+}
+.card h2 { font-size: 15px; margin: 0 0 2px; }
+.card .sub { font-size: 12.5px; color: var(--text-secondary); margin: 0 0 14px; line-height: 1.5; }
+.card .source { font-size: 11px; color: var(--text-muted); margin-top: 10px; }
+
+svg { display: block; width: 100%; height: auto; overflow: visible; }
+.axis-label { font-size: 10.5px; fill: var(--text-muted); }
+.grid-line { stroke: var(--grid); stroke-width: 1; }
+.baseline { stroke: var(--axis); stroke-width: 1; }
+
+.legend { display: flex; flex-wrap: wrap; gap: 12px 18px; margin: 4px 0 14px; }
+.legend-item { display: flex; align-items: center; gap: 6px; font-size: 12px; color: var(--text-secondary); cursor: default; }
+.legend-swatch { width: 10px; height: 10px; border-radius: 2px; flex: none; }
+
+.line-path { fill: none; stroke-width: 2; }
+.line-dot { fill: var(--surface-1); stroke-width: 2; }
+.hover-line { stroke: var(--axis); stroke-width: 1; stroke-dasharray: 2 3; opacity: 0; pointer-events: none; }
+
+.bar { rx: 3; }
+.bar-label { font-size: 11px; fill: var(--text-secondary); }
+.bar-value { font-size: 11px; fill: var(--text-primary); font-variant-numeric: tabular-nums; }
+
+.dot { stroke: var(--surface-1); stroke-width: 1.5; }
+.dot-label { font-size: 10px; fill: var(--text-secondary); pointer-events: none; }
+
+.tooltip {
+  position: absolute;
+  pointer-events: none;
+  background: var(--surface-1);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 8px 10px;
+  font-size: 12px;
+  box-shadow: 0 4px 16px rgba(0,0,0,0.12);
+  opacity: 0;
+  transition: opacity 0.08s;
+  z-index: 10;
+  white-space: nowrap;
+}
+.tooltip .t-title { font-weight: 600; margin-bottom: 3px; }
+.tooltip .t-row { display: flex; align-items: center; gap: 6px; color: var(--text-secondary); }
+.tooltip .t-swatch { width: 8px; height: 8px; border-radius: 2px; flex: none; }
+
+.chart-shell { position: relative; }
+</style>
+
+<div class="viz-root">
+  <div class="wrap">
+    <header class="page">
+      <h1>Twin Transformation: digitalization vs. verified emissions</h1>
+      <p>Three views built from the open-access datasets in
+        <a href="https://github.com/FIMPlank/TWIN_Analytics" style="color:inherit">TWIN_Analytics/data/raw</a>:
+        EU ETS verified emissions (EUTL), the EIB Investment Survey (EIBIS), and the
+        E-PRTR industrial emissions register.</p>
+    </header>
+
+    <div class="card">
+      <h2>EU ETS verified emissions by sector, 2005–2025</h2>
+      <p class="sub">Independently verified emissions (not disclosed/self-reported) for the eight largest EU ETS sectors. Combustion of fuels dominates but has nearly halved since 2008.</p>
+      <div id="chart-ets" class="chart-shell"></div>
+      <p class="source">Source: EU ETS / EUTL, GitHub mirror of EEA data · data/raw/eu_ets/eu-ets-sector-emissions.csv</p>
+    </div>
+
+    <div class="card">
+      <h2>Digitalization vs. climate-target adoption, EIBIS 2025</h2>
+      <p class="sub">Each point is one EU country. X: share of firms using at least one digital technology. Y: share of firms with GHG emission-reduction targets. A positive slope is what the "digitalization → real decarbonization" hypothesis would predict — but EIBIS measures a stated <em>target</em>, not a verified outcome.</p>
+      <div id="chart-scatter" class="chart-shell"></div>
+      <p class="source">Source: EIB Investment Survey · data/raw/eibis/eibis_aggregate.csv (survey wave 2025, all sectors/sizes)</p>
+    </div>
+
+    <div class="card">
+      <h2>Industrial CO₂ releases by country, 2024</h2>
+      <p class="sub">National totals from facilities reporting under the E-PRTR/Industrial Emissions Directive register — industrial CO₂ only, not full national inventories, and reporting completeness varies by country.</p>
+      <div id="chart-co2" class="chart-shell"></div>
+      <p class="source">Source: E-PRTR / Industrial Emissions Portal · data/raw/eprtr/F1_1_Air_Releases_National.csv</p>
+    </div>
+  </div>
+  <div class="tooltip" id="tooltip"></div>
+</div>
+
+<script>
+const DATA = {"ets": {"years": [2005, 2006, 2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024, 2025], "series": [{"name": "Aviation", "values": [null, null, null, null, null, null, null, 84.0, 53.5, 54.8, 57.1, 61.5, 64.4, 67.5, 68.2, 25.0, 27.7, 48.7, 53.5, 61.5, 57.2]}, {"name": "Combustion of fuels", "values": [1452.2, 1464.1, 1554.3, 1500.8, 1376.1, 1409.2, 1378.4, 1366.1, 1327.1, 1231.1, 1220.8, 1173.8, 1171.0, 1103.5, 961.7, 828.5, 818.3, 826.0, 649.9, 588.9, 555.1]}, {"name": "Production of bulk chemicals", "values": [11.4, 11.8, 12.5, 32.9, 29.9, 30.8, 29.5, 28.0, 38.7, 37.9, 38.2, 38.5, 38.8, 38.9, 36.5, 36.3, 37.5, 32.4, 29.1, 31.1, 29.6]}, {"name": "Production of cement clinker", "values": [150.0, 153.8, 172.7, 161.5, 129.5, 127.5, 125.5, 117.9, 114.2, 119.4, 117.8, 118.3, 121.0, 122.7, 122.2, 115.5, 112.6, 105.7, 95.7, 91.2, 78.3]}, {"name": "Production of lime, or calcination of dolomite/magnesite", "values": [30.9, 30.4, 32.8, 33.5, 26.8, 29.9, 30.7, 28.9, 30.2, 30.2, 29.6, 28.9, 30.3, 30.6, 28.8, 26.3, 26.4, 24.4, 21.4, 21.5, 19.8]}, {"name": "Production of paper or cardboard", "values": [26.1, 26.0, 25.6, 25.5, 22.5, 24.2, 23.2, 22.0, 21.5, 20.6, 20.8, 20.6, 21.2, 21.0, 20.9, 19.7, 19.3, 17.2, 14.4, 14.4, 12.5]}, {"name": "Production of pig iron or steel", "values": [133.3, 138.6, 148.9, 148.7, 103.5, 127.4, 126.7, 123.0, 129.5, 131.9, 130.3, 124.5, 124.2, 121.7, 118.2, 104.8, 113.0, 102.5, 94.2, 93.2, 85.8]}, {"name": "Refining of mineral oil", "values": [131.9, 130.8, 135.4, 135.4, 126.6, 123.6, 123.7, 118.3, 122.2, 119.1, 121.2, 121.0, 120.1, 118.2, 117.0, 107.5, 101.2, 108.5, 104.6, 104.4, 101.3]}]}, "scatter": [{"country": "AT", "digital": 0.87, "climate": 0.47}, {"country": "BE", "digital": 0.78, "climate": 0.62}, {"country": "BG", "digital": 0.65, "climate": 0.25}, {"country": "CY", "digital": 0.58, "climate": 0.2}, {"country": "CZ", "digital": 0.78, "climate": 0.34}, {"country": "DE", "digital": 0.82, "climate": 0.45}, {"country": "DK", "digital": 0.92, "climate": 0.64}, {"country": "EE", "digital": 0.72, "climate": 0.33}, {"country": "EL", "digital": 0.57, "climate": 0.33}, {"country": "ES", "digital": 0.85, "climate": 0.6}, {"country": "FI", "digital": 0.79, "climate": 0.61}, {"country": "FR", "digital": 0.61, "climate": 0.52}, {"country": "HR", "digital": 0.55, "climate": 0.36}, {"country": "HU", "digital": 0.61, "climate": 0.52}, {"country": "IE", "digital": 0.72, "climate": 0.32}, {"country": "IT", "digital": 0.74, "climate": 0.35}, {"country": "LT", "digital": 0.71, "climate": 0.32}, {"country": "LU", "digital": 0.76, "climate": 0.41}, {"country": "LV", "digital": 0.75, "climate": 0.4}, {"country": "MT", "digital": 0.77, "climate": 0.4}, {"country": "NL", "digital": 0.85, "climate": 0.57}, {"country": "PL", "digital": 0.65, "climate": 0.45}, {"country": "PT", "digital": 0.7, "climate": 0.43}, {"country": "RO", "digital": 0.75, "climate": 0.4}, {"country": "SE", "digital": 0.86, "climate": 0.67}, {"country": "SI", "digital": 0.8, "climate": 0.42}, {"country": "SK", "digital": 0.78, "climate": 0.33}], "co2": [{"country": "Germany", "mt": 257.6}, {"country": "Poland", "mt": 146.1}, {"country": "France", "mt": 71.3}, {"country": "Spain", "mt": 68.9}, {"country": "Netherlands", "mt": 65.7}, {"country": "Sweden", "mt": 45.5}, {"country": "Belgium", "mt": 35.9}, {"country": "Finland", "mt": 34.0}, {"country": "Austria", "mt": 29.0}, {"country": "Greece", "mt": 24.2}]};
+
+const SVGNS = "http://www.w3.org/2000/svg";
+function el(tag, attrs) {
+  const e = document.createElementNS(SVGNS, tag);
+  for (const k in attrs) e.setAttribute(k, attrs[k]);
+  return e;
+}
+const tooltip = document.getElementById("tooltip");
+function showTooltip(container, x, y, html) {
+  tooltip.innerHTML = html;
+  tooltip.style.opacity = "1";
+  const rect = container.getBoundingClientRect();
+  const wrapRect = document.querySelector(".viz-root").getBoundingClientRect();
+  tooltip.style.left = (rect.left - wrapRect.left + x + 14) + "px";
+  tooltip.style.top = (rect.top - wrapRect.top + y - 10) + "px";
+}
+function hideTooltip() { tooltip.style.opacity = "0"; }
+
+// ---------- Chart 1: multi-line EU ETS ----------
+(function () {
+  const host = document.getElementById("chart-ets");
+  const colors = ["--s1","--s2","--s3","--s4","--s5","--s6","--s7","--s8"];
+  const W = 900, H = 320, M = { t: 10, r: 16, b: 28, l: 44 };
+  const years = DATA.ets.years;
+  const series = DATA.ets.series;
+  const allVals = series.flatMap(s => s.values).filter(v => v != null);
+  const yMax = Math.ceil(Math.max(...allVals) / 100) * 100;
+  const xScale = i => M.l + (i / (years.length - 1)) * (W - M.l - M.r);
+  const yScale = v => H - M.b - (v / yMax) * (H - M.t - M.b);
+
+  const legend = document.createElement("div");
+  legend.className = "legend";
+  series.forEach((s, i) => {
+    const item = document.createElement("div");
+    item.className = "legend-item";
+    item.innerHTML = `<span class="legend-swatch" style="background:var(${colors[i]})"></span>${s.name}`;
+    legend.appendChild(item);
+  });
+  host.appendChild(legend);
+
+  const svg = el("svg", { viewBox: `0 0 ${W} ${H}`, role: "img", "aria-label": "EU ETS verified emissions by sector" });
+
+  // gridlines + y labels
+  const ticks = 5;
+  for (let t = 0; t <= ticks; t++) {
+    const v = (yMax / ticks) * t;
+    const y = yScale(v);
+    svg.appendChild(el("line", { x1: M.l, x2: W - M.r, y1: y, y2: y, class: "grid-line" }));
+    const lbl = el("text", { x: M.l - 8, y: y + 3, class: "axis-label", "text-anchor": "end" });
+    lbl.textContent = Math.round(v);
+    svg.appendChild(lbl);
+  }
+  // x labels (every 4 years)
+  years.forEach((y, i) => {
+    if (i % 4 === 0) {
+      const lbl = el("text", { x: xScale(i), y: H - 8, class: "axis-label", "text-anchor": "middle" });
+      lbl.textContent = y;
+      svg.appendChild(lbl);
+    }
+  });
+  svg.appendChild(el("line", { x1: M.l, x2: W - M.r, y1: H - M.b, y2: H - M.b, class: "baseline" }));
+
+  series.forEach((s, i) => {
+    let d = "";
+    s.values.forEach((v, idx) => {
+      if (v == null) return;
+      const cmd = d === "" ? "M" : "L";
+      d += `${cmd}${xScale(idx)},${yScale(v)} `;
+    });
+    svg.appendChild(el("path", { d, class: "line-path", style: `stroke:var(${colors[i]})` }));
+  });
+
+  // hover crosshair + dots
+  const hoverLine = el("line", { class: "hover-line", y1: M.t, y2: H - M.b });
+  svg.appendChild(hoverLine);
+  const hoverDots = series.map((s, i) => {
+    const c = el("circle", { r: 4, class: "line-dot", style: `stroke:var(${colors[i]})`, opacity: 0 });
+    svg.appendChild(c);
+    return c;
+  });
+
+  const overlay = el("rect", { x: M.l, y: M.t, width: W - M.l - M.r, height: H - M.t - M.b, fill: "transparent" });
+  overlay.addEventListener("mousemove", (ev) => {
+    const pt = svg.createSVGPoint();
+    pt.x = ev.clientX; pt.y = ev.clientY;
+    const loc = pt.matrixTransform(svg.getScreenCTM().inverse());
+    const idx = Math.max(0, Math.min(years.length - 1, Math.round((loc.x - M.l) / (W - M.l - M.r) * (years.length - 1))));
+    const x = xScale(idx);
+    hoverLine.setAttribute("x1", x); hoverLine.setAttribute("x2", x); hoverLine.style.opacity = 1;
+    let rows = "";
+    series.forEach((s, i) => {
+      const v = s.values[idx];
+      hoverDots[i].setAttribute("cx", x);
+      if (v == null) { hoverDots[i].style.opacity = 0; return; }
+      hoverDots[i].setAttribute("cy", yScale(v));
+      hoverDots[i].style.opacity = 1;
+      rows += `<div class="t-row"><span class="t-swatch" style="background:var(${colors[i]})"></span>${s.name}: ${v} Mt</div>`;
+    });
+    const svgRect = svg.getBoundingClientRect();
+    const scaleX = svgRect.width / W;
+    showTooltip(host, x * scaleX, yScale(yMax) * (svgRect.height / H), `<div class="t-title">${years[idx]}</div>${rows}`);
+  });
+  overlay.addEventListener("mouseleave", () => { hoverLine.style.opacity = 0; hoverDots.forEach(d => d.style.opacity = 0); hideTooltip(); });
+  svg.appendChild(overlay);
+
+  host.appendChild(svg);
+})();
+
+// ---------- Chart 2: scatter, digitalization vs climate targets ----------
+(function () {
+  const host = document.getElementById("chart-scatter");
+  const W = 900, H = 420, M = { t: 16, r: 20, b: 40, l: 50 };
+  const pts = DATA.scatter;
+  const xScale = v => M.l + v * (W - M.l - M.r);
+  const yScale = v => H - M.b - v * (H - M.t - M.b);
+
+  const svg = el("svg", { viewBox: `0 0 ${W} ${H}`, role: "img", "aria-label": "Digitalization vs climate-target adoption scatter" });
+
+  [0, 0.25, 0.5, 0.75, 1].forEach(v => {
+    svg.appendChild(el("line", { x1: xScale(v), x2: xScale(v), y1: M.t, y2: H - M.b, class: "grid-line" }));
+    svg.appendChild(el("line", { x1: M.l, x2: W - M.r, y1: yScale(v), y2: yScale(v), class: "grid-line" }));
+    const xl = el("text", { x: xScale(v), y: H - 12, class: "axis-label", "text-anchor": "middle" });
+    xl.textContent = Math.round(v * 100) + "%";
+    svg.appendChild(xl);
+    const yl = el("text", { x: M.l - 8, y: yScale(v) + 3, class: "axis-label", "text-anchor": "end" });
+    yl.textContent = Math.round(v * 100) + "%";
+    svg.appendChild(yl);
+  });
+  const xAxisLbl = el("text", { x: (M.l + W - M.r) / 2, y: H, class: "axis-label", "text-anchor": "middle" });
+  xAxisLbl.textContent = "Firms using digital technologies →";
+  svg.appendChild(xAxisLbl);
+  const yAxisLbl = el("text", { x: -(M.t + H - M.b) / 2, y: 14, class: "axis-label", "text-anchor": "middle", transform: "rotate(-90)" });
+  yAxisLbl.textContent = "Firms with GHG targets →";
+  svg.appendChild(yAxisLbl);
+
+  pts.forEach(p => {
+    const cx = xScale(p.digital), cy = yScale(p.climate);
+    const dot = el("circle", { cx, cy, r: 6, class: "dot", style: "fill:var(--s1)" });
+    dot.addEventListener("mousemove", (ev) => {
+      const svgRect = svg.getBoundingClientRect();
+      const scaleX = svgRect.width / W, scaleY = svgRect.height / H;
+      showTooltip(host, cx * scaleX, cy * scaleY,
+        `<div class="t-title">${p.country}</div><div class="t-row">Digital tech: ${(p.digital*100).toFixed(0)}%</div><div class="t-row">GHG targets: ${(p.climate*100).toFixed(0)}%</div>`);
+    });
+    dot.addEventListener("mouseleave", hideTooltip);
+    svg.appendChild(dot);
+    const lbl = el("text", { x: cx + 8, y: cy - 8, class: "dot-label" });
+    lbl.textContent = p.country;
+    svg.appendChild(lbl);
+  });
+
+  host.appendChild(svg);
+})();
+
+// ---------- Chart 3: bar chart, CO2 by country ----------
+(function () {
+  const host = document.getElementById("chart-co2");
+  const items = DATA.co2;
+  const W = 900, H = items.length * 34 + 20, M = { t: 10, r: 60, b: 10, l: 100 };
+  const maxV = Math.max(...items.map(d => d.mt));
+  const xScale = v => (v / maxV) * (W - M.l - M.r);
+
+  const svg = el("svg", { viewBox: `0 0 ${W} ${H}`, role: "img", "aria-label": "Industrial CO2 releases by country, 2024" });
+
+  items.forEach((d, i) => {
+    const y = i * 34 + 10;
+    const barW = xScale(d.mt);
+    const rect = el("rect", { x: M.l, y: y - 10, width: barW, height: 20, rx: 3, style: "fill:var(--s1)" });
+    rect.addEventListener("mousemove", (ev) => {
+      const svgRect = svg.getBoundingClientRect();
+      const scaleX = svgRect.width / W, scaleY = svgRect.height / H;
+      showTooltip(host, (M.l + barW) * scaleX, y * scaleY, `<div class="t-title">${d.country}</div><div class="t-row">${d.mt.toLocaleString()} Mt CO₂</div>`);
+    });
+    rect.addEventListener("mouseleave", hideTooltip);
+    svg.appendChild(rect);
+
+    const label = el("text", { x: M.l - 10, y: y + 4, class: "bar-label", "text-anchor": "end" });
+    label.textContent = d.country;
+    svg.appendChild(label);
+
+    const value = el("text", { x: M.l + barW + 8, y: y + 4, class: "bar-value" });
+    value.textContent = d.mt.toLocaleString() + " Mt";
+    svg.appendChild(value);
+  });
+
+  host.appendChild(svg);
+})();
+</script>
