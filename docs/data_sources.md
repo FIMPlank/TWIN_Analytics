@@ -24,19 +24,20 @@ what lets you connect ETS emissions to firm-level financials or survey data.
 - Dataset page: https://data.jrc.ec.europa.eu/dataset/bdd1b71f-1bc8-4e65-8123-bbdd8981f116
 - Note: linking onward to actual ORBIS company records requires institutional
   access to Bureau van Dijk/Moody's ORBIS (usually via university library).
-- **Fetch script:** [`scripts/download_jrc_firms.py`](../scripts/download_jrc_firms.py) — the JRC Data
-  Catalogue serves this behind a JS portal with no stable direct-download URL,
-  so the script checks for a manually-placed file and otherwise prints the
-  manual-download steps.
+- **Fetch script:** [`scripts/download_jrc_firms.py`](../scripts/download_jrc_firms.py) — the catalogue
+  page is a JS portal, but the underlying XLSX is served from JRC's own file
+  server at a stable URL, so this downloads automatically.
 
 ### E-PRTR / Industrial Emissions Portal
 Facility-level pollutant releases (~33,000 sites, 91 pollutants, 33 countries),
 broader than ETS. Free, no registration.
 - Portal & downloads: https://industry.eea.europa.eu/industrial-emissions/dataset
 - Legacy dataset page: https://www.eea.europa.eu/data-and-maps/data/member-states-reporting-art-7-under-the-european-pollutant-release-and-transfer-register-e-prtr-regulation-23
-- **Fetch script:** [`scripts/download_eprtr.py`](../scripts/download_eprtr.py) — the EEA portal is a
-  JS-driven catalogue without a stable bulk-CSV URL, so the script documents
-  the manual export steps and checks for a manually-placed file.
+- **Fetch script:** [`scripts/download_eprtr.py`](../scripts/download_eprtr.py) — the EEA catalogue page
+  is a JS portal, but its "Direct download" link resolves to a Nextcloud file
+  share with a stable per-file URL, so this downloads automatically. By
+  default it skips the largest facility-level tables (up to ~300MB each);
+  pass `--all` to fetch those too.
 
 ### EIBIS — aggregate/country data
 Country- and sector-level results (not firm microdata) on digitalization and
@@ -45,9 +46,11 @@ descriptive/contextual figures while you pursue firm-level access below.
 - Data portal: https://data.eib.org/eibis/
 - Download tool: https://data.eib.org/eibis/download
 - **Fetch script:** [`scripts/download_eibis_aggregate.py`](../scripts/download_eibis_aggregate.py) —
-  the download tool is an interactive picker with no stable direct-file URL,
-  so the script documents the manual export steps and checks for a
-  manually-placed file.
+  the download page is an interactive indicator picker, but its "Download"
+  button calls a stable JSON API (`/eibis/download/table?i=<indicator>`) that
+  the script queries directly for a curated list of digitalization and
+  climate-investment indicators. Edit the `INDICATORS` list in the script to
+  pull additional questions.
 
 ---
 

@@ -25,9 +25,9 @@ scripts/
 | Source | Status | Location |
 |---|---|---|
 | EU ETS verified emissions (EUTL mirror) | ✅ downloaded | `data/raw/eu_ets/` |
-| JRC-EU-ETS-FIRMS (firm matching) | ⏳ manual download needed | `data/raw/jrc_firms/` |
-| E-PRTR / Industrial Emissions | ⏳ manual download needed | `data/raw/eprtr/` |
-| EIBIS aggregate (country/sector) | ⏳ manual download needed | `data/raw/eibis/` |
+| JRC-EU-ETS-FIRMS (firm matching) | ✅ downloaded | `data/raw/jrc_firms/` |
+| E-PRTR / Industrial Emissions | ✅ downloaded (aggregates; facility tables optional) | `data/raw/eprtr/` |
+| EIBIS aggregate (country/sector/size) | ✅ downloaded | `data/raw/eibis/` |
 | EIBIS firm-level microdata | 🔒 requires proposal to EIB | not in repo |
 | Eurostat CIS microdata | 🔒 requires Eurostat accreditation | not in repo |
 | German AFiD-Panel | 🔒 requires FDZ application | not in repo |
@@ -35,27 +35,33 @@ scripts/
 | CSRD/ESAP disclosures | ⏳ not live until 2027 | not in repo |
 | CBAM registry | ⏳ too thin to use yet | not in repo |
 
-Three sources (JRC-FIRMS, E-PRTR, EIBIS aggregate) sit behind JS-driven data
-portals with no stable bulk-download URL, so they can't be scripted as plain
-HTTP downloads. Running their scripts prints the exact manual-export steps;
-once you save the exported file to the path it names, re-running the script
-confirms it's in place.
+All four open-access sources are fetched by real HTTP scripts — none require
+manual clicking. Each catalogue/portal page itself is a JS-driven UI with no
+obvious bulk-download link, but every one of them serves the actual file(s)
+from a stable underlying URL once you find it (see comments at the top of
+each script for how it was found).
 
-### EU ETS data — what's actually in `data/raw/eu_ets/`
+### What's actually in `data/raw/`
 
-Pulled from the [`datasets/eu-emissions-trading-system`](https://github.com/datasets/eu-emissions-trading-system)
-GitHub mirror (public domain, ODC-PDDL-1.0):
-- `eu-ets.csv` — verified emissions/allowances by **country × main activity ×
-  year** (83,906 rows, 2005–present). This is a country/sector aggregate, not
-  facility-level.
-- `eu-ets-sector-emissions.csv` — the same data aggregated further, by sector
-  and year only (for quick trend charts).
-
-For **facility-level** verified emissions (matching the one-pager's
-description of "the closest thing to ground-truth physical emissions data"),
-use the EEA's own ETS Data Viewer/full dataset download linked in
-`docs/data_sources.md` — that bulk file is much larger and sits behind the
-same kind of JS portal as the other manual sources above.
+- **`eu_ets/`** — country × main-activity × year verified emissions/allowances
+  panel (83,906 rows, 2005–present), from the
+  [GitHub EUTL mirror](https://github.com/datasets/eu-emissions-trading-system).
+  This is a country/sector aggregate, not facility-level.
+- **`jrc_firms/jrc_eu_ets_firms.xlsx`** — EU ETS account holder ↔ ORBIS/BvD
+  firm-ID matching table (5.6MB). Connecting the BvD IDs to actual ORBIS
+  company records requires separate institutional ORBIS access.
+- **`eprtr/`** — E-PRTR national/sector/activity-level aggregates for air
+  releases, water releases, transfers, waste transfers, and LCP energy
+  (ver. 15.0, Dec. 2025). The five large **facility-level** tables
+  (`F1_4`, `F2_4`, `F4_2`, `F5_2`, `F6_1` — 48–305MB each) are *not*
+  downloaded by default; run `python scripts/download_eprtr.py --all` to
+  pull those too (they're gitignored — see below).
+- **`eibis/eibis_aggregate.csv`** — EIBIS country × sector × firm-size ×
+  survey-wave results (9,510 rows) for the digitalization module
+  (technology adoption, generative AI use) and climate module (GHG targets,
+  transition/physical risk perception, climate investment plans). Edit
+  `INDICATORS` in `scripts/download_eibis_aggregate.py` to pull more
+  questions.
 
 ## Setup
 
@@ -64,12 +70,18 @@ pip install -r requirements.txt
 python scripts/download_all.py
 ```
 
+Large E-PRTR facility-level tables are not part of `download_all.py`; run
+`python scripts/download_eprtr.py --all` separately if you need them (they're
+gitignored, not committed).
+
 ## Next steps
 
-1. Manually export E-PRTR, JRC-FIRMS, and EIBIS aggregate data per the
-   instructions each script prints, to build out `data/raw/`.
-2. Submit the EIBIS firm-level microdata proposal (see
+1. Submit the EIBIS firm-level microdata proposal (see
    `docs/data_sources.md`) — this is the highest-value source and has the
    longest lead time, so start it early.
-3. Build the merge/panel-construction pipeline in `data/processed/`, joining
-   EU ETS verified emissions to firm identifiers via JRC-EU-ETS-FIRMS.
+2. Build the merge/panel-construction pipeline in `data/processed/`, joining
+   EU ETS verified emissions to firm identifiers via JRC-EU-ETS-FIRMS, and
+   (once available) EIBIS digitalization/climate measures at the firm level.
+3. If facility-level granularity is needed beyond the EU ETS country/sector
+   aggregate, pull the EEA's own facility-level ETS bulk file (linked in
+   `docs/data_sources.md`) or the E-PRTR facility tables (`--all` above).
