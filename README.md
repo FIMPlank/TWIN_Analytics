@@ -74,6 +74,25 @@ Large E-PRTR facility-level tables are not part of `download_all.py`; run
 `python scripts/download_eprtr.py --all` separately if you need them (they're
 gitignored, not committed).
 
+## Explore the data
+
+Two ways to look at the data, both free:
+
+- **[`viz/dashboard.html`](viz/dashboard.html)** — a static, no-install
+  dashboard (open the file directly in a browser, or view it published as an
+  [Artifact](https://claude.ai/code/artifact/f43126fa-d0c9-45f6-ae79-b00064ee1509)):
+  EU ETS emissions by sector, EIBIS digitalization vs. climate targets, and
+  E-PRTR CO2 by country.
+- **`app.py`** — an interactive [Streamlit](https://streamlit.io) app with
+  live filters/dropdowns (country, pollutant, indicator, survey wave, year)
+  and a build-your-own scatter comparing any two EIBIS indicators:
+  ```bash
+  streamlit run app.py
+  ```
+  Opens at `http://localhost:8501`. Runs entirely locally against
+  `data/raw/`; no account or internet access needed once the data is
+  downloaded.
+
 ## Next steps
 
 1. Submit the EIBIS firm-level microdata proposal (see
