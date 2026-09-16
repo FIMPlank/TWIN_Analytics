@@ -1,0 +1,3 @@
+model,observed_coef,permutation_p,asymptotic_clustered_p,n_permutations
+Model 1 pooled,0.21121036349796943,0.096,0.114,5000
+Model 3 year FE,0.1783092476374198,0.1628,0.216,5000

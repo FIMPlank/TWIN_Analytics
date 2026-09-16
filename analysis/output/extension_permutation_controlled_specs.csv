@@ -1,0 +1,5 @@
+spec,observed_coef,permutation_p,n_permutations
+levels pooled,0.35800644569084156,0.0086,5000
+levels +year FE,0.3718698432089661,0.0076,5000
+lagged pooled,0.34045462524161224,0.0104,5000
+lagged +year FE,0.3400402466041099,0.0124,5000

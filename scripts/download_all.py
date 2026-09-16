@@ -13,6 +13,7 @@ SCRIPTS = [
     "download_jrc_firms.py",
     "download_eprtr.py",
     "download_eibis_aggregate.py",
+    "download_eurostat.py",
 ]
 
 SCRIPT_DIR = Path(__file__).resolve().parent

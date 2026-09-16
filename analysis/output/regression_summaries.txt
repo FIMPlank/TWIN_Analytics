@@ -1,0 +1,219 @@
+==========================================================================================
+Model 1 (HC1, NOT the preferred SE): pooled OLS  d_log_emissions ~ digital_multi
+==========================================================================================
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:        d_log_emissions   R-squared:                       0.049
+Model:                            OLS   Adj. R-squared:                  0.037
+Method:                 Least Squares   F-statistic:                     3.960
+Date:                Thu, 17 Sep 2026   Prob (F-statistic):             0.0501
+Time:                        00:12:44   Log-Likelihood:                 58.985
+No. Observations:                  81   AIC:                            -114.0
+Df Residuals:                      79   BIC:                            -109.2
+Df Model:                           1                                         
+Covariance Type:                  HC1                                         
+=================================================================================
+                    coef    std err          z      P>|z|      [0.025      0.975]
+---------------------------------------------------------------------------------
+Intercept        -0.1964      0.055     -3.574      0.000      -0.304      -0.089
+digital_multi     0.2112      0.106      1.990      0.047       0.003       0.419
+==============================================================================
+Omnibus:                       30.697   Durbin-Watson:                   2.216
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):               62.066
+Skew:                          -1.379   Prob(JB):                     3.33e-14
+Kurtosis:                       6.284   Cond. No.                         9.63
+==============================================================================
+
+Notes:
+[1] Standard Errors are heteroscedasticity robust (HC1)
+
+==========================================================================================
+Model 1 (country-clustered SE -- headline): pooled OLS  d_log_emissions ~ digital_multi
+==========================================================================================
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:        d_log_emissions   R-squared:                       0.049
+Model:                            OLS   Adj. R-squared:                  0.037
+Method:                 Least Squares   F-statistic:                     2.493
+Date:                Thu, 17 Sep 2026   Prob (F-statistic):              0.126
+Time:                        00:12:44   Log-Likelihood:                 58.985
+No. Observations:                  81   AIC:                            -114.0
+Df Residuals:                      79   BIC:                            -109.2
+Df Model:                           1                                         
+Covariance Type:              cluster                                         
+=================================================================================
+                    coef    std err          z      P>|z|      [0.025      0.975]
+---------------------------------------------------------------------------------
+Intercept        -0.1964      0.070     -2.800      0.005      -0.334      -0.059
+digital_multi     0.2112      0.134      1.579      0.114      -0.051       0.473
+==============================================================================
+Omnibus:                       30.697   Durbin-Watson:                   2.216
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):               62.066
+Skew:                          -1.379   Prob(JB):                     3.33e-14
+Kurtosis:                       6.284   Cond. No.                         9.63
+==============================================================================
+
+Notes:
+[1] Standard Errors are robust to cluster correlation (CRV1)
+
+==========================================================================================
+Model 2: pooled OLS (single cross-section, n=27)  d_log_emissions ~ digital_multi + genai_share + climate_target_share
+==========================================================================================
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:        d_log_emissions   R-squared:                       0.071
+Model:                            OLS   Adj. R-squared:                 -0.050
+Method:                 Least Squares   F-statistic:                    0.8831
+Date:                Thu, 17 Sep 2026   Prob (F-statistic):              0.464
+Time:                        00:12:44   Log-Likelihood:                 15.580
+No. Observations:                  27   AIC:                            -23.16
+Df Residuals:                      23   BIC:                            -17.98
+Df Model:                           3                                         
+Covariance Type:                  HC1                                         
+========================================================================================
+                           coef    std err          z      P>|z|      [0.025      0.975]
+----------------------------------------------------------------------------------------
+Intercept               -0.2236      0.158     -1.419      0.156      -0.533       0.085
+digital_multi            0.3849      0.257      1.498      0.134      -0.119       0.889
+genai_share             -0.0636      0.214     -0.297      0.767      -0.483       0.356
+climate_target_share    -0.0599      0.271     -0.221      0.825      -0.592       0.472
+==============================================================================
+Omnibus:                       24.051   Durbin-Watson:                   2.478
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):               38.783
+Skew:                          -1.945   Prob(JB):                     3.79e-09
+Kurtosis:                       7.397   Cond. No.                         22.4
+==============================================================================
+
+Notes:
+[1] Standard Errors are heteroscedasticity robust (HC1)
+
+==========================================================================================
+Model 3: OLS + year FE, country-clustered SE  d_log_emissions ~ digital_multi + C(year)
+==========================================================================================
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:        d_log_emissions   R-squared:                       0.135
+Model:                            OLS   Adj. R-squared:                  0.102
+Method:                 Least Squares   F-statistic:                     5.955
+Date:                Thu, 17 Sep 2026   Prob (F-statistic):            0.00312
+Time:                        00:12:44   Log-Likelihood:                 62.841
+No. Observations:                  81   AIC:                            -117.7
+Df Residuals:                      77   BIC:                            -108.1
+Df Model:                           3                                         
+Covariance Type:              cluster                                         
+===================================================================================
+                      coef    std err          z      P>|z|      [0.025      0.975]
+-----------------------------------------------------------------------------------
+Intercept          -0.2284      0.074     -3.078      0.002      -0.374      -0.083
+C(year)[T.2024]     0.0856      0.022      3.922      0.000       0.043       0.128
+C(year)[T.2025]     0.0553      0.030      1.854      0.064      -0.003       0.114
+digital_multi       0.1783      0.144      1.236      0.216      -0.104       0.461
+==============================================================================
+Omnibus:                       34.173   Durbin-Watson:                   2.139
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):               87.590
+Skew:                          -1.407   Prob(JB):                     9.55e-20
+Kurtosis:                       7.246   Cond. No.                         10.7
+==============================================================================
+
+Notes:
+[1] Standard Errors are robust to cluster correlation (CRV1)
+
+==========================================================================================
+Model 4 (APPENDIX -- country FE + year FE, country-clustered SE): d_log_emissions ~ digital_multi + C(country_code) + C(year)
+==========================================================================================
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:        d_log_emissions   R-squared:                       0.596
+Model:                            OLS   Adj. R-squared:                  0.367
+Method:                 Least Squares   F-statistic:                     3.576
+Date:                Thu, 17 Sep 2026   Prob (F-statistic):             0.0274
+Time:                        00:12:44   Log-Likelihood:                 93.675
+No. Observations:                  81   AIC:                            -127.4
+Df Residuals:                      51   BIC:                            -55.52
+Df Model:                          29                                         
+Covariance Type:              cluster                                         
+=========================================================================================
+                            coef    std err          z      P>|z|      [0.025      0.975]
+-----------------------------------------------------------------------------------------
+Intercept                 0.1286      0.153      0.843      0.399      -0.170       0.428
+C(country_code)[T.BE]    -0.0032      0.012     -0.268      0.789      -0.027       0.021
+C(country_code)[T.BG]    -0.4901      0.085     -5.771      0.000      -0.657      -0.324
+C(country_code)[T.CY]    -0.0767      0.073     -1.054      0.292      -0.219       0.066
+C(country_code)[T.CZ]    -0.1105      0.005    -23.687      0.000      -0.120      -0.101
+C(country_code)[T.DE]    -0.1185      0.027     -4.380      0.000      -0.172      -0.065
+C(country_code)[T.DK]    -0.1362      0.012    -11.229      0.000      -0.160      -0.112
+C(country_code)[T.EE]    -0.2914      0.054     -5.383      0.000      -0.397      -0.185
+C(country_code)[T.EL]    -0.1405      0.069     -2.034      0.042      -0.276      -0.005
+C(country_code)[T.ES]    -0.0491      0.005    -10.516      0.000      -0.058      -0.040
+C(country_code)[T.FI]    -0.1461      0.002    -78.282      0.000      -0.150      -0.142
+C(country_code)[T.FR]    -0.2535      0.085     -2.985      0.003      -0.420      -0.087
+C(country_code)[T.HR]    -0.1209      0.077     -1.580      0.114      -0.271       0.029
+C(country_code)[T.HU]    -0.2001      0.080     -2.493      0.013      -0.357      -0.043
+C(country_code)[T.IE]    -0.1349      0.034     -4.015      0.000      -0.201      -0.069
+C(country_code)[T.IT]    -0.1382      0.042     -3.291      0.001      -0.221      -0.056
+C(country_code)[T.LT]    -0.0899      0.058     -1.553      0.120      -0.203       0.024
+C(country_code)[T.LU]    -0.2489      0.069     -3.604      0.000      -0.384      -0.114
+C(country_code)[T.LV]    -0.0415      0.039     -1.059      0.290      -0.118       0.035
+C(country_code)[T.MT]    -0.0290      0.007     -4.433      0.000      -0.042      -0.016
+C(country_code)[T.NL]    -0.0185      0.002     -9.887      0.000      -0.022      -0.015
+C(country_code)[T.PL]    -0.2175      0.057     -3.821      0.000      -0.329      -0.106
+C(country_code)[T.PT]    -0.1757      0.058     -3.036      0.002      -0.289      -0.062
+C(country_code)[T.RO]    -0.1536      0.057     -2.698      0.007      -0.265      -0.042
+C(country_code)[T.SE]    -0.0088      0.006     -1.572      0.116      -0.020       0.002
+C(country_code)[T.SI]    -0.0965      0.013     -7.383      0.000      -0.122      -0.071
+C(country_code)[T.SK]    -0.1044      0.048     -2.193      0.028      -0.198      -0.011
+C(year)[T.2024]           0.1001      0.033      3.061      0.002       0.036       0.164
+C(year)[T.2025]           0.0868      0.035      2.469      0.014       0.018       0.156
+digital_multi            -0.3481      0.280     -1.243      0.214      -0.897       0.201
+==============================================================================
+Omnibus:                        7.788   Durbin-Watson:                   2.867
+Prob(Omnibus):                  0.020   Jarque-Bera (JB):                9.196
+Skew:                          -0.456   Prob(JB):                       0.0101
+Kurtosis:                       4.376   Cond. No.                         49.2
+==============================================================================
+
+Notes:
+[1] Standard Errors are robust to cluster correlation (CRV1)
+
+==========================================================================================
+Model 5 (APPENDIX / uninformative -- E-PRTR CO2 robustness check, n=17, ~10 clusters): d_log_co2 ~ digital_multi + C(year)
+==========================================================================================
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:              d_log_co2   R-squared:                       0.158
+Model:                            OLS   Adj. R-squared:                  0.038
+Method:                 Least Squares   F-statistic:                    0.8979
+Date:                Thu, 17 Sep 2026   Prob (F-statistic):              0.441
+Time:                        00:12:44   Log-Likelihood:                -12.747
+No. Observations:                  17   AIC:                             31.49
+Df Residuals:                      14   BIC:                             33.99
+Df Model:                           2                                         
+Covariance Type:              cluster                                         
+===================================================================================
+                      coef    std err          z      P>|z|      [0.025      0.975]
+-----------------------------------------------------------------------------------
+Intercept          -0.7346      0.510     -1.441      0.150      -1.734       0.265
+C(year)[T.2024]    -0.2325      0.220     -1.056      0.291      -0.664       0.199
+digital_multi       1.9831      1.480      1.340      0.180      -0.917       4.884
+==============================================================================
+Omnibus:                        3.516   Durbin-Watson:                   1.779
+Prob(Omnibus):                  0.172   Jarque-Bera (JB):                2.177
+Skew:                           0.877   Prob(JB):                        0.337
+Kurtosis:                       3.009   Cond. No.                         12.4
+==============================================================================
+
+Notes:
+[1] Standard Errors are robust to cluster correlation (CRV1)
+
+
+Shapiro-Wilk on Model 3 residuals: W=0.9107, p=0.0000
+Cook's D flagged (0.049 threshold): 3 / 81 observations
+
+Leave-one-out (Model 1, HC1 SE -- the naive spec that showed p<0.05):
+                sample  n     coef  p_value
+           Full sample 81 0.211210 0.046604
+     Drop BG-2025 only 80 0.170258 0.085952
+Drop Bulgaria entirely 78 0.110041 0.210437
+
+Variance decomposition of digital_multi:
+between-country SD=0.1170, mean within-country SD=0.0514, within/between share=19.3%

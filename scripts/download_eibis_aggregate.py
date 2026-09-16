@@ -36,6 +36,18 @@ INDICATORS = [
     "Impact of climate change - Physical risk",
     "Impact of climate change - Risks associated with the transition to a net zero economy over the next five years",
     "Investment plans to tackle climate change impact",
+    # Added for the "extension" analysis (analysis/extension_analysis.md):
+    # these are closer to a treatment-intensity measure of climate/energy
+    # investment than a binary "has a GHG target" indicator. Discovered via
+    # EIB's own topic-indicator listing API:
+    #   GET https://data.eib.org/eibis/graph/indicators?t=<TOPIC>
+    # (TOPIC="CLIMATE CHANGE AND ENERGY EFFICIENCY" for these three; note
+    # "Implementation of digital technologies" above is filed under topic
+    # "INNOVATION ACTIVITIES", not "INNOVATION AND DIGITALISATION" -- a
+    # quirk of EIB's own topic tagging, not a data gap).
+    "Proportion of investment directed towards measures to improve energy efficiency",
+    "Share of firms investing in measures to improve energy efficiency",
+    "Investment/Implementation of actions for reducing GHG emissions.",
 ]
 
 OUT_DIR = Path(__file__).resolve().parent.parent / "data" / "raw" / "eibis"

@@ -1,0 +1,4 @@
+SD(digital_multi) = 0.1326
+Sample mean d_log_emissions = -0.0726 (-7.3%)
+Lagged-spec (pooled) coefficient = +0.3405
+Implied effect of +1 SD digitalization = +4.51 percentage points
