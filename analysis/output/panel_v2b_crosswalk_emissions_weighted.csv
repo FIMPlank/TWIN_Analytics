@@ -1,0 +1,8 @@
+ets_activity_code,ets_activity_name,dii_nace_r2,confidence,emissions_mt_2024,share_of_v2b_mass
+20,Combustion of fuels,D35,low,457.380058,0.6154747552830134
+24,Production of pig iron or steel,C24_C25,medium,88.111639,0.1185676736503239
+29,Production of cement clinker,C22_C23,low-medium,75.321721,0.10135688469384559
+21,Refining of mineral oil,C19,high,66.435281,0.08939882183414571
+42,Production of bulk chemicals,C20,medium-high,24.956575,0.0335828850037602
+30,"Production of lime, or calcination of dolomite/magnesite",C22_C23,low-medium,17.779921,0.02392560046075798
+36,Production of paper or cardboard,C16-C18,medium,13.148547,0.01769337907415325

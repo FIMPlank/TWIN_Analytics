@@ -14,6 +14,8 @@ SCRIPTS = [
     "download_eprtr.py",
     "download_eibis_aggregate.py",
     "download_eurostat.py",
+    "download_eurostat_dii.py",
+    "download_eurostat_energy_dependency.py",
 ]
 
 SCRIPT_DIR = Path(__file__).resolve().parent
