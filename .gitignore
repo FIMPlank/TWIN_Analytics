@@ -11,3 +11,6 @@ data/raw/eprtr/F2_4_Water_Releases_Facilities.csv
 data/raw/eprtr/F4_2_WasteTransfers_Facilities.csv
 data/raw/eprtr/F5_2_LCP_Energy_Emissions.csv
 data/raw/eprtr/F6_1_IED_Installations.csv
+
+# large NUTS2 boundary polygons (fetched via `download_nuts2_boundaries.py`, not committed)
+data/raw/geo/nuts2_2021.geojson

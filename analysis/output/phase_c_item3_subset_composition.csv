@@ -1,0 +1,3 @@
+in_large_subset,n_countries,median_gdp_per_capita,median_ets_emissions_mt,total_ets_emissions_mt
+False,12,31745.0,6.6150905,165.541264
+True,15,25600.0,23.923093,843.563432

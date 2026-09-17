@@ -1,0 +1,827 @@
+FacilityInspireId,facilityName,countryName,Longitude,Latitude,NUTS_ID,CNTR_CODE,pollutant_def
+CZ.MZP.Z723/CZ11453276.FACILITY,"DEZA, a.s., Valašské Meziříčí",Czechia,17.95504475,49.49471568,CZ07,CZ,excl_biomass
+DE.EEA/06-05-800-0197010.FACILITY,RWE Power AG-Fabrik Ville/Berrenrath,Germany,6.83605559371525,50.8671450391517,DEA2,DE,excl_biomass
+SE.CAED/10014053.Facility,HÖGDALENVERKET,Sweden,18.06066,59.25761,SE11,SE,excl_biomass
+SE.CAED/10018458.Facility,Kristinehedsverket,Sweden,12.90604,56.69214,SE23,SE,excl_biomass
+CZ.MZP.S207/CZ92220409.FACILITY,Teplárna ŠKO-ENERGO s.r.o.,Czechia,14.93453297,50.41783895,CZ02,CZ,excl_biomass
+CZ.MZP.S206/CZ94743330.FACILITY,Spolana Neratovice,Czechia,14.52408893,50.27387367,CZ02,CZ,excl_biomass
+NL.RIVM/000010059.FACILITY,Gunvor Energy Rotterdam B.V. (GPR),Netherlands,4.16573,51.93494,NL33,NL,excl_biomass
+https://registry.gdi-de.org/id/de.st.lau.pf.anlagen-ied-euregistry/101049,Stadtwerke Leipzig GmbH ,Germany,12.56994,51.87085,DEE0,DE,excl_biomass
+UK.CAED/EW_EA-656.FACILITY,Ribblesdale Cement Works,United Kingdom,-2.3844346,53.888327,UKD4,UK,excl_biomass
+SE.CAED/10018098.Facility,Allöverket,Sweden,14.14955,56.0395,SE22,SE,excl_biomass
+CZ.MZP.E532/CZ53884341.FACILITY,Synthesia a. s.,Czechia,15.71540491,50.05719241,CZ05,CZ,excl_biomass
+http://paikkatiedot.fi/so/1002031/pf/ProductionFacility/0000001131.ProductionFacility,"NordFuel Oy, Haapaveden voimalaitos",Finland,25.4097,64.12151,FI1D,FI,excl_biomass
+http://paikkatiedot.fi/so/1002031/pf/ProductionFacility/0100088039.ProductionFacility,"Oulun Energia Oy, Laanilan ekovoimalaitos",Finland,25.51853,65.0345,FI1D,FI,excl_biomass
+http://paikkatiedot.fi/so/1002031/pf/ProductionFacility/0000011323.ProductionFacility,"Helen Oy, Vuosaaren voimalaitokset",Finland,25.17286,60.21984,FI1B,FI,excl_biomass
+http://paikkatiedot.fi/so/1002031/pf/ProductionFacility/0000001409.ProductionFacility,"Stora Enso Oyj, Sunilan tehdas",Finland,26.95161,60.49098,FI1C,FI,excl_biomass
+http://paikkatiedot.fi/so/1002031/pf/ProductionFacility/0100198201.ProductionFacility,"Jyväskylän Voima Oy, Keljonlahden voimalaitos",Finland,25.73719,62.19241,FI19,FI,excl_biomass
+SE.CAED/10018242.Facility,Åkerslund,Sweden,12.90188,56.24767,SE22,SE,excl_biomass
+https://registry.gdi-de.org/id/de.by.inspire.pf.ied/S00842,"GKS, Müllheizkraftwerk Schweinfurt",Germany,10.223629202376348,50.03010352251912,DE26,DE,excl_biomass
+https://registry.gdi-de.org/id/de.nw.inspire.pf.bube-eureg/arb-2017-366044-300-0079450,Smurfit Westrock Zülpich Paper GmbH,Germany,6.65301,50.70659,DEA2,DE,excl_biomass
+http://paikkatiedot.fi/so/1002031/pf/ProductionFacility/0100222765.ProductionFacility,"Riikinvoima Oy, Jätteenpolttolaitos",Finland,27.74137,62.37297,FI1D,FI,excl_biomass
+https://registry.gdi-de.org/id/de.by.inspire.pf.ied/S00053,Müllverwertungsanlage Ingolstadt,Germany,11.492979449703324,48.76433927468097,DE21,DE,excl_biomass
+NL.EEA/64001.FACILITY,ENGIE Energie Centrale Gelderland,Netherlands,5.82887,51.85591,NL22,NL,excl_biomass
+https://registry.gdi-de.org/id/de.ni.mu/06060181710,EEW Energy from Waste Hannover GmbH,Germany,9.85303,52.41209,DE92,DE,excl_biomass
+SE.CAED/10019896.Facility,Ryaverket,Sweden,12.92871,57.72856,SE23,SE,excl_biomass
+SE.CAED/10017854.Facility,Filborna Kraftvärmeverk,Sweden,12.76912,56.07038,SE22,SE,excl_biomass
+https://registry.gdi-de.org/id/de.bw.lubw.inspire.pf/pf-450-3042693-00000000,Heizkraftwerk Pforzheim ,Germany,8.72547,48.89699,DE12,DE,excl_biomass
+https://registry.gdi-de.org/id/de.by.inspire.pf.ied/S00637,MHKW Coburg,Germany,10.954882757162023,50.28528813810614,DE24,DE,excl_biomass
+http://paikkatiedot.fi/so/1002031/pf/ProductionFacility/0000002160.ProductionFacility,"UPM Specialty Papers Oy, Tervasaari, Valkeakoski",Finland,24.02246,61.26414,FI19,FI,excl_biomass
+CZ.MZP.Z724/CZ15297397.FACILITY,Teplárna Zlín s.r.o.,Czechia,17.65382956,49.22539815,CZ07,CZ,excl_biomass
+https://registry.gdi-de.org/id/de.bw.lubw.inspire.pf/pf-450-4124448-00000000,Koehler Oberkirch GmbH ,Germany,8.08623,48.52679,DE13,DE,excl_biomass
+NL.RIVM/000115181.FACILITY,EP NL Rijnmond 1 B.V.,Netherlands,4.35179,51.89085,NL33,NL,excl_biomass
+UK.CAED/EW_EA-1010.FACILITY,Kemsley Paper Mill CHP Plant EPR/BJ7395IG,United Kingdom,0.75120261,51.362175,UKJ4,UK,excl_biomass
+https://registry.gdi-de.org/id/de.ni.mu/10100029340,KÄMMERER Energie GmbH ,Germany,8.02346,52.2963,DE94,DE,excl_biomass
+https://registry.gdi-de.org/id/de.ni.mu/10000167470,EVI Abfallverwertung B.V. & Co. KG ,Germany,6.74319,52.64359,DE94,DE,excl_biomass
+SE.CAED/10020777.Facility,"Navirum Energi AB, Åbyverket",Sweden,15.1783,59.26523,SE12,SE,excl_biomass
+http://paikkatiedot.fi/so/1002031/pf/ProductionFacility/0100178732.ProductionFacility,"LAANILAN VOIMA OY, Laanilan teollisuusalueen voimalaitos",Finland,25.51999,65.03543,FI1D,FI,excl_biomass
+CZ.MZP.J635/CZ10246154.FACILITY,"ŽĎAS, a.s.",Czechia,15.93184241,49.55511941,CZ06,CZ,excl_biomass
+CZ.MZP.C317/CZ80135653.FACILITY,C-Energy Planá s.r.o.,Czechia,14.70002942,49.36673727,CZ03,CZ,excl_biomass
+http://paikkatiedot.fi/so/1002031/pf/ProductionFacility/0000001300.ProductionFacility,"Kainuun Voima Oy, Kainuun Voima Oy:n höyryvoimalaitos",Finland,27.6889,64.23316,FI1D,FI,excl_biomass
+NL.RIVM/000044004.FACILITY,Amer Centrale,Netherlands,4.84388,51.70785,NL41,NL,excl_biomass
+https://registry.gdi-de.org/id/de.nw.inspire.pf.bube-eureg/arb-2017-362040-300-0215443,"Shell Deutschland GmbH, Shell Energy and Chemicals Park Rheinland Süd",Germany,7.00576,50.81411,DEA2,DE,excl_biomass
+RO.CAED/102BC0001.FACILITY,THERMOENERGY GROUP SA BACAU,Romania,26.938691,46.531089,RO21,RO,excl_biomass
+http://paikkatiedot.fi/so/1002031/pf/ProductionFacility/0000020744.ProductionFacility,"Oy Alholmens Kraft Ab, Pietarsaaren voimalaitos",Finland,22.7037,63.7046,FI19,FI,excl_biomass
+https://registry.gdi-de.org/id/de.hb/de.hb.pf.bube-eureg.06-04-11/2005382/5/0,ArcelorMittal Bremen GmbH ,Germany,8.68673,53.12494,DE50,DE,excl_biomass
+https://registry.gdi-de.org/id/de.nw.inspire.pf.bube-eureg/arb-2017-974016-900-0014855,Portlandzementwerk -Wittekind- Hugo Miebach Söhne KG,Germany,8.33468,51.59448,DEA5,DE,excl_biomass
+SE.CAED/10019131.Facility,Munksjö Paper AB Billingsfors,Sweden,12.25601,58.9878,SE23,SE,excl_biomass
+NO.EEA/1238.0012.01.FACILITY,ELKEM ASA AVD BJØLVEFOSSEN,Norway,6.430421,60.43092,NO0A,NO,excl_biomass
+https://registry.gdi-de.org/id/de.by.inspire.pf.ied/S00052,Müllheizkraftwerk Burgkirchen,Germany,12.73468924808328,48.185158456956536,DE21,DE,excl_biomass
+NO.EEA/1845.0004.01.FACILITY,Elkem Salten,Norway,15.5893822,67.36347,NO07,NO,excl_biomass
+CZ.MZP.T804/CZ80742253.FACILITY,KOTOUČ ŠTRAMBERK,Czechia,18.11595116,49.57982179,CZ08,CZ,excl_biomass
+NO.EEA/1833.0007.01.FACILITY,Ferroglobe Mangan Norge AS,Norway,14.1634941,66.31256,NO07,NO,excl_biomass
+https://registry.gdi-de.org/id/de.ni.mu/06221720040,Holcim (Deutschland) GmbH Werk Höver,Germany,9.88593,52.34983,DE92,DE,excl_biomass
+NO.EEA/1416.0007.01.FACILITY,"Hydro Aluminium, Høyanger",Norway,6.06832,61.21873,NO0A,NO,excl_biomass
+SE.CAED/10020475.Facility,Hedenverket,Sweden,13.57206,59.38647,SE31,SE,excl_biomass
+https://registry.gdi-de.org/id/de.nw.inspire.pf.bube-eureg/arb-2017-358008-300-0890760,Schoellershammer GmbH,Germany,6.48949,50.77652,DEA2,DE,excl_biomass
+GB.EEA/Scotland-30.FACILITY,Cockenzie Power Station,United Kingdom,-2.96903,55.9684,UKM7,UK,excl_biomass
+EE.KAUR.TTR/88.FACILITY,"Horizon Tselluloosi ja Paberi AS, Kehra paberivabrik",Estonia,25.3401582309,59.3405854971,EE00,EE,excl_biomass
+https://registry.gdi-de.org/id/de.bw.lubw.inspire.pf/pf-450-2951606-00000000,Essity Operations Mannheim GmbH ,Germany,8.45708,49.53548,DE12,DE,excl_biomass
+SE.CAED/10023054.Facility,Jämtkraft Lugnviksverket,Sweden,14.65081,63.20689,SE32,SE,excl_biomass
+SE.CAED/10014627.Facility,Idbäckens Kraftvärmeverk,Sweden,17.0011,58.74324,SE12,SE,excl_biomass
+http://paikkatiedot.fi/so/1002031/pf/ProductionFacility/0000001495.ProductionFacility,"Mondi Powerflute Oy, Puunjalostusteollisuus, Mondi Powerflute Oy",Finland,27.71085,62.94477,FI1D,FI,excl_biomass
+CZ.MZP.U424/CZ0117068E.FACILITY,Paroplynový zdroj Počerady,Czechia,13.676777778,50.429361111,CZ04,CZ,excl_biomass
+SE.CAED/10019773.Facility,Vargön Alloys AB,Sweden,12.3793,58.35852,SE23,SE,excl_biomass
+NL.EEA/12147.FACILITY,E.ON Warmte Station Galileistraat,Netherlands,4.42707,51.91036,NL33,NL,excl_biomass
+NL.RIVM/000010928.FACILITY,Aluminium & Chemie Rotterdam B.V.,Netherlands,4.32096,51.87343,NL33,NL,excl_biomass
+NO.EEA/0605.0024.01.FACILITY,"Norske Skogindustrier ASA, Follum Fabrikker",Norway,10.2392626,60.18416,NO08,NO,excl_biomass
+NO.EEA/1576.0023.01.FACILITY,Equinor ASA avd.Tjeldbergodden Metanolfabrikk,Norway,8.68502,63.4124222,NO0A,NO,excl_biomass
+SE.CAED/10014660.Facility,SSAB EMEA AB Oxelösund,Sweden,17.12562,58.67695,SE12,SE,excl_biomass
+SE.CAED/10018676.Facility,Södra Cell Värö,Sweden,12.17193,57.22166,SE23,SE,excl_biomass
+SE.CAED/10022056.Facility,Karskärsverket,Sweden,17.27094,60.68225,SE31,SE,excl_biomass
+NO.EEA/0105.0014.01.FACILITY,"Borregaard AS, avd. spesialcellulose",Norway,11.1162872,59.2729225,NO08,NO,excl_biomass
+https://registry.gdi-de.org/id/de.sn.sax4inspire.pf/70019073,Thermische Abfallbehandlung Lauta GmbH & Co. oHG ,Germany,14.1121,51.45044,DED2,DE,excl_biomass
+NL.EEA/5746.FACILITY,Nuon Power Generation BV (Buggenum),Netherlands,5.97168,51.2235,NL42,NL,excl_biomass
+UK.CAED/EW_EA-67.FACILITY,Drax Power Station EPR/VP3530LS,United Kingdom,-0.996528,53.736715,UKE2,UK,excl_biomass
+http://paikkatiedot.fi/so/1002031/pf/ProductionFacility/0100239220.ProductionFacility,"Oy Linde Gas Ab, Kilpilahden vedyntuotantolaitos",Finland,25.51675,60.31768,FI1B,FI,excl_biomass
+NL.RIVM/000012149.FACILITY,Uniper Benelux NV (Maasvlakte),Netherlands,4.02657,51.95906,NL33,NL,excl_biomass
+https://registry.gdi-de.org/id/de.nw.inspire.pf.bube-eureg/arb-2017-114000-100-9021122,LANXESS Deutschland GmbH CHEMPARK Krefeld-Uerdingen,Germany,6.66238,51.36819,DEA1,DE,excl_biomass
+SE.CAED/10020018.Facility,"Lidköpings Värmeverk, Filen",Sweden,13.17413,58.50765,SE23,SE,excl_biomass
+SE.CAED/10022490.Facility,Domsjö Fabriker AB,Sweden,18.69583,63.26929,SE32,SE,excl_biomass
+https://registry.gdi-de.org/id/de.nw.inspire.pf.bube-eureg/arb-2017-978024-900-9139128,Biomassekraftwerk Lünen GmbH,Germany,7.47233,51.61958,DEA5,DE,excl_biomass
+NL.RIVM/000000148.FACILITY,ENCI BV (Maastricht),Netherlands,5.68909,50.81815,NL42,NL,excl_biomass
+NO.EEA/1228.0021.01.FACILITY,TiZir Titanium & Iron AS,Norway,6.55428,60.1151352,NO0A,NO,excl_biomass
+NL.RIVM/000051104.FACILITY,Dow Benelux BV (Hoek),Netherlands,3.78247,51.34225,NL34,NL,excl_biomass
+CZ.MZP.J632/CZ42968796.FACILITY,KRONOSPAN OSB,Czechia,15.60391911,49.420049,CZ06,CZ,excl_biomass
+CZ.MZP.T806/CZ90276630.FACILITY,"BorsodChem MCHZ, s.r.o.",Czechia,18.23310059,49.83498533,CZ08,CZ,excl_biomass
+CZ.MZP.U422/CZ34736841.FACILITY,Elektrárny Prunéřov,Czechia,13.25870292,50.41871194,CZ04,CZ,excl_biomass
+RO.CAED/102SV0001.FACILITY,SC EGGER ROMANIA SRL Radauti,Romania,25.975734,47.855328,RO21,RO,excl_biomass
+https://registry.gdi-de.org/id/de.he.0945.de7.pf.eu_industrie/30000163,InfraServ GmbH & Co. Höchst KG ,Germany,8.53683,50.08842,DE71,DE,excl_biomass
+SE.CAED/10023758.Facility,Ålidhemsanläggningen,Sweden,20.32398,63.81296,SE33,SE,excl_biomass
+SE.CAED/10014118.Facility,Igelsta värmeverk,Sweden,17.66523,59.17748,SE11,SE,excl_biomass
+CZ.EEA/CZ74038719.FACILITY,Rafinérie Litvínov,Czechia,13.60565515,50.5623143,CZ04,CZ,excl_biomass
+https://registry.gdi-de.org/id/de.nw.inspire.pf.bube-eureg/arb-2017-978040-900-0865327,RWE Generation SE Kraftwerk Werne Gersteinwerk,Germany,7.71682,51.67348,DEA5,DE,excl_biomass
+http://paikkatiedot.fi/so/1002031/pf/ProductionFacility/0100180527.ProductionFacility,"Porin Prosessivoima Oy, Energiantuotanto",Finland,21.55255,61.57752,FI19,FI,excl_biomass
+https://registry.gdi-de.org/id/de.by.inspire.pf.ied/S00282,"UPM GmbH, Werk Schongau",Germany,10.900079378186666,47.807257120988936,DE21,DE,excl_biomass
+https://registry.gdi-de.org/id/de.sl.inspire.pf/0078699-G,ROGESA Roheisengesellschaft Saar mbH ,Germany,6.74365,49.35214,DEC0,DE,excl_biomass
+http://paikkatiedot.fi/so/1002031/pf/ProductionFacility/0000002591.ProductionFacility,"Stora Enso Anjalankoski Oy, Anjalankosken tehtaat",Finland,26.82108,60.70799,FI1C,FI,excl_biomass
+NO.EEA/0805.0028.01.FACILITY,Norcem Brevik,Norway,9.68933,59.06192,NO09,NO,excl_biomass
+NO.EEA/1146.0006.01.FACILITY,Naturkraft Kårstø,Norway,5.517933,59.27447,NO0A,NO,excl_biomass
+SE.CAED/10021812.Facility,"Outokumpu Stainless AB, Avesta",Sweden,16.18031,60.13507,SE31,SE,excl_biomass
+NL.RIVM/000104003.FACILITY,Delesto B.V.,Netherlands,6.95435,53.31883,NL11,NL,excl_biomass
+GB.EEA/EW_EA-360.FACILITY,Hope Works,United Kingdom,-1.75381,53.3387,UKF1,UK,excl_biomass
+https://registry.gdi-de.org/id/de.nw.inspire.pf.bube-eureg/arb-2017-570008-500-0053376,Holcim WestZement GmbH Werk: Kollenbach,Germany,8.05403,51.76517,DEA3,DE,excl_biomass
+http://paikkatiedot.fi/so/1002031/pf/ProductionFacility/0000011208.ProductionFacility,"Porvoon Energia Oy - Borgå Energi Ab, Tolkkisten voimalaitokset",Finland,25.58304,60.33168,FI1B,FI,excl_biomass
+NL.RIVM/000012150.FACILITY,Uniper Centrale RoCa,Netherlands,4.56111,51.95359,NL33,NL,excl_biomass
+http://paikkatiedot.fi/so/1002031/pf/ProductionFacility/0000002779.ProductionFacility,"Finnsementti Oy, Parainen / Sementtitehdas",Finland,22.29048,60.28625,FI1C,FI,excl_biomass
+SE.CAED/10024885.Facility,LKAB - Kirunagruvan,Sweden,20.19092,67.84939,SE33,SE,excl_biomass
+NO.EEA/1224.0008.01.FACILITY,Sør-Norge Aluminium,Norway,5.768265,59.86813,NO0A,NO,excl_biomass
+UK.CAED/EW_EA-1561.FACILITY,Ferrybridge C Power Station EPR/VP3337SR,United Kingdom,-1.2817283,53.71674,UKE4,UK,excl_biomass
+https://registry.gdi-de.org/id/de.nw.inspire.pf.bube-eureg/arb-2017-566028-500-0338944,RWE Generation SE Kraftwerk Ibbenbüren,Germany,7.74789,52.28885,DEA3,DE,excl_biomass
+NO.EEA/0101.0031.01.FACILITY,Norske Skog Saugbrugs,Norway,11.402339,59.12504,NO08,NO,excl_biomass
+NL.RIVM/000000060.FACILITY,Sappi Maastricht BV,Netherlands,5.69424,50.85772,NL42,NL,excl_biomass
+http://paikkatiedot.fi/so/1002031/pf/ProductionFacility/0000001992.ProductionFacility,"Seinäjoen Voima Oy, Seinäjoen voimalaitos",Finland,22.81697,62.74109,FI19,FI,excl_biomass
+https://registry.gdi-de.org/id/de.by.inspire.pf.ied/S00904,Palm Power GmbH & Co. KG,Germany,10.652985674629509,49.9840533037844,DE26,DE,excl_biomass
+https://registry.gdi-de.org/id/de.he.0945.de7.pf.eu_industrie/50006414,B+T Energie GmbH,Germany,9.8492,51.3181,DE73,DE,excl_biomass
+CZ.MZP.P323/CZ47150542.FACILITY,Teplárna ELÚ III,Czechia,13.34546117,49.73952909,CZ03,CZ,excl_biomass
+SE.CAED/10024476.Facility,LKAB - Malmbergsgruvan,Sweden,20.70867,67.19643,SE33,SE,excl_biomass
+https://registry.gdi-de.org/id/de.nw.inspire.pf.bube-eureg/arb-2017-754008-700-0128330,Pfleiderer Gütersloh GmbH (Werk 2),Germany,8.40002,51.91545,DEA4,DE,excl_biomass
+http://paikkatiedot.fi/so/1002031/pf/ProductionFacility/0000001572.ProductionFacility,"Koskisen Oyj, Tehdastien laitosalue",Finland,25.26495,60.86224,FI1C,FI,excl_biomass
+CZ.MZP.S202/CZ49789451.FACILITY,"Vápenka Čertovy schody, a.s.",Czechia,14.05710849,49.91027826,CZ02,CZ,excl_biomass
+SE.CAED/10022364.Facility,"Sundsvall Energi AB, Korstaverk",Sweden,17.39061,62.40352,SE32,SE,excl_biomass
+https://registry.gdi-de.org/id/de.nw.inspire.pf.bube-eureg/arb-2017-316000-300-0535035,AVEA Entsorgungsbetriebe GmbH & Co. KG,Germany,7.0042,51.04232,DEA2,DE,excl_biomass
+https://registry.gdi-de.org/id/de.nw.inspire.pf.bube-eureg/arb-2017-354012-300-0877384,RWE Power AG,Germany,6.31458,50.83316,DEA2,DE,excl_biomass
+CZ.MZP.M714/CZ24145642.FACILITY,Teplárna Přerov,Czechia,17.42852611,49.44506129,CZ07,CZ,excl_biomass
+RO.CAED/108DB0001.FACILITY,HEIDELBERG MATERIALS ROMANIA SA - Sucursala Fieni,Romania,25.41758611,45.12266666,RO31,RO,excl_biomass
+SE.CAED/10015586.Facility,"Kraftvärmeverket Torsvik, KVVT1 (avfall) och KVVT2 (flis)",Sweden,14.15166,57.69603,SE21,SE,excl_biomass
+https://registry.gdi-de.org/id/de.nw.inspire.pf.bube-eureg/arb-2017-570020-500-0055819,Heidelberg Materials AG Zementwerk Ennigerloh,Germany,8.02882,51.85617,DEA3,DE,excl_biomass
+http://paikkatiedot.fi/so/1002031/pf/ProductionFacility/0000001216.ProductionFacility,"Loimua Oy, Vanajan voimalaitos, Hämeenlinna",Finland,24.50551,60.9748,FI1C,FI,excl_biomass
+UK.CAED/NRW170258.FACILITY,Padeswood Cement Works,United Kingdom,-3.06202,53.15499,UKL2,UK,excl_biomass
+CZ.MZP.T802/CZ29145586.FACILITY,Provozovna Třinec,Czechia,18.64728154,49.68810552,CZ08,CZ,excl_biomass
+UK.CAED/EW_EA-16950.FACILITY,Runcorn Energy From Waste Facility,United Kingdom,-2.754611,53.329105,UKD7,UK,excl_biomass
+CZ.MZP.U425/CZ88860818.FACILITY,Teplárna Komořany,Czechia,13.57208569,50.52233538,CZ04,CZ,excl_biomass
+http://paikkatiedot.fi/so/1002031/pf/ProductionFacility/0000001348.ProductionFacility,"Metsä Fibre Oy, Puunjalostusteollisuus",Finland,24.51977,65.75583,FI1D,FI,excl_biomass
+http://paikkatiedot.fi/so/1002031/pf/ProductionFacility/0000052805.ProductionFacility,"Järvi-Suomen Voima Oy, Ristiinan voimalaitos",Finland,27.26546,61.47262,FI1D,FI,excl_biomass
+SE.CAED/10014265.Facility,"NYNAS AB, Oljeraffinaderiet i Nynäshamn",Sweden,17.96672,58.92093,SE11,SE,excl_biomass
+SE.CAED/10021743.Facility,"STORA ENSO PAPER AB, Kvarnsveden Mill",Sweden,15.42088,60.52322,SE31,SE,excl_biomass
+NL.RIVM/000010079.FACILITY,Chemours Netherlands B.V.,Netherlands,4.7273,51.81815,NL33,NL,excl_biomass
+MT.ERA/000000017.FACILITY,Marsa Power Station,Malta,14.497697,35.882495,MT00,MT,excl_biomass
+SE.CAED/10024561.Facility,SSAB EMEA AB i Luleå,Sweden,22.21426,65.56204,SE33,SE,excl_biomass
+SE.CAED/10019475.Facility,Rya Gaskraftvärmeverk,Sweden,11.88873,57.692,SE23,SE,excl_biomass
+SE.CAED/10023612.Facility,SCA Obbola AB,Sweden,20.32111,63.70116,SE33,SE,excl_biomass
+SI.ARSO/000000011.FACILITY,Alpacem Cement Anhovo,Slovenia,13.628036,46.06865,SI04,SI,excl_biomass
+https://registry.gdi-de.org/id/de.bw.lubw.inspire.pf/pf-450-2719142-00000000,Maxauer Papierfabrik GmbH ,Germany,8.31327,49.04256,DE12,DE,excl_biomass
+CZ.MZP.A100/CZ43518031.FACILITY,závod Radotín,Czechia,14.33978782,49.99618792,CZ01,CZ,excl_biomass
+https://registry.gdi-de.org/id/de.by.inspire.pf.ied/S00860,"DS Smith Paper Deutschland GmbH, Werk Aschaffenburg",Germany,9.155849276374886,49.9881697466161,DE26,DE,excl_biomass
+https://registry.gdi-de.org/id/de.ni.mu/06060316030,GKH - Gemeinschaftskraftwerk Hannover GmbH,Germany,9.6476,52.42032,DE92,DE,excl_biomass
+UK.CAED/NRW170266.FACILITY,Pembroke Refinery,United Kingdom,-5.02788,51.68669,UKL1,UK,excl_biomass
+http://paikkatiedot.fi/so/1002031/pf/ProductionFacility/0000002577.ProductionFacility,"Finnsementti Oy, Lappeenrannan sementtitehdas",Finland,28.17438,61.03057,FI1C,FI,excl_biomass
+SE.CAED/10024059.Facility,Hedensbyns kraftvärmeverk,Sweden,21.04404,64.74415,SE33,SE,excl_biomass
+http://paikkatiedot.fi/so/1002031/pf/ProductionFacility/0000001170.ProductionFacility,"Helen Oy, Salmisaaren voimalaitokset",Finland,24.90581,60.1604,FI1B,FI,excl_biomass
+http://paikkatiedot.fi/so/1002031/pf/ProductionFacility/0000003500.ProductionFacility,"Borealis Polymers Oy, Petrokemian laitokset",Finland,25.5211,60.30049,FI1B,FI,excl_biomass
+CZ.MZP.T802/CZ33886785.FACILITY,Teplárna Frýdek-Místek,Czechia,18.32445365,49.69812255,CZ08,CZ,excl_biomass
+https://registry.gdi-de.org/id/de.by.inspire.pf.ied/S00935,"Heidelberg Materials AG, Zementwerk Lengfurt",Germany,9.617891164731216,49.80845200690917,DE26,DE,excl_biomass
+SE.CAED/10022145.Facility,Alleima Tube AB,Sweden,16.79534,60.6167,SE31,SE,excl_biomass
+https://registry.gdi-de.org/id/de.nw.inspire.pf.bube-eureg/arb-2017-114000-100-0250693,EGK Entsorgungsgesellschaft Krefeld GmbH & Co. KG,Germany,6.6344,51.37891,DEA1,DE,excl_biomass
+http://paikkatiedot.fi/so/1002031/pf/ProductionFacility/0000001926.ProductionFacility,"Metsä Board Oyj, Simpeleen kartonkitehdas",Finland,29.34397,61.43514,FI1C,FI,excl_biomass
+http://paikkatiedot.fi/so/1002031/pf/ProductionFacility/0100204977.ProductionFacility,"Nordkalk Oy Ab, Raahen kalkinpolttamo",Finland,24.41319,64.65493,FI1D,FI,excl_biomass
+EE.KAUR.TTR/192.FACILITY,"Enefit Power AS, Auvere elektrijaam",Estonia,27.8935658964,59.270467278,EE00,EE,excl_biomass
+NL.RIVM/000203273.FACILITY,RWE Eemshaven Holding II B.V.,Netherlands,6.86172,53.44212,NL11,NL,excl_biomass
+BG.CAED/005000005.FACILITY,Cement company Holcim BG,Bulgaria,23.463966,43.28318,BG31,BG,excl_biomass
+CZ.MZP.U426/CZ95978240.FACILITY,Elektrárna Ledvice,Czechia,13.78065568,50.57647677,CZ04,CZ,excl_biomass
+http://paikkatiedot.fi/so/1002031/pf/ProductionFacility/0000001833.ProductionFacility,"UPM-Kymmene Oyj, Pietarsaaren tehtaat",Finland,22.70534,63.70312,FI19,FI,excl_biomass
+https://registry.gdi-de.org/id/de.nw.inspire.pf.bube-eureg/arb-2017-315000-300-1350016,AVG Abfallentsorgungs- und Verwertungsgesellschaft Köln mbH,Germany,6.94885,51.00688,DEA2,DE,excl_biomass
+https://registry.gdi-de.org/id/de.bb.inspire.pf.eureg/23019618,1Heiz Energie GmbH Binnenhafen Eberswalde,Germany,13.77847,52.85126,DE40,DE,excl_biomass
+http://paikkatiedot.fi/so/1002031/pf/ProductionFacility/0000003238.ProductionFacility,"Fortum Power and Heat Oy, Kivenlahden lämpökeskus",Finland,24.62883,60.16132,FI1B,FI,excl_biomass
+NO.EEA/0704.0064.01.FACILITY,"Esso Norge, Slagentangen",Norway,10.5136118,59.3211441,NO09,NO,excl_biomass
+SE.CAED/10016162.Facility,Sandviksverket,Sweden,14.83779,56.86799,SE21,SE,excl_biomass
+CZ.MZP.S206/CZ33698019.FACILITY,Elektrárna Mělník,Czechia,14.41332782,50.41451601,CZ02,CZ,excl_biomass
+http://paikkatiedot.fi/so/1002031/pf/ProductionFacility/0000011179.ProductionFacility,"Sappi Finland Operations Oy, Kirkniemen voimalaitos",Finland,23.94552,60.19051,FI1B,FI,excl_biomass
+SE.CAED/10024717.Facility,Smurfit Westrock Piteå AB,Sweden,21.44037,65.31475,SE33,SE,excl_biomass
+http://paikkatiedot.fi/so/1002031/pf/ProductionFacility/0000001726.ProductionFacility,"Neste Oyj, Naantalin Terminaali",Finland,22.09755,60.44674,FI1C,FI,excl_biomass
+https://registry.gdi-de.org/id/de.he.0945.de7.pf.eu_industrie/80000011,Dyckerhoff GmbH Werk Amöneburg ,Germany,8.257,50.03191,DE71,DE,excl_biomass
+CZ.MZP.K413/CZ88718507.FACILITY,Elektrárna Tisová,Czechia,12.6102165,50.15217856,CZ04,CZ,excl_biomass
+https://registry.gdi-de.org/id/de.nw.inspire.pf.bube-eureg/arb-2017-974020-900-0009912,Dyckerhoff GmbH Werksgruppe Nord-Werk Geseke-,Germany,8.50439,51.62256,DEA5,DE,excl_biomass
+NL.RIVM/000104710.FACILITY,ESD-SIC BV,Netherlands,6.96542,53.2972,NL11,NL,excl_biomass
+http://paikkatiedot.fi/so/1002031/pf/ProductionFacility/0000001913.ProductionFacility,"SSAB Europe Oy, Raahen terästehdas",Finland,24.42882,64.65403,FI1D,FI,excl_biomass
+http://paikkatiedot.fi/so/1002031/pf/ProductionFacility/0100183092.ProductionFacility,"Rauman Biovoima Oy, Rauman voimalaitos",Finland,21.47863,61.11848,FI19,FI,excl_biomass
+SE.CAED/10014984.Facility,Gärstadverket,Sweden,15.65453,58.43668,SE12,SE,excl_biomass
+http://paikkatiedot.fi/so/1002031/pf/ProductionFacility/0000002416.ProductionFacility,"Tampereen Energia Oy, Lielahden voimalaitos",Finland,23.6752,61.51025,FI19,FI,excl_biomass
+NO.EEA/1146.0004.01.FACILITY,Gassco Kårstø,Norway,5.512849,59.27473,NO0A,NO,excl_biomass
+SE.CAED/10018832.Facility,Borealis Krackeranl.,Sweden,11.82554,58.08325,SE23,SE,excl_biomass
+http://paikkatiedot.fi/so/1002031/pf/ProductionFacility/0000024256.ProductionFacility,"Kokkolan Energia Oy, Voimalaitos Voima (Ykspihlajan voimalaitos)",Finland,23.05069,63.85568,FI1D,FI,excl_biomass
+https://registry.gdi-de.org/id/de.nw.inspire.pf.bube-eureg/arb-2017-111000-100-0167182,Stadtwerke Düsseldorf AG,Germany,6.72915,51.2191,DEA1,DE,excl_biomass
+http://paikkatiedot.fi/so/1002031/pf/ProductionFacility/0000001406.ProductionFacility,"MM Kotkamills Boards Oy, Kotkan tehtaat",Finland,26.95694,60.46577,FI1C,FI,excl_biomass
+https://registry.gdi-de.org/id/de.ni.mu/01000259750,EEW Energy from Waste Helmstedt GmbH,Germany,10.97775,52.17005,DE91,DE,excl_biomass
+http://paikkatiedot.fi/so/1002031/pf/ProductionFacility/0000001284.ProductionFacility,"Alva-yhtiöt Oy, Rauhalahden voimalaitos",Finland,25.81081,62.23887,FI19,FI,excl_biomass
+https://registry.gdi-de.org/id/de.by.inspire.pf.ied/S00499,Müllkraftwerk Schwandorf,Germany,12.087908090681992,49.31003767338597,DE23,DE,excl_biomass
+http://paikkatiedot.fi/so/1002031/pf/ProductionFacility/0100300015.ProductionFacility,"Lahti Energia Oy, Kymijärven jätteenpolttolaitos, Lahti",Finland,25.72008,60.99101,FI1C,FI,excl_biomass
+http://paikkatiedot.fi/so/1002031/pf/ProductionFacility/0000016028.ProductionFacility,"Kotkan Energia Oy, Hovinsaaren voimalaitos",Finland,26.91692,60.47105,FI1C,FI,excl_biomass
+SE.CAED/10014052.Facility,HÄSSELBYVERKET,Sweden,17.82521,59.36258,SE11,SE,excl_biomass
+NL.EEA/94003.FACILITY,Centrale Bergum,Netherlands,6.02977,53.20955,NL12,NL,excl_biomass
+EE.KAUR.TTR/38.FACILITY,"Silpower AS, Silpower Aktsiaselts",Estonia,27.7449635041,59.4036557852,EE00,EE,excl_biomass
+SE.EEA/1380-136.FACILITY,Pilkington Floatglas AB,Sweden,12.9366309,56.6366085,SE23,SE,excl_biomass
+http://paikkatiedot.fi/so/1002031/pf/ProductionFacility/0000001866.ProductionFacility,"Neste Oyj, Porvoon jalostamo",Finland,25.52596,60.31311,FI1B,FI,excl_biomass
+http://paikkatiedot.fi/so/1002031/pf/ProductionFacility/0000018120.ProductionFacility,"Stora Enso Oyj, Varkauden tehtaat",Finland,27.89859,62.3164,FI1D,FI,excl_biomass
+https://registry.gdi-de.org/id/de.nw.inspire.pf.bube-eureg/arb-2017-119000-100-0431192,Gemeinschafts-Müllverbrennungsanlage Niederrhein GmbH,Germany,6.83334,51.48444,DEA1,DE,excl_biomass
+NO.EEA/0301.0430.01.FACILITY,Fortum Oslo Varme,Norway,10.835762,59.8406258,NO08,NO,excl_biomass
+CZ.MZP.T803/CZ99166596.FACILITY,Teplárna Karviná,Czechia,18.47851564,49.8232018,CZ08,CZ,excl_biomass
+https://registry.gdi-de.org/id/de.bb.inspire.pf.eureg/23024012,Sonae Arauco Beeskow GmbH,Germany,14.25602,52.18105,DE40,DE,excl_biomass
+SI.ARSO/000000018.FACILITY,"Energetika Ljubljana, (Lokacija Toplarniška)",Slovenia,14.545125,46.057961,SI04,SI,excl_biomass
+DE.EEA/15282.FACILITY,MVV Umwelt Asset GmbH,Germany,11.9958015031325,51.3299389872186,DEE0,DE,excl_biomass
+NO.EEA/1850.0002.01.FACILITY,Norcem Kjøpsvik,Norway,16.3739433,68.09417,NO07,NO,excl_biomass
+http://paikkatiedot.fi/so/1002031/pf/ProductionFacility/0000001269.ProductionFacility,"Metsä Fibre Oy, Joutsenon tehdas",Finland,28.45687,61.13091,FI1C,FI,excl_biomass
+SE.CAED/10024718.Facility,SCA Munksunds pappersbruk,Sweden,21.50386,65.27232,SE33,SE,excl_biomass
+EE.KAUR.TTR/74.FACILITY,"Enefit Power AS, Balti Elektrijaam
+    Enefit Power AS, Balti Elektrijaam
+    Enefit Power AS, Balti elektrijaam",Estonia,28.1258147762,59.3529644401,EE00,EE,excl_biomass
+http://paikkatiedot.fi/so/1002031/pf/ProductionFacility/0000001931.ProductionFacility,"NG Nordic Finland Oy, Riihimäen toimipiste",Finland,24.83237,60.77227,FI1C,FI,excl_biomass
+UK.CAED/EW_EA-16008.FACILITY,Staffordshire Energy Recovery Facility EPR/HP3431HK/V003,United Kingdom,-2.1145704,52.672711,UKG2,UK,excl_biomass
+SE.CAED/10017499.Facility,Ångcentralen,Sweden,13.38388,56.12476,SE22,SE,excl_biomass
+SE.CAED/10014170.Facility,HALLSTA PAPPERSBRUK,Sweden,18.5925,60.06177,SE11,SE,excl_biomass
+https://registry.gdi-de.org/id/de.nw.inspire.pf.bube-eureg/arb-2017-316000-300-9970711,Currenta GmbH & Co. OHG Entsorgungszentrum Bürrig,Germany,6.96823,51.04141,DEA2,DE,excl_biomass
+SE.CAED/10019436.Facility,St1 Refinery AB,Sweden,11.87983,57.70185,SE23,SE,excl_biomass
+SE.CAED/10019434.Facility,Preem  AB Preemraff Göteborg,Sweden,11.82119,57.71094,SE23,SE,excl_biomass
+https://registry.gdi-de.org/id/de.sl.inspire.pf/0075674-G,AVA Velsen ,Germany,6.83473,49.21428,DEC0,DE,excl_biomass
+NL.RIVM/000102620.FACILITY,Coöperatie AVEBE U.A.,Netherlands,7.04573,52.92103,NL11,NL,excl_biomass
+https://registry.gdi-de.org/id/de.ni.mu/07070168330,Enertec Hameln GmbH ,Germany,9.3884,52.09887,DE92,DE,excl_biomass
+NL.RIVM/000104001.FACILITY,ENGIE Energie Nederland NV,Netherlands,6.8809,53.43663,NL11,NL,excl_biomass
+http://paikkatiedot.fi/so/1002031/pf/ProductionFacility/0000002234.ProductionFacility,"Metsä Fibre Oy, Äänekosken sellutehdas",Finland,25.75298,62.59055,FI19,FI,excl_biomass
+NL.RIVM/000204617.FACILITY,Power Plant Rotterdam,Netherlands,4.07205,51.94482,NL33,NL,excl_biomass
+SE.CAED/10019649.Facility,"Preemraff, Lysekil",Sweden,11.42308,58.34674,SE23,SE,excl_biomass
+https://registry.gdi-de.org/id/de.nw.inspire.pf.bube-eureg/arb-2017-113000-100-0204710,RWE Generation SE MHKW Karnap,Germany,7.00026,51.51543,DEA1,DE,excl_biomass
+EE.KAUR.TTR/135.FACILITY,"Utilitas Tallinna Elektrijaam OÜ, Tallinna elektrijaam",Estonia,24.9053950825,59.4373788831,EE00,EE,excl_biomass
+http://paikkatiedot.fi/so/1002031/pf/ProductionFacility/0000002336.ProductionFacility,"Mäntän Energia Oy, Voimalaitos",Finland,24.63539,62.02764,FI19,FI,excl_biomass
+SE.CAED/10021292.Facility,Nordkalk / Köping,Sweden,16.02847,59.49812,SE12,SE,excl_biomass
+SE.CAED/10020999.Facility,"Billerud Skog & Industri AB, Frövi",Sweden,15.32691,59.47975,SE12,SE,excl_biomass
+https://registry.gdi-de.org/id/de.nw.inspire.pf.bube-eureg/arb-2017-562014-500-0359243,Pilkington Deutschland AG -Werk Gladbeck-,Germany,6.93342,51.56623,DEA3,DE,excl_biomass
+SE.CAED/10022522.Facility,Kraftvärmeverket Övik Energi A,Sweden,18.71087,63.27298,SE32,SE,excl_biomass
+https://registry.gdi-de.org/id/de.rp.inspire.pf.bube-eureg/1000136,Moritz J. Weig GmbH & Co. KG,Germany,7.23433,50.32068,DEB1,DE,excl_biomass
+SE.CAED/10017067.Facility,Södra Cell Mörrum,Sweden,14.76467,56.16098,SE22,SE,excl_biomass
+https://registry.gdi-de.org/id/de.he.0945.de7.pf.eu_industrie/50001960,Papierfabrik A. Jass GmbH & Co.KG ,Germany,9.68162,50.56751,DE73,DE,excl_biomass
+NL.RIVM/000010723.FACILITY,O-I Netherlands BV (Leerdam),Netherlands,5.08588,51.88821,NL33,NL,excl_biomass
+https://registry.gdi-de.org/id/de.rp.inspire.pf.bube-eureg/4000267,Entsorgungsgesellschaft Mainz mbH,Germany,8.24251,50.02551,DEB3,DE,excl_biomass
+http://paikkatiedot.fi/so/1002031/pf/ProductionFacility/0000001111.ProductionFacility,"Stora Enso Oyj, Uimaharjun tehdas",Finland,30.22521,62.92722,FI1D,FI,excl_biomass
+EE.KAUR.TTR/185.FACILITY,"VKG Oil AS, Kohtla-Järve Petroter põlevkiviõlitehas",Estonia,27.2380242422,59.3867080255,EE00,EE,excl_biomass
+http://paikkatiedot.fi/so/1002031/pf/ProductionFacility/0000001177.ProductionFacility,"Vantaan Energia Oy, Martinlaakson voimalaitos",Finland,24.83669,60.28212,FI1B,FI,excl_biomass
+https://registry.gdi-de.org/id/de.nw.inspire.pf.bube-eureg/arb-2017-170032-100-0989137,Solvay GmbH,Germany,6.57783,51.56471,DEA1,DE,excl_biomass
+http://paikkatiedot.fi/so/1002031/pf/ProductionFacility/0000001291.ProductionFacility,"UPM Communication Papers Oy, Kaipolan tehdas",Finland,25.23839,61.81047,FI19,FI,excl_biomass
+https://registry.gdi-de.org/id/de.nw.inspire.pf.bube-eureg/arb-2017-170020-100-0501870,Kreis Weseler Abfallgesellschaft mbH & Co. KG Abfallentsorgungszentrum Asdonkshof,Germany,6.57641,51.51888,DEA1,DE,excl_biomass
+https://registry.gdi-de.org/id/de.th/5bf25e39-19d5-4254-adac-63f1b1cec499/77012792,"Dyckerhoff GmbH, Werk Deuna ",Germany,10.48357,51.36276,DEG0,DE,excl_biomass
+https://registry.gdi-de.org/id/de.ni.mu/10102275040,EBE Holzheizkraftwerk GmbH ,Germany,6.87345,52.61934,DE94,DE,excl_biomass
+CZ.MZP.U423/CZ63876696.FACILITY,Mondi Štětí a.s. - Celulozka,Czechia,14.37481449,50.46118536,CZ04,CZ,excl_biomass
+UK.CAED/EW_EA-16737.FACILITY,Cottam Power Station EPR/SP3535LT,United Kingdom,-0.78176602,53.303342,UKF1,UK,excl_biomass
+https://registry.gdi-de.org/id/de.rp.inspire.pf.bube-eureg/1000878,IHKW Industrieheizkraftwerk Andernach GmbH,Germany,7.40816,50.43202,DEB1,DE,excl_biomass
+CZ.MZP.S206/CZ32569075.FACILITY,"ČEZ, a. s. Elektrárna Mělník, Teplárna Trmice - provoz Mělník",Czechia,14.4153666666667,50.4139611111111,CZ02,CZ,excl_biomass
+NO.EEA/1003.0009.01.FACILITY,"Alcoa aluminium, Lista",Norway,6.783232,58.07307,NO09,NO,excl_biomass
+NO.EEA/1424.0004.01.FACILITY,"Hydro Aluminium, Årdal Metallverk",Norway,7.82489,61.311573,NO0A,NO,excl_biomass
+CZ.MZP.T802/CZ10693120.FACILITY,Provozy  Teplárny  a  Tepelná  energetika,Czechia,18.64454782,49.69528249,CZ08,CZ,excl_biomass
+EE.KAUR.TTR/76.FACILITY,"Enefit Power AS, Enefit õlitööstus",Estonia,27.895653742,59.2732286256,EE00,EE,excl_biomass
+https://registry.gdi-de.org/id/de.he.0945.de7.pf.eu_industrie/30000112,AVA/HKW Nordweststadt ,Germany,8.63537,50.16155,DE71,DE,excl_biomass
+http://paikkatiedot.fi/so/1002031/pf/ProductionFacility/0000003438.ProductionFacility,"Nordkalk Oy Ab, Tytyrin kalkkitehdas",Finland,24.06608,60.26032,FI1B,FI,excl_biomass
+NL.RIVM/000071105.FACILITY,Nobian Chemicals BV (Hengelo),Netherlands,6.79425,52.24675,NL21,NL,excl_biomass
+https://registry.gdi-de.org/id/de.hb/de.hb.pf.bube-eureg.06-04-12/2177562/6/0,Bremerhavener Entsorgungsgesellschaft mbH,Germany,8.61801,53.54791,DE50,DE,excl_biomass
+https://registry.gdi-de.org/id/de.ni.mu/04041505980,Steinbeis Energie Papenburg GmbH,Germany,7.39777,53.09951,DE94,DE,excl_biomass
+NL.RIVM/000012134.FACILITY,Archer Daniels Midland Europoort BV (ADM),Netherlands,4.12249,51.95597,NL33,NL,excl_biomass
+SE.CAED/10021537.Facility,SMA Mineral AB Rättvik Kalkverk,Sweden,15.16696,60.90529,SE31,SE,excl_biomass
+SE.CAED/10022227.Facility,Iggesunds Bruk,Sweden,17.09807,61.63863,SE31,SE,excl_biomass
+https://registry.gdi-de.org/id/de.by.inspire.pf.ied/S00941,"SCHWENK Zement GmbH & Co. KG, Werk Karlstadt",Germany,9.76852424826162,49.95499579630938,DE26,DE,excl_biomass
+CZ.MZP.U423/CZ47356419.FACILITY,"Holcim (Česko), a.s.",Czechia,14.04509457,50.48952639,CZ04,CZ,excl_biomass
+https://registry.gdi-de.org/id/de.by.inspire.pf.ied/S00015,GSB Sonderabfall-Entsorgung Bayern GmbH - Ebenhausen,Germany,11.478970850487306,48.694572005799685,DE21,DE,excl_biomass
+https://registry.gdi-de.org/id/de.nw.inspire.pf.bube-eureg/arb-2017-962024-900-0235202,AMK Abfallentsorgungsgesellschaft des Märkischen Kreises mbH,Germany,7.69614,51.39787,DEA5,DE,excl_biomass
+https://registry.gdi-de.org/id/de.sl.inspire.pf/0078532-G,AHKW Neunkirchen ,Germany,7.1684,49.33814,DEC0,DE,excl_biomass
+NL.RIVM/000051501.FACILITY,Zeeland Refinery N.V.,Netherlands,3.72705,51.44562,NL34,NL,excl_biomass
+http://paikkatiedot.fi/so/1002031/pf/ProductionFacility/0000001861.ProductionFacility,"Pori Energia Oy, Aittaluodon voimalaitos",Finland,21.81623,61.48722,FI19,FI,excl_biomass
+http://paikkatiedot.fi/so/1002031/pf/ProductionFacility/0000002096.ProductionFacility,"Tampereen Energia Oy, Naistenlahden voimalaitos",Finland,23.77675,61.50999,FI19,FI,excl_biomass
+UK.CAED/EW_EA-2330.FACILITY,Tilbury Power Station EPR/EP3433LZ,United Kingdom,0.39015013,51.455268,UKH3,UK,excl_biomass
+SE.CAED/10022175.Facility,Vallviks Bruk,Sweden,17.18282,61.18825,SE31,SE,excl_biomass
+EE.KAUR.TTR/77.FACILITY,"Nitrofert AS, Mineraalväetisetehas Nitrofert",Estonia,27.2347719103,59.4074488519,EE00,EE,excl_biomass
+NL.RIVM/000010061.FACILITY,Esso Nederland BV (Raffinaderij Rotterdam),Netherlands,4.29626,51.87221,NL33,NL,excl_biomass
+UK.SEPA/200001997.Facility,Steven's Croft Power Station,United Kingdom,-3.38077,55.15282,UKM9,UK,excl_biomass
+SE.CAED/10015046.Facility,Bravikens Pappersbruk,Sweden,16.26148,58.63975,SE12,SE,excl_biomass
+CZ.MZP.T806/CZ51473353.FACILITY,Elektrárna Třebovice,Czechia,18.21054494,49.83176365,CZ08,CZ,excl_biomass
+https://registry.gdi-de.org/id/de.rp.inspire.pf.bube-eureg/1000901,Biomasse Heizkraftwerk Siegerland GmbH & Co. KG,Germany,8.07318,50.70242,DEB1,DE,excl_biomass
+CZ.MZP.C311/CZ65747796.FACILITY,Teplárna České Budějovice-Novohradská ulice,Czechia,14.4855011,48.9673896,CZ03,CZ,excl_biomass
+NL.RIVM/000201386.FACILITY,EP NL Sloe Centrale B.V. (Vlissingen),Netherlands,3.69338,51.44882,NL34,NL,excl_biomass
+BG.CAED/017000006.FACILITY,Bobov dol power station,Bulgaria,23.0344,42.285164,BG41,BG,excl_biomass
+NO.EEA/192336.FACILITY,NorFraKalk,Norway,11.444128,63.7843475,NO06,NO,excl_biomass
+CZ.MZP.U427/CZ34594641.FACILITY,Teplárna Trmice,Czechia,13.98540938,50.64622167,CZ04,CZ,excl_biomass
+SE.CAED/10024566.Facility,SMA Mineral AB,Sweden,22.21479,65.56331,SE33,SE,excl_biomass
+SE.CAED/10020366.Facility,Skoghalls Bruk,Sweden,13.43826,59.31854,SE31,SE,excl_biomass
+CZ.MZP.B642/CZ34883430.FACILITY,"Teplárny Brno a.s., Provoz Špitálka",Czechia,16.62002715,49.19558912,CZ06,CZ,excl_biomass
+https://registry.gdi-de.org/id/de.by.inspire.pf.ied/S00984,Müllheizkraftwerk Kempten,Germany,10.319142884876312,47.75885402913922,DE27,DE,excl_biomass
+https://registry.gdi-de.org/id/de.sn.sax4inspire.pf/80011277,LEAG Lausitz Energie Kraftwerke AG  Kraftwerk Lippendorf ,Germany,12.37164,51.18414,DED5,DE,excl_biomass
+https://registry.gdi-de.org/id/de.nw.inspire.pf.bube-eureg/arb-2017-162008-100-0081105,RWE Power AG - Kraftwerk Frimmersdorf ,Germany,6.57802,51.0522,DEA1,DE,excl_biomass
+CZ.MZP.K413/CZ39774818.FACILITY,"Sokolovská uhelná,právní nástupce,a.s.-zpracovatelská část",Czechia,12.69636069,50.25595177,CZ04,CZ,excl_biomass
+https://registry.gdi-de.org/id/de.hb/de.hb.pf.bube-eureg.06-04-11/2013754/1/0,swb Entsorgung GmbH & Co. KG,Germany,8.81704,53.11461,DE50,DE,excl_biomass
+https://registry.gdi-de.org/id/de.by.inspire.pf.ied/S00400,"RW silicium GmbH, Werk Pocking",Germany,13.330244161361913,48.41872513309072,DE22,DE,excl_biomass
+CZ.MZP.M712/CZ79386174.FACILITY,Teplárna Olomouc,Czechia,17.26642348,49.58725905,CZ07,CZ,excl_biomass
+NO.EEA/0814.0019.01.FACILITY,NORETYL AS,Norway,9.593346,59.09613,NO09,NO,excl_biomass
+RO.CAED/108HD0001.FACILITY,HEIDELBERG MATERIALS ROMANIA SA - FABRICA DE CIMENT CHISCADAGA,Romania,22.866436,45.954952,RO42,RO,excl_biomass
+https://registry.gdi-de.org/id/de.bb.inspire.pf.eureg/45025611,"LEAG, Kraftwerk Schwarze Pumpe ",Germany,14.35358,51.5355,DE40,DE,excl_biomass
+FI.EEA/1148.FACILITY,"FNsteel Oy Ab:n konkurssipesä, Koverharin terästehdas",Finland,23.21386,59.87787,FI1B,FI,excl_biomass
+CZ.MZP.Z723/CZ92460364.FACILITY,CS CABOT,Czechia,17.95567516,49.50139807,CZ07,CZ,excl_biomass
+https://registry.gdi-de.org/id/de.bw.lubw.inspire.pf/pf-450-9169156-00000000,MVV Umwelt Asset GmbH - MHKW Mannheim ,Germany,8.45246,49.52137,DE12,DE,excl_biomass
+CZ.MZP.U425/CZ17751142.FACILITY,ORLEN Unipetrol RPA,Czechia,13.61185648,50.56136055,CZ04,CZ,excl_biomass
+SE.CAED/10020871.Facility,Aspa Pulp AB,Sweden,14.80669,58.75529,SE12,SE,excl_biomass
+https://registry.gdi-de.org/id/de.rp.inspire.pf.bube-eureg/5000180,Ardagh Glass GmbH,Germany,8.37491,49.23311,DEB3,DE,excl_biomass
+https://registry.gdi-de.org/id/de.bb.inspire.pf.eureg/45027005,Pfleiderer Baruth GmbH ,Germany,13.51716,52.0781,DE40,DE,excl_biomass
+https://registry.gdi-de.org/id/de.nw.inspire.pf.bube-eureg/arb-2017-974016-900-0014503,Portland-Zementwerke Seibel & Söhne GmbH & Co. KG,Germany,8.3507,51.59855,DEA5,DE,excl_biomass
+https://registry.gdi-de.org/id/de.sn.sax4inspire.pf/70015796,Kraftwerk Boxberg ,Germany,14.57432,51.41885,DED2,DE,excl_biomass
+CZ.MZP.B642/CZ46810675.FACILITY,"Teplárny Brno a.s., Provoz Červený Mlýn",Czechia,16.60640497,49.21585934,CZ06,CZ,excl_biomass
+CZ.MZP.M714/CZ44196175.FACILITY,"Cement Hranice, akciová společnost",Czechia,17.760955555555,49.561166666666,CZ07,CZ,excl_biomass
+http://paikkatiedot.fi/so/1002031/pf/ProductionFacility/0000001115.ProductionFacility,"Fortum Power and Heat Oy, Suomenojan voimalaitos",Finland,24.7174,60.14913,FI1B,FI,excl_biomass
+NL.RIVM/000203228.FACILITY,RWE Eemshaven Magnum B.V.,Netherlands,6.85915,53.44777,NL11,NL,excl_biomass
+https://registry.gdi-de.org/id/de.nw.inspire.pf.bube-eureg/arb-2017-162004-300-9002708,RWE Generation SE GuD-Anlage,Germany,6.82763,51.08052,DEA1,DE,excl_biomass
+https://registry.gdi-de.org/id/de.by.inspire.pf.ied/S00316,"Südzucker AG, Werk Plattling",Germany,12.88275016136665,48.78761959706416,DE22,DE,excl_biomass
+SE.CAED/10018336.Facility,Hylte Paper AB,Sweden,13.23512,56.99926,SE23,SE,excl_biomass
+NL.RIVM/000202824.FACILITY,Eneco Merwedekanaal,Netherlands,5.07916,52.10093,NL31,NL,excl_biomass
+SE.CAED/10022449.Facility,Mondi Dynäs AB,Sweden,17.7151,62.97543,SE32,SE,excl_biomass
+CZ.MZP.S203/CZ84874607.FACILITY,Teplárna Kladno - ELEKTRÁRNA KLADNO,Czechia,14.12858139,50.15349761,CZ02,CZ,excl_biomass
+SE.CAED/10016489.Facility,Södra Cell Mönsterås,Sweden,16.55049,57.09152,SE21,SE,excl_biomass
+https://registry.gdi-de.org/id/de.ni.mu/04041762920,Statkraft Markets GmbH (Biomasseheizkraftwerk Emden),Germany,7.2017,53.34068,DE94,DE,excl_biomass
+https://registry.gdi-de.org/id/de.ni.mu/10285630660,Kämmerer Paper GmbH ,Germany,8.02422,52.29477,DE94,DE,excl_biomass
+https://registry.gdi-de.org/id/de.nw.inspire.pf.bube-eureg/arb-2017-362028-800-0009877,RWE Power AG Veredlungsstandort Knapsacker Hügel,Germany,6.84623,50.86356,DEA2,DE,excl_biomass
+NL.RIVM/000024003.FACILITY,Vattenfall Power Generation B.V. (Velsen),Netherlands,4.63213,52.47276,NL32,NL,excl_biomass
+https://registry.gdi-de.org/id/de.bb.inspire.pf.eureg/45035910,EEW Energy from Waste Großräschen GmbH,Germany,13.97745,51.58196,DE40,DE,excl_biomass
+SE.CAED/10022147.Facility,Björksätra Kraftvärmeverk,Sweden,16.74873,60.6111,SE31,SE,excl_biomass
+https://registry.gdi-de.org/id/de.by.inspire.pf.ied/S00223,"BAYERNOIL Raffineriegesellschaft mbH, Betriebsteil Vohburg",Germany,11.598882900310576,48.765795078837954,DE21,DE,excl_biomass
+https://registry.gdi-de.org/id/de.by.inspire.pf.ied/S01167,Märker Zement GmbH,Germany,10.70034369196446,48.776723072445805,DE27,DE,excl_biomass
+UK.CAED/NRW170005.FACILITY,Aberthaw Works,United Kingdom,-3.3897,51.39407,UKL2,UK,excl_biomass
+RO.CAED/104AB0001.FACILITY,SC KRONOSPAN TRADING SRL,Romania,23.552011,45.970996,RO12,RO,excl_biomass
+http://paikkatiedot.fi/so/1002031/pf/ProductionFacility/0000001862.ProductionFacility,"Fortum Power and Heat Oy, Meri-Porin voimalaitos",Finland,21.40704,61.63153,FI19,FI,excl_biomass
+SI.ARSO/000000022.FACILITY,VIPAP VIDEM KRŠKO,Slovenia,15.491861,45.954139,SI03,SI,excl_biomass
+https://registry.gdi-de.org/id/de.nw.inspire.pf.bube-eureg/arb-2017-978024-900-9000377,INNOVATHERM -Ges.zur innovativen Nu tzung v.Brennstoffen,Germany,7.46506,51.6112,DEA5,DE,excl_biomass
+DK.CAED/000105368.FACILITY,Maabjerg Energy Center – BioHeat & Power A/S,Denmark,8.617716425405005,56.39536700680778,DK04,DK,excl_biomass
+DE.EEA/06-02-B98201B001.FACILITY,"Stadtreinigung Hamburg AöR, MVA Stellinger Moor",Germany,9.91114574128645,53.5842167933776,DE60,DE,excl_biomass
+https://registry.gdi-de.org/id/de.sh/50081814,Müllverbrennung Kiel GmbH & Co. KG - Müllheizkraftwerk Kiel ,Germany,10.1115,54.30724,DEF0,DE,excl_biomass
+NO.EEA/2004.0004.01.FACILITY,Hammerfest LNG,Norway,23.602005,70.69107,NO07,NO,excl_biomass
+NL.RIVM/000010058.FACILITY,BP Raffinaderij Rotterdam B.V.,Netherlands,4.10779,51.94499,NL33,NL,excl_biomass
+SE.CAED/10017666.Facility,Sysavs avfallsförbränningsanläggning,Sweden,13.04528,55.63196,SE22,SE,excl_biomass
+NL.RIVM/000010057.FACILITY,Shell Nederland Raffinaderij BV,Netherlands,4.33533,51.88013,NL33,NL,excl_biomass
+http://paikkatiedot.fi/so/1002031/pf/ProductionFacility/0000002677.ProductionFacility,"Metsä Fibre Oy, Energiantuotanto",Finland,25.74089,62.59464,FI19,FI,excl_biomass
+https://registry.gdi-de.org/id/de.nw.inspire.pf.bube-eureg/arb-2017-974016-900-0255642,Spenner GmbH & Co. KG,Germany,8.33625,51.60177,DEA5,DE,excl_biomass
+SE.CAED/10020849.Facility,"NG Nordic Sweden AB, Norrtorp",Sweden,15.27978,59.11531,SE12,SE,excl_biomass
+https://registry.gdi-de.org/id/de.bw.lubw.inspire.pf/pf-450-1020129-00000000,EnBW HKW Heilbronn ,Germany,9.20759,49.17562,DE11,DE,excl_biomass
+http://paikkatiedot.fi/so/1002031/pf/ProductionFacility/0100335579.ProductionFacility,"Helen Oy, Vuosaaren biolämpökeskus",Finland,25.16717,60.2212,FI1B,FI,excl_biomass
+SE.CAED/10016795.Facility,"Heidelberg Materials Cement Sverige AB, Slitefabriken",Sweden,18.80539,57.71172,SE21,SE,excl_biomass
+CZ.MZP.U422/CZ49480308.FACILITY,Elektrárny Tušimice,Czechia,13.33814515,50.38259908,CZ04,CZ,excl_biomass
+NL.EEA/115085.FACILITY,Enecal Energy VOF,Netherlands,4.25414,51.88905,NL33,NL,excl_biomass
+http://paikkatiedot.fi/so/1002031/pf/ProductionFacility/0000001728.ProductionFacility,"Turun Seudun Energiantuotanto Oy, Naantalin voimalaitos",Finland,22.05252,60.45833,FI1C,FI,excl_biomass
+SE.CAED/10021814.Facility,STORA ENSO FORS AB,Sweden,16.31202,60.20553,SE31,SE,excl_biomass
+https://registry.gdi-de.org/id/de.by.inspire.pf.ied/S00638,Müllheizkraftwerk Bamberg,Germany,10.853814164324552,49.91194518071083,DE24,DE,excl_biomass
+SE.CAED/10022062.Facility,Gävle bruk,Sweden,17.26746,60.6811,SE31,SE,excl_biomass
+https://registry.gdi-de.org/id/de.nw.inspire.pf.bube-eureg/arb-2017-915000-900-0302988,MHB Betriebsführungsgesellschaft mbH,Germany,7.74479,51.68006,DEA5,DE,excl_biomass
+https://registry.gdi-de.org/id/de.sn.sax4inspire.pf/80011253,Model Sachsen Papier GmbH ,Germany,12.59134,51.46462,DED5,DE,excl_biomass
+NL.RIVM/000204654.FACILITY,ENECOGEN V.O.F.,Netherlands,4.09409,51.95838,NL33,NL,excl_biomass
+NO.EEA/192335.FACILITY,Norske Skog Skogn,Norway,11.158329,63.711853,NO06,NO,excl_biomass
+SE.CAED/10013851.Facility,FITTJAVERKET,Sweden,17.865,59.25727,SE11,SE,excl_biomass
+SE.CAED/10015102.Facility,Händelöverket,Sweden,16.23333,58.61956,SE12,SE,excl_biomass
+UK.CAED/EW_EA-16004.FACILITY,Westcott Biogas Generation Plant,United Kingdom,-0.9791962,51.84402,UKJ1,UK,excl_biomass
+http://paikkatiedot.fi/so/1002031/pf/ProductionFacility/0000003607.ProductionFacility,"Järvi-Suomen Voima Oy, Savonlinnan voimalaitos",Finland,28.92253,61.85967,FI1D,FI,excl_biomass
+CZ.MZP.U424/CZ44746297.FACILITY,Elektrárna Počerady,Czechia,13.67737464,50.42667116,CZ04,CZ,excl_biomass
+http://paikkatiedot.fi/so/1002031/pf/ProductionFacility/0000002157.ProductionFacility,"Vaasan Voima Oy, Vaasan voimalaitos, VL2",Finland,21.55384,63.09079,FI19,FI,excl_biomass
+CZ.MZP.T803/CZ26269297.FACILITY,Elektrárna Dětmarovice,Czechia,18.46560372,49.90636847,CZ08,CZ,excl_biomass
+http://paikkatiedot.fi/so/1002031/pf/ProductionFacility/0000001337.ProductionFacility,"Metsä Fibre Oy, Kaskisten tehdas",Finland,21.24924,62.35616,FI19,FI,excl_biomass
+http://paikkatiedot.fi/so/1002031/pf/ProductionFacility/0000027131.ProductionFacility,"Neve Oy, Suosiolan voimalaitos",Finland,25.67594,66.4953,FI1D,FI,excl_biomass
+https://registry.gdi-de.org/id/de.by.inspire.pf.ied/S00007,Biomasseheizkraftwerk Zolling GmbH,Germany,11.799938959458393,48.45619062896844,DE21,DE,excl_biomass
+https://registry.gdi-de.org/id/de.nw.inspire.pf.bube-eureg/arb-2017-562020-500-0414594,AGR mbH,Germany,7.16343,51.55652,DEA3,DE,excl_biomass
+UK.CAED/NRW170059.FACILITY,Cardiff Energy Recovery Facility,United Kingdom,-3.14958,51.47094,UKL2,UK,excl_biomass
+https://registry.gdi-de.org/id/de.by.inspire.pf.ied/S00894,Sappi Stockstadt GmbH,Germany,9.069356255540614,49.97632753354964,DE26,DE,excl_biomass
+http://paikkatiedot.fi/so/1002031/pf/ProductionFacility/0000002611.ProductionFacility,"Kokkolan Energia Oy, Voimalaitos Power",Finland,23.0476,63.86,FI1D,FI,excl_biomass
+SE.CAED/10014311.Facility,Skutskärs Bruk,Sweden,17.38983,60.64365,SE12,SE,excl_biomass
+SE.CAED/10024810.Facility,"Bodens värmeverk, BEAB",Sweden,21.65303,65.82875,SE33,SE,excl_biomass
+NL.RIVM/000114744.FACILITY,Elsta P&U,Netherlands,3.77857,51.33316,NL34,NL,excl_biomass
+SE.CAED/10024325.Facility,Billerud Karlsborgs bruk,Sweden,23.28767,65.79194,SE33,SE,excl_biomass
+CZ.MZP.C317/CZ69801963.FACILITY,C-Energy Teplárna Tábor,Czechia,14.687532,49.41257073,CZ03,CZ,excl_biomass
+NO.EEA/0805.0042.01.FACILITY,"Eramet Norway AS, Porsgrunn",Norway,9.623832,59.1272,NO09,NO,excl_biomass
+BG.CAED/010000011.FACILITY,Ruse power station,Bulgaria,26.0,43.52,BG32,BG,excl_biomass
+SE.CAED/10014121.Facility,Igelsta kraftvärmeverk,Sweden,17.66523,59.17748,SE11,SE,excl_biomass
+https://registry.gdi-de.org/id/de.by.inspire.pf.ied/S00706,Müllverbrennungsanlage Nürnberg,Germany,11.055495433051997,49.43552520642738,DE25,DE,excl_biomass
+DE.EEA/06-05-700-0090319.FACILITY,Gemeinschaftskraftwerk Veltheim GmbH,Germany,8.93218365977665,52.1889655024997,DEA4,DE,excl_biomass
+SE.CAED/10020920.Facility,Karlskoga kraftvärmeverk,Sweden,14.5435,59.34484,SE12,SE,excl_biomass
+DK.CAED/000105324.FACILITY,"Kredsløb, Affaldsenergi A/S",Denmark,10.157105017075976,56.22760187938795,DK04,DK,excl_biomass
+CZ.MZP.T806/CZ85250575.FACILITY,Teplárna Přívoz,Czechia,18.2763519,49.86115088,CZ08,CZ,excl_biomass
+http://paikkatiedot.fi/so/1002031/pf/ProductionFacility/0000027819.ProductionFacility,"SMA Mineral Oy, Röyttän Kalkkitehdas",Finland,24.1556,65.75984,FI1D,FI,excl_biomass
+https://registry.gdi-de.org/id/de.nw.inspire.pf.bube-eureg/arb-2017-562024-500-0875785,Evonik Operations GmbH,Germany,7.10304,51.67839,DEA3,DE,excl_biomass
+NO.EEA/1563.0008.01.FACILITY,"Hydro Aluminium, Sunndal",Norway,8.553916,62.6805153,NO0A,NO,excl_biomass
+https://registry.gdi-de.org/id/de.nw.inspire.pf.bube-eureg/arb-2017-362028-300-9968049,EEW Energy from Waste Saarbrücken GmbH,Germany,6.84358,50.85665,DEA2,DE,excl_biomass
+CZ.MZP.U421/CZ0001877E.FACILITY,"Silike keramika, spol. s r.o. provoz Děčín",Czechia,14.201299444444,50.763395555556,CZ04,CZ,excl_biomass
+https://registry.gdi-de.org/id/de.ni.mu/01211092310,Salzgitter Flachstahl GmbH ,Germany,10.40308,52.15476,DE91,DE,excl_biomass
+CZ.MZP.U423/CZ15080054.FACILITY,"Lovochemie, a.s., Lovosice",Czechia,14.07952847,50.51210615,CZ04,CZ,excl_biomass
+http://paikkatiedot.fi/so/1002031/pf/ProductionFacility/0000001592.ProductionFacility,"UPM-Kymmene Oyj, Kaukaan tehtaat",Finland,28.24899,61.06625,FI1C,FI,excl_biomass
+https://registry.gdi-de.org/id/de.nw.inspire.pf.bube-eureg/arb-2017-162008-100-0248923,RWE Power AG,Germany,6.61229,51.03765,DEA1,DE,excl_biomass
+http://paikkatiedot.fi/so/1002031/pf/ProductionFacility/0000003626.ProductionFacility,"Nevel Oy, Forssan voimalaitos ",Finland,23.58147,60.7877,FI1C,FI,excl_biomass
+https://registry.gdi-de.org/id/de.nw.inspire.pf.bube-eureg/arb-2017-124000-100-0113340,AWG Abfallwirtschaftsgesellschaft mbH Wuppertal,Germany,7.14281,51.22531,DEA1,DE,excl_biomass
+CY.CAED/0030030000.FACILITY,"Electricity Authority of Cyprus, Vassilikos Power Station",Cyprus,33.2898,34.7285,CY00,CY,excl_biomass
+SE.CAED/10023940.Facility,Rönnskärsverken,Sweden,21.26869,64.6681,SE33,SE,excl_biomass
+NO.EEA/0805.0039.01.FACILITY,"Yara Norge, Yara Porsgrunn",Norway,9.621395,59.1204567,NO09,NO,excl_biomass
+https://registry.gdi-de.org/id/de.nw.inspire.pf.bube-eureg/arb-2017-111000-100-0407176,Stadtwerke Düsseldorf AG,Germany,6.823,51.22567,DEA1,DE,excl_biomass
+NO.EEA/1833.0035.01.FACILITY,Elkem Rana AS,Norway,14.16755,66.31336,NO07,NO,excl_biomass
+NO.EEA/1201.0113.01.FACILITY,BIR Avfallsenergi,Norway,5.31782,60.2826,NO0A,NO,excl_biomass
+https://registry.gdi-de.org/id/de.by.inspire.pf.ied/S00323,"BAYERNOIL Raffineriegesellschaft mbH, Betriebsteil Neustadt",Germany,11.758003314163709,48.7849835929634,DE22,DE,excl_biomass
+CZ.MZP.U426/CZ50009387.FACILITY,"Závod Řetenice, Servisní středisko",Czechia,13.80121838,50.64063215,CZ04,CZ,excl_biomass
+http://paikkatiedot.fi/so/1002031/pf/ProductionFacility/0000003574.ProductionFacility,"ESE-Energia Oy, PURSIALAN VOIMALAITOS",Finland,27.28942,61.66892,FI1D,FI,excl_biomass
+CZ.MZP.E532/CZ90841608.FACILITY,Elektrárna Chvaletice,Czechia,15.453,50.028394167,CZ05,CZ,excl_biomass
+DE.EEA/14-60-60319980000.FACILITY,Befesa Zinc Freiberg GmbH (vormals B.U.S Zinkrecycling GmbH Freiberg),Germany,13.3690938759811,50.9084229784578,DED4,DE,excl_biomass
+CZ.MZP.H523/CZ94350475.FACILITY,"innogy Energo, s.r.o. - Teplárna Náchod",Czechia,16.17103242,50.4204638,CZ05,CZ,excl_biomass
+UK.CAED/EW_EA-5644.FACILITY,Eggborough Power Station,United Kingdom,-1.1252609,53.713723,UKE2,UK,excl_biomass
+NL.RIVM/000114001.FACILITY,Maxima-centrale,Netherlands,5.53022,52.57722,NL23,NL,excl_biomass
+SE.CAED/10015075.Facility,Billerud Sweden AB Skärblacka Bruk,Sweden,15.90144,58.57869,SE12,SE,excl_biomass
+EE.KAUR.TTR/41.FACILITY,"VKG Energia OÜ, Kohtla-Järve Põhja soojuselektrijaam",Estonia,27.2415406996,59.3949970991,EE00,EE,excl_biomass
+http://paikkatiedot.fi/so/1002031/pf/ProductionFacility/0100252736.ProductionFacility,"Metsä Fibre Oy, Äänekosken biotuotetehdas",Finland,25.74986,62.59286,FI19,FI,excl_biomass
+https://registry.gdi-de.org/id/de.bw.lubw.inspire.pf/pf-450-34033281-00000000,TREA Breisgau ,Germany,7.61646,47.89016,DE13,DE,excl_biomass
+https://registry.gdi-de.org/id/de.by.inspire.pf.ied/S00014,Abfallheizkraftwerk Geiselbullach,Germany,11.359532151825702,48.235327523071184,DE21,DE,excl_biomass
+https://registry.gdi-de.org/id/de.hh/pf.bube-eureg_/8159,"Müllverwertung Borsigstraße GmbH, (MVB) ",Germany,10.074,53.53143,DE60,DE,excl_biomass
+SE.EEA/1780-1055.FACILITY,Heden kraftvärmeverk (se 1780-1118),Sweden,13.57068521,59.38643567,SE31,SE,excl_biomass
+http://paikkatiedot.fi/so/1002031/pf/ProductionFacility/0100239774.ProductionFacility,"Raahen Voima Oy, Energiantuotanto",Finland,24.41754,64.6548,FI1D,FI,excl_biomass
+https://registry.gdi-de.org/id/de.nw.inspire.pf.bube-eureg/arb-2017-162004-300-9046923,CURRENTA GmbH & Co. OHG,Germany,6.83172,51.07673,DEA1,DE,excl_biomass
+EE.KAUR.TTR/67.FACILITY,"Kunda Nordic Tsement AS, Kunda tsemenditehas",Estonia,26.5310907995,59.4964408669,EE00,EE,excl_biomass
+SE.CAED/10024576.Facility,Luleå kraftvärmeverk LUKAB,Sweden,22.21368,65.56796,SE33,SE,excl_biomass
+NO.EEA/1824.0013.01.FACILITY,Alcoa Mosjøen,Norway,13.1902637,65.8471146,NO07,NO,excl_biomass
+http://paikkatiedot.fi/so/1002031/pf/ProductionFacility/0000001856.ProductionFacility,"PVO-Lämpövoima Oy, Tahkoluodon voimalaitos",Finland,21.40442,61.63225,FI19,FI,excl_biomass
+NL.RIVM/000101408.FACILITY,Nedmag B.V.,Netherlands,6.89667,53.11432,NL11,NL,excl_biomass
+UK.CAED/EW_EA-2520.FACILITY,SELCHP Energy Recovery Facility,United Kingdom,-0.046436737,51.485479,UKI4,UK,excl_biomass
+NL.RIVM/000010001.FACILITY,Nobian Industrial Chemicals BV (Rotterdam),Netherlands,4.27863,51.874,NL33,NL,excl_biomass
+SE.CAED/10022491.Facility,"Metsä Board Sverige AB, Husums fabr",Sweden,19.16185,63.32278,SE32,SE,excl_biomass
+SE.CAED/10014775.Facility,Värmeverket Vattumannen,Sweden,16.49657,59.38069,SE12,SE,excl_biomass
+NL.RIVM/000203411.FACILITY,Pergen VOF,Netherlands,4.36753,51.88581,NL33,NL,excl_biomass
+https://registry.gdi-de.org/id/de.nw.inspire.pf.bube-eureg/arb-2017-111000-100-0036701,Henkel AG & Co. KGaA,Germany,6.83939,51.17555,DEA1,DE,excl_biomass
+http://paikkatiedot.fi/so/1002031/pf/ProductionFacility/0100215001.ProductionFacility,"Vantaan Energia Oy, Jätevoimala",Finland,25.12936,60.26051,FI1B,FI,excl_biomass
+NL.RIVM/000004753.FACILITY,Rockwool B.V.,Netherlands,6.04371,51.17062,NL42,NL,excl_biomass
+NL.RIVM/000202825.FACILITY,Eneco Lage Weide,Netherlands,5.07229,52.10303,NL31,NL,excl_biomass
+http://paikkatiedot.fi/so/1002031/pf/ProductionFacility/0100184511.ProductionFacility,"Tornion Voima Oy, Röyttän teollisuusalueen voimalaitos ja kattilalai",Finland,24.17603,65.76958,FI1D,FI,excl_biomass
+SE.CAED/10014459.Facility,"Boländeranläggningarna, Avfallsförbränningsanläggn",Sweden,17.67576,59.85219,SE12,SE,excl_biomass
+UK.CAED/EW_EA-654.FACILITY,Ketton Works,United Kingdom,-0.54633668,52.636704,UKF2,UK,excl_biomass
+BG.CAED/014000002.FACILITY,"Neochim Company for Production of 
+    Inorganic and organic chemicals",Bulgaria,25.615,42.0725,BG42,BG,excl_biomass
+https://registry.gdi-de.org/id/de.st.lau.pf.anlagen-ied-euregistry/100674,"Pfeifer & Langen GmbH & Co. KG, Werk Könnern ",Germany,11.7597,51.69735,DEE0,DE,excl_biomass
+https://registry.gdi-de.org/id/de.bw.lubw.inspire.pf/pf-450-7897669-00000000,Holcim (Süddeutschland) GmbH ,Germany,8.77911,48.22701,DE14,DE,excl_biomass
+SE.CAED/10014055.Facility,VÄRTAVERKET,Sweden,18.1033,59.35339,SE11,SE,excl_biomass
+https://registry.gdi-de.org/id/de.by.inspire.pf.ied/S00044,SWM Heizkraftwerk Süd,Germany,11.555684283934186,48.11410573021798,DE21,DE,excl_biomass
+SE.CAED/10016819.Facility,Kalkproduktion Storugns AB,Sweden,18.80276,57.84205,SE21,SE,excl_biomass
+http://paikkatiedot.fi/so/1002031/pf/ProductionFacility/0100050963.ProductionFacility,"Metsä Board Oyj, Metsä Board Kaskinen Pulp Mill",Finland,21.24458,62.35491,FI19,FI,excl_biomass
+NO.EEA/0814.0017.01.FACILITY,"Inovyn Norge AS, klor/VCM fabrikken, Rafnes",Norway,9.58691,59.10155,NO09,NO,excl_biomass
+CY.CAED/0060500000.FACILITY,"VASSILIKO CEMENT WORKS PUBLIC COMPANY LTD, Vassilikos Plant",Cyprus,33.3164,34.7217,CY00,CY,excl_biomass
+http://paikkatiedot.fi/so/1002031/pf/ProductionFacility/0000001254.ProductionFacility,"Stora Enso Oyj, Imatran tehtaat",Finland,28.85848,61.24909,FI1C,FI,excl_biomass
+SE.CAED/10021163.Facility,Västerås kraftvärmeverk,Sweden,16.51352,59.58845,SE12,SE,excl_biomass
+CZ.MZP.E532/CZ66069097.FACILITY,Elektrárna Opatovice,Czechia,15.79189458,50.12707297,CZ05,CZ,excl_biomass
+https://registry.gdi-de.org/id/de.nw.inspire.pf.bube-eureg/arb-2017-978024-900-9103527,Remondis Production GmbH,Germany,7.46597,51.62248,DEA5,DE,excl_biomass
+SE.CAED/10024886.Facility,LKAB - Svappavaaragruvan Leveäniemi,Sweden,21.01035,67.63903,SE33,SE,excl_biomass
+http://paikkatiedot.fi/so/1002031/pf/ProductionFacility/0000001162.ProductionFacility,"Stora Enso Oyj, Heinolan Flutingtehdas",Finland,26.08156,61.17867,FI1C,FI,excl_biomass
+NL.RIVM/000042310.FACILITY,Cosun Beet Company-Dinteloord,Netherlands,4.43437,51.61818,NL41,NL,excl_biomass
+DE.EEA/17928.FACILITY,Zellstoff Stendal GmbH,Germany,11.9858983281428,52.6906182450519,DEE0,DE,excl_biomass
+http://paikkatiedot.fi/so/1002031/pf/ProductionFacility/0000001780.ProductionFacility,"Stora Enso Oulu Oy, Oulun tehdas, Oulu",Finland,25.43152,65.00547,FI1D,FI,excl_biomass
+SE.CAED/10014262.Facility,BRISTAVERKET,Sweden,17.86174,59.60967,SE11,SE,excl_biomass
+https://registry.gdi-de.org/id/de.hh/pf.bube-eureg_/7046,AVG Abfall-Verwertungs-Gesellschaft mbH SAV und CPA,Germany,10.07171,53.53157,DE60,DE,excl_biomass
+https://registry.gdi-de.org/id/de.nw.inspire.pf.bube-eureg/arb-2017-354012-300-9001747,MVA Weisweiler GmbH & Co. KG,Germany,6.31466,50.84083,DEA2,DE,excl_biomass
+UK.CAED/EW_EA-365.FACILITY,Cauldon Cement Plant,United Kingdom,-1.8746695,53.043603,UKG2,UK,excl_biomass
+CZ.MZP.B643/CZ49244053.FACILITY,závod Mokrá,Czechia,16.77406374,49.21546634,CZ06,CZ,excl_biomass
+https://registry.gdi-de.org/id/de.nw.inspire.pf.bube-eureg/arb-2017-315000-300-0214067,Orion Engineered Carbons GmbH Werk Kalscheuren,Germany,6.91846,50.8735,DEA2,DE,excl_biomass
+NL.RIVM/000042034.FACILITY,FrieslandCampina DMV B.V.,Netherlands,5.52509,51.61507,NL41,NL,excl_biomass
+CZ.MZP.B645/CZ68607441.FACILITY,"Elektrárny Poříčí, Hodonín, lokalita Hodonín",Czechia,17.1197165,48.84695965,CZ06,CZ,excl_biomass
+https://registry.gdi-de.org/id/de.by.inspire.pf.ied/S00018,Heizkraftwerk Altenstadt GmbH & Co. KG,Germany,10.859167191786426,47.79750761485306,DE21,DE,excl_biomass
+https://registry.gdi-de.org/id/de.nw.inspire.pf.bube-eureg/arb-2017-124000-100-0030723,WSW Energie & Wasser AG,Germany,7.120125897499348,51.248172531221,DEA1,DE,excl_biomass
+EE.KAUR.TTR/30.FACILITY,"Enefit Green AS, Iru elektrijaam",Estonia,24.9258289552,59.4519681701,EE00,EE,excl_biomass
+https://registry.gdi-de.org/id/de.bw.lubw.inspire.pf/pf-450-7024258-00000000,EEW MHKW Göppingen ,Germany,9.67149,48.68215,DE11,DE,excl_biomass
+https://registry.gdi-de.org/id/de.rp.inspire.pf.bube-eureg/1000729,Kandelium Barium Strontium GmbH & Co. KG,Germany,7.31615,50.51121,DEB1,DE,excl_biomass
+https://registry.gdi-de.org/id/de.bw.lubw.inspire.pf/pf-450-4664299-00000000,HeidelbergCement ,Germany,9.73471,48.36859,DE14,DE,excl_biomass
+SI.ARSO/000000017.FACILITY,Termoelektrarna Šoštanj,Slovenia,15.053442,46.372286,SI03,SI,excl_biomass
+MT.EEA/PS2.FACILITY,DELIMARA POWER STATION,Malta,14.5563789,35.8345631,MT00,MT,excl_biomass
+https://registry.gdi-de.org/id/de.nw.inspire.pf.bube-eureg/arb-2017-515000-500-0221194,Stadtwerke Münster GmbH,Germany,7.64051,51.95026,DEA3,DE,excl_biomass
+NO.EEA/0301.0263.01.FACILITY,Haraldrud energigjenvinningsanlegg,Norway,10.8271294,59.9295425,NO08,NO,excl_biomass
+http://paikkatiedot.fi/so/1002031/pf/ProductionFacility/0100203967.ProductionFacility,"Tuusulanjärven Lämpö Oy, Järvenpään voimalaitos",Finland,25.128,60.45549,FI1B,FI,excl_biomass
+http://paikkatiedot.fi/so/1002031/pf/ProductionFacility/0000001172.ProductionFacility,"Helen Oy, Hanasaari B -voimalaitos",Finland,24.97122,60.18363,FI1B,FI,excl_biomass
+CZ.MZP.Z724/CZ14837619.FACILITY,Teplárna Otrokovice,Czechia,17.52029028,49.20472665,CZ07,CZ,excl_biomass
+SE.CAED/10017848.Facility,"Västhamnsverket, (VHV)",Sweden,12.69391,56.03393,SE22,SE,excl_biomass
+http://paikkatiedot.fi/so/1002031/pf/ProductionFacility/0000002110.ProductionFacility,"Outokumpu Chrome Oy, Tornion tehtaat",Finland,24.19413,65.76894,FI1D,FI,excl_biomass
+NL.RIVM/000064335.FACILITY,DS Smith De Hoop B.V.,Netherlands,6.05477,52.09757,NL22,NL,excl_biomass
+SE.CAED/10017639.Facility,"Heleneholmsverket, (HVK)",Sweden,13.01159,55.57812,SE22,SE,excl_biomass
+NL.RIVM/000004301.FACILITY,Smurfit Westrock Roermond Paper BV,Netherlands,6.00251,51.20616,NL42,NL,excl_biomass
+http://paikkatiedot.fi/so/1002031/pf/ProductionFacility/0000001211.ProductionFacility,"Metsä Board Oyj, Metsä Board Kyro Board",Finland,23.18398,61.68074,FI19,FI,excl_biomass
+RO.CAED/108BV0001.FACILITY,SC ROMCIM SA punct de lucru Hoghiz,Romania,25.281858,45.951652,RO12,RO,excl_biomass
+BG.CAED/008000002.FACILITY,Cement company Zlatna Panega Ciment,Bulgaria,24.170937,43.088184,BG31,BG,excl_biomass
+https://registry.gdi-de.org/id/de.st.lau.pf.anlagen-ied-euregistry/100464,PreZero Energy Zorbau GmbH ,Germany,12.01945,51.18156,DEE0,DE,excl_biomass
+https://registry.gdi-de.org/id/de.by.inspire.pf.ied/S00968,MHKW Weißenhorn,Germany,10.133934335670649,48.29890951982563,DE27,DE,excl_biomass
+DK.CAED/000106482.FACILITY,CP Kelco ApS,Denmark,12.142718743083872,55.50938692394866,DK02,DK,excl_biomass
+https://registry.gdi-de.org/id/de.he.0945.de7.pf.eu_industrie/50002043,ZKW Otterbein Zementwerk ,Germany,9.50952,50.58452,DE73,DE,excl_biomass
+https://registry.gdi-de.org/id/de.by.inspire.pf.ied/S00242,Zementwerk Rohrdorf,Germany,12.181625734464664,47.79082077827796,DE21,DE,excl_biomass
+https://registry.gdi-de.org/id/de.by.inspire.pf.ied/S00552,Pfleiderer Neumarkt GmbH,Germany,11.451355059291622,49.26170873700737,DE23,DE,excl_biomass
+https://registry.gdi-de.org/id/de.hb/de.hb.pf.bube-eureg.06-04-11/2001178/8/6,swb Entsorgung GmbH & Co. KG,Germany,8.72721,53.12476,DE50,DE,excl_biomass
+NO.EEA/1149.0029.01.FACILITY,"Hydro Aluminium, Karmøy",Norway,5.312593,59.3149071,NO0A,NO,excl_biomass
+https://registry.gdi-de.org/id/de.by.inspire.pf.ied/S00035,Heizkraftwerk Rosenheim,Germany,12.134004538455208,47.856212485553655,DE21,DE,excl_biomass
+https://registry.gdi-de.org/id/de.rp.inspire.pf.bube-eureg/5001005,Palm Power GmbH & Co. KG,Germany,8.3038,49.06958,DEB3,DE,excl_biomass
+https://registry.gdi-de.org/id/de.ni.mu/06063351970,Statkraft Markets GmbH (Biomasseheizkraftwerk),Germany,9.1151,52.54585,DE92,DE,excl_biomass
+SE.CAED/10020098.Facility,Heidelberg Materials Cement Sverige AB,Sweden,13.82477,58.38436,SE23,SE,excl_biomass
+SE.CAED/10020389.Facility,Gruvöns bruk,Sweden,13.12153,59.33827,SE31,SE,excl_biomass
+http://paikkatiedot.fi/so/1002031/pf/ProductionFacility/0000063404.ProductionFacility,"Kaukaan Voima Oy, Energiantuotanto",Finland,28.25099,61.06663,FI1C,FI,excl_biomass
+CZ.MZP.E531/CZ27995052.FACILITY,"CEMEX Czech Republic, s.r.o.",Czechia,15.64044044,49.89545861,CZ05,CZ,excl_biomass
+https://registry.gdi-de.org/id/de.nw.inspire.pf.bube-eureg/arb-2017-513000-500-0342658,Uniper Kraftwerk Scholven,Germany,7.00482,51.59736,DEA3,DE,excl_biomass
+UK.CAED/NRW170003.FACILITY,Aberthaw Power Station,United Kingdom,-3.39504,51.39005,UKL2,UK,excl_biomass
+RO.CAED/101VL0001.FACILITY,SC CET GOVORA SA,Romania,24.289399,45.040894,RO41,RO,excl_biomass
+https://registry.gdi-de.org/id/de.th/5bf25e39-19d5-4254-adac-63f1b1cec499/77012924,Biomassekraftwerk Bischofferode/Holungen ,Germany,10.41297,51.49008,DEG0,DE,excl_biomass
+http://paikkatiedot.fi/so/1002031/pf/ProductionFacility/0100334781.ProductionFacility,"Metsä Fibre Oy, Kemin biotuotetehdas",Finland,24.52726,65.75829,FI1D,FI,excl_biomass
+CZ.MZP.U427/CZ50357131.FACILITY,"ENERGY Ústí nad Labem, a.s.",Czechia,14.0528497,50.65435275,CZ04,CZ,excl_biomass
+NL.RIVM/000000062.FACILITY,Chemelot Site Permit BV,Netherlands,5.79632,50.98059,NL42,NL,excl_biomass
+https://registry.gdi-de.org/id/de.bw.lubw.inspire.pf/pf-450-3192067-00000000,HeidelbergCement AG Zementwerk Leimen Zementwerk Leimen,Germany,8.68583,49.35766,DE12,DE,excl_biomass
+SE.CAED/10022356.Facility,"SCA Massa AB, Ortvikens massafabrik",Sweden,17.36212,62.39497,SE32,SE,excl_biomass
+http://paikkatiedot.fi/so/1002031/pf/ProductionFacility/0000001294.ProductionFacility,"UPM Communication Papers Oy, Jämsänkosken paperitehdas",Finland,25.16002,61.91536,FI19,FI,excl_biomass
+https://registry.gdi-de.org/id/de.by.inspire.pf.ied/S01026,Pfeifer Holz GmbH - Werk Unterbernbach,Germany,11.174460620502195,48.52839576697334,DE27,DE,excl_biomass
+SE.CAED/10023763.Facility,Dåva kraftvärmeverk,Sweden,20.41062,63.8685,SE33,SE,excl_biomass
+SE.CAED/10022299.Facility,"SCA Massa, Östrands massafabrik",Sweden,17.33031,62.47519,SE32,SE,excl_biomass
+SE.CAED/10017901.Facility,Höganäs Sweden AB,Sweden,12.54737,56.20871,SE22,SE,excl_biomass
+CZ.MZP.S204/CZ44305642.FACILITY,Elektrárna Kolín,Czechia,15.21014615,50.03035608,CZ02,CZ,excl_biomass
+SI.ARSO/000000019.FACILITY,HSE-Energetska družba Trbovlje,Slovenia,15.061139,46.125756,SI03,SI,excl_biomass
+SE.CAED/10015909.Facility,Värmeverket Södra Vakten,Sweden,14.97475,58.04109,SE21,SE,excl_biomass
+NL.RIVM/000054001.FACILITY,EPZ NV (Conventional Operations),Netherlands,3.716,51.43318,NL34,NL,excl_biomass
+EE.KAUR.TTR/75.FACILITY,"Enefit Power AS, Eesti elektrijaam",Estonia,27.9012302078,59.2743753804,EE00,EE,excl_biomass
+https://registry.gdi-de.org/id/de.nw.inspire.pf.bube-eureg/arb-2017-711000-700-0297171,MVA Bielefeld-Herford GmbH,Germany,8.60626,52.04257,DEA4,DE,excl_biomass
+http://paikkatiedot.fi/so/1002031/pf/ProductionFacility/0000002674.ProductionFacility,"Kumpuniemen Voima Oy, Voimalaitos",Finland,25.83929,62.57335,FI19,FI,excl_biomass
+https://registry.gdi-de.org/id/de.nw.inspire.pf.bube-eureg/arb-2017-962040-900-0174739,Rheinkalk GmbH,Germany,7.84168,51.3977,DEA5,DE,excl_biomass
+https://registry.gdi-de.org/id/de.bb.inspire.pf.eureg/16018080,EEW Energy from Waste Premnitz GmbH,Germany,12.35994,52.5275,DE40,DE,excl_biomass
+https://registry.gdi-de.org/id/de.by.inspire.pf.ied/S00233,HBB Heizkraftwerk Bauernfeind Betreibergesellschaft mbH,Germany,12.1183570779477,47.79596928009436,DE21,DE,excl_biomass
+http://paikkatiedot.fi/so/1002031/pf/ProductionFacility/0000003158.ProductionFacility,"Kuopion Energia Oy, Haapaniemen voimalaitos",Finland,27.67666,62.87962,FI1D,FI,excl_biomass
+NL.RIVM/000010689.FACILITY,Air Products Nederland BV (Botlek),Netherlands,4.25934,51.87894,NL33,NL,excl_biomass
+https://registry.gdi-de.org/id/de.nw.inspire.pf.bube-eureg/arb-2017-915000-900-9140178,Trianel Gaskraftwerk Hamm GmbH & Co. KG,Germany,7.92866,51.67329,DEA5,DE,excl_biomass
+https://registry.gdi-de.org/id/de.rp.inspire.pf.bube-eureg/4000095,Boehringer Ingelheim Pharma GmbH & Co. KG,Germany,8.0469,49.97489,DEB3,DE,excl_biomass
+https://registry.gdi-de.org/id/de.sl.inspire.pf/0050559-G,AG der Dillinger Hüttenwerke ,Germany,6.75414,49.35717,DEC0,DE,excl_biomass
+https://registry.gdi-de.org/id/de.nw.inspire.pf.bube-eureg/arb-2017-978024-900-9141660,Trianel Kohlekraftwerk Lünen GmbH & Co. KG,Germany,7.46524,51.61411,DEA5,DE,excl_biomass
+NO.EEA/0805.0003.01.FACILITY,RHI Normag AS,Norway,9.625256,59.1219063,NO09,NO,excl_biomass
+EE.KAUR.TTR/125.FACILITY,"Gren Tartu AS, Gren Anne tootmisüksus",Estonia,26.7903247445,58.3694670752,EE00,EE,excl_biomass
+https://registry.gdi-de.org/id/de.by.inspire.pf.ied/S00971,AVA Abfallverwertung Augsburg Kommunalunternehmen,Germany,10.933246141515742,48.40212645145267,DE27,DE,excl_biomass
+CZ.MZP.C316/CZ49165297.FACILITY, Teplárna Strakonice,Czechia,13.90696928,49.25536759,CZ03,CZ,excl_biomass
+https://registry.gdi-de.org/id/de.ni.mu/09261732970,KRONOS TITAN GmbH Werk Nordenham,Germany,8.54674,53.53068,DE94,DE,excl_biomass
+CZ.MZP.M715/CZ18806508.FACILITY,VÁPENKA VITOŠOV s.r.o.,Czechia,16.94784761,49.85958766,CZ07,CZ,excl_biomass
+CZ.MZP.T806/CZ61143631.FACILITY,Teplárna Vítkovice,Czechia,18.2732898194444,49.8160046388889,CZ08,CZ,excl_biomass
+SE.CAED/10014721.Facility,Kraftvärmeverket i Katrineholm,Sweden,16.18368,58.99896,SE12,SE,excl_biomass
+http://paikkatiedot.fi/so/1002031/pf/ProductionFacility/0000016248.ProductionFacility,"Kymin Voima Oy, Energiantuotanto",Finland,26.66629,60.90683,FI1C,FI,excl_biomass
+https://registry.gdi-de.org/id/de.sl.inspire.pf/0101000-G,Kraftwerk Fenne ,Germany,6.879,49.24913,DEC0,DE,excl_biomass
+NO.EEA/192295.FACILITY,Wacker Chemicals Norway,Norway,9.143573,63.3178329,NO06,NO,excl_biomass
+SE.CAED/10014449.Facility,"Boländeranläggningarna, Kraftvärmeverket o Bolandv",Sweden,17.67576,59.85219,SE12,SE,excl_biomass
+SE.CAED/10021702.Facility,Västermalmsverket,Sweden,15.61128,60.6078,SE31,SE,excl_biomass
+https://registry.gdi-de.org/id/de.nw.inspire.pf.bube-eureg/arb-2017-362024-800-0197054,RWE Power AG-Fabrik Frechen,Germany,6.7991,50.89921,DEA2,DE,excl_biomass
+SE.CAED/10019709.Facility,Lillesjö Avfallskraftvärmeverk,Sweden,11.9835,58.37412,SE23,SE,excl_biomass
+CZ.MZP.K413/CZ67078452.FACILITY,Synthomer a.s.,Czechia,12.66782347,50.18125435,CZ04,CZ,excl_biomass
+http://paikkatiedot.fi/so/1002031/pf/ProductionFacility/0000001262.ProductionFacility,"Savon Voima Oyj, Joensuun voimalaitos",Finland,29.83795,62.59351,FI1D,FI,excl_biomass
+SE.CAED/10018827.Facility,"Perstorp Oxo AB, Stenungsund",Sweden,11.85685,58.09578,SE23,SE,excl_biomass
+https://registry.gdi-de.org/id/de.nw.inspire.pf.bube-eureg/arb-2017-774032-700-0038968,Heidelberg Materials AG Zementwerk Paderborn,Germany,8.74405,51.6989,DEA4,DE,excl_biomass
+https://registry.gdi-de.org/id/de.sl.inspire.pf/0107401-G,GKW -Gichtgaskraftwerk Dillingen GmbH & Co. KG ,Germany,6.74167,49.35459,DEC0,DE,excl_biomass
+NL.RIVM/000052612.FACILITY,Cargill Benelux BV,Netherlands,3.8026,51.23582,NL34,NL,excl_biomass
+SE.CAED/10019583.Facility,Riskullaverket,Sweden,11.99908,57.6401,SE23,SE,excl_biomass
+CZ.MZP.T803/CZ31406387.FACILITY,Teplárna Československé armády,Czechia,18.49604454,49.84425687,CZ08,CZ,excl_biomass
+SE.CAED/10019441.Facility,Sävenäs Kraftvärmeverk,Sweden,12.03552,57.73024,SE23,SE,excl_biomass
+CZ.MZP.T806/CZ95150686.FACILITY,Liberty Ostrava a.s.,Czechia,18.30577783,49.7958697,CZ08,CZ,excl_biomass
+https://registry.gdi-de.org/id/de.hh/pf.bube-eureg_/12562,VERA Klärschlammverbrennung ,Germany,9.94293,53.5345,DE60,DE,excl_biomass
+https://registry.gdi-de.org/id/de.nw.inspire.pf.bube-eureg/arb-2017-112000-100-0365906,STEAG Power GmbH,Germany,6.71962,51.526,DEA1,DE,excl_biomass
+https://registry.gdi-de.org/id/de.by.inspire.pf.ied/S00719,"N-ERGIE Kraftwerke GmbH, Heizkraftwerke Sandreuth",Germany,11.06078956372636,49.43875040858933,DE25,DE,excl_biomass
+NL.EEA/48084.FACILITY,Ennatuurlijk; WKC Eindhoven,Netherlands,5.45407,51.44927,NL41,NL,excl_biomass
+CZ.MZP.P323/CZ56736663.FACILITY,"Plzeňská teplárenská, a.s. - areál Teplárna",Czechia,13.39895888,49.75448223,CZ03,CZ,excl_biomass
+CZ.MZP.B643/CZ23625775.FACILITY,závod Mokrá,Czechia,16.77168227,49.21641099,CZ06,CZ,excl_biomass
+CZ.MZP.H525/CZ18989196.FACILITY,"Elektrárny Poříčí, Hodonín, Lokalita Poříčí, provoz Elektrárna Poříčí",Czechia,15.9634282,50.57239738,CZ05,CZ,excl_biomass
+http://paikkatiedot.fi/so/1002031/pf/ProductionFacility/0000002300.ProductionFacility,"Lahti Energia Oy, Kymijärven voimalaitoskokonaisuus, Lahti",Finland,25.72008,60.99101,FI1C,FI,excl_biomass
+NL.RIVM/000202990.FACILITY,Alco Energy Rotterdam,Netherlands,4.18356,51.92637,NL33,NL,excl_biomass
+https://registry.gdi-de.org/id/de.rp.inspire.pf.bube-eureg/5000164,Dyckerhoff GmbH,Germany,8.03701,49.60203,DEB3,DE,excl_biomass
+NL.RIVM/000011024.FACILITY,Cabot B.V.,Netherlands,4.26431,51.89142,NL33,NL,excl_biomass
+NL.RIVM/000049006.FACILITY,WKC Moerdijk,Netherlands,4.58078,51.6849,NL41,NL,excl_biomass
+FI.EEA/2683.FACILITY,"Stora Enso Oyj, Veitsiluodon voimalaitos",Finland,24.6243,65.6887,FI1D,FI,excl_biomass
+DK.CAED/000199288.FACILITY,Kredsløb Halmenergi A/S,Denmark,10.157105017075976,56.22760187938795,DK04,DK,excl_biomass
+NO.EEA/192328.FACILITY,Elkem Thamshavn,Norway,9.894434,63.32585,NO06,NO,excl_biomass
+http://paikkatiedot.fi/so/1002031/pf/ProductionFacility/0100198358.ProductionFacility,"Keravan Lämpövoima Oy, Keravan voimalaitos",Finland,25.11473,60.36898,FI1B,FI,excl_biomass
+https://registry.gdi-de.org/id/de.bb.inspire.pf.eureg/23021047,IKW Rüdersdorf GmbH,Germany,13.83079,52.49065,DE40,DE,excl_biomass
+NL.EEA/4001.FACILITY,Clauscentrale,Netherlands,5.90718,51.15446,NL42,NL,excl_biomass
+UK.CAED/EW_EA-559.FACILITY,Bury St Edmunds Sugar Factory EPR/BX2094IJ,United Kingdom,0.72693145,52.253717,UKH1,UK,excl_biomass
+NL.RIVM/000204851.FACILITY,Air Products HyCO 4 (Botlekweg),Netherlands,4.28743,51.87,NL33,NL,excl_biomass
+http://paikkatiedot.fi/so/1002031/pf/ProductionFacility/0000001560.ProductionFacility,"UPM-Kymmene Oyj, Kymi",Finland,26.66421,60.91123,FI1C,FI,excl_biomass
+https://registry.gdi-de.org/id/de.nw.inspire.pf.bube-eureg/arb-2017-316000-300-1114955,Kronos Titan GmbH,Germany,6.98519,51.02554,DEA2,DE,excl_biomass
+http://paikkatiedot.fi/so/1002031/pf/ProductionFacility/0000001349.ProductionFacility,"Stora Enso Veitsiluoto Oy, Puunjalostusteollisuus",Finland,24.62165,65.69358,FI1D,FI,excl_biomass
+https://registry.gdi-de.org/id/de.by.inspire.pf.ied/S00857,Müllheizkraftwerk Würzburg,Germany,9.994592637697522,49.79268123123012,DE26,DE,excl_biomass
+CZ.MZP.B642/CZ82167741.FACILITY,"Teplárny Brno a.s., Provoz Brno - sever",Czechia,16.6469608,49.22308058,CZ06,CZ,excl_biomass
+SE.CAED/10014057.Facility,HAMMARBYVERKET,Sweden,18.09073,59.3036,SE11,SE,excl_biomass
+CZ.MZP.U422/CZ88427918.FACILITY,"ACTHERM, spol. s r.o., odštěpný závod Chomutov",Czechia,13.4273983194444,50.4621832111111,CZ04,CZ,excl_biomass
+NL.RIVM/000041003.FACILITY,Shell Nederland Chemie BV (Moerdijk),Netherlands,4.56212,51.68786,NL41,NL,excl_biomass
+CZ.MZP.S206/CZ41646031.FACILITY,Rafinérie Kralupy nad Vltavou,Czechia,14.32869175,50.25840943,CZ02,CZ,excl_biomass
+SE.CAED/10022087.Facility,Johannes Kraftvärmeverk,Sweden,17.13577,60.6347,SE31,SE,excl_biomass
+CZ.MZP.J632/CZ13996896.FACILITY,KRONOSPAN CR,Czechia,15.60364155,49.42393788,CZ06,CZ,excl_biomass
+https://registry.gdi-de.org/id/de.bb.inspire.pf.eureg/23024102,ArcelorMittal Eisenhüttenstadt GmbH ,Germany,14.61768,52.16614,DE40,DE,excl_biomass
+SE.CAED/10016446.Facility,"CEMENTA, Degerhamn",Sweden,16.40859,56.35328,SE21,SE,excl_biomass
+SE.CAED/10014156.Facility,SOLNAVERKET,Sweden,17.97267,59.35201,SE11,SE,excl_biomass
+SE.CAED/10022357.Facility,Kubikenborg Aluminium AB (Kubal),Sweden,17.36375,62.37568,SE32,SE,excl_biomass
+https://registry.gdi-de.org/id/de.nw.inspire.pf.bube-eureg/arb-2017-916000-900-0327252,STEAG Power GmbH HKW Herne,Germany,7.18746,51.55074,DEA5,DE,excl_biomass
+BG.CAED/010000049.FACILITY,Amilum BG EAD,Bulgaria,26.5279,43.5692,BG32,BG,excl_biomass
+https://registry.gdi-de.org/id/de.nw.inspire.pf.bube-eureg/arb-2017-158036-100-0238246,Rheinkalk GmbH,Germany,7.00751,51.28931,DEA1,DE,excl_biomass
+NL.RIVM/000011366.FACILITY,LANXESS Rotterdam Botlek,Netherlands,4.26066,51.88617,NL33,NL,excl_biomass
+CZ.MZP.T806/CZ01171445.FACILITY,Provoz 46 - Teplárna,Czechia,18.31420993,49.79442884,CZ08,CZ,excl_biomass
+NL.EEA/64735.FACILITY,AGC Flatglass Nederland BV,Netherlands,5.44407,51.91135,NL22,NL,excl_biomass
+SE.CAED/10015061.Facility,Lantmännen Biorefineries AB,Sweden,16.22923,58.61405,SE12,SE,excl_biomass
+https://registry.gdi-de.org/id/de.st.lau.pf.anlagen-ied-euregistry/100486,Schwenk Zement GmbH & Co. KG Bernburg ,Germany,11.75633,51.81275,DEE0,DE,excl_biomass
+https://registry.gdi-de.org/id/de.sn.sax4inspire.pf/70015867,Kronospan GmbH Lampertswalde ,Germany,13.66308,51.30586,DED2,DE,excl_biomass
+UK.CAED/EW_EA-6933.FACILITY,Tunstead Cement and Lime Works,United Kingdom,-1.8571937,53.276846,UKF1,UK,excl_biomass
+http://paikkatiedot.fi/so/1002031/pf/ProductionFacility/0000001919.ProductionFacility,"Metsä Fibre Oy, Rauman tehdas",Finland,21.46621,61.1107,FI19,FI,excl_biomass
+CZ.MZP.B642/CZ86471652.FACILITY,"SAKO Brno, a.s. - divize 3 ZEVO",Czechia,16.6670154,49.19038303,CZ06,CZ,excl_biomass
+UK.CAED/EW_EA-16635.FACILITY,Melton Ross Lime Works EPR/BL8805IZ,United Kingdom,-0.37976187,53.587303,UKE1,UK,excl_biomass
+DK.CAED/000105139.FACILITY,"BIOFOS A/S, Renseanlæg Lynetten",Denmark,12.615072817345112,55.69498247820931,DK01,DK,excl_biomass
+EE.KAUR.TTR/156.FACILITY,"Gren Eesti AS, Pärnu koostootmisjaam",Estonia,24.5440619332,58.3991567504,EE00,EE,excl_biomass
+CZ.MZP.E532/CZ11020488.FACILITY,HS Pardubice,Czechia,15.74508121,50.03146588,CZ05,CZ,excl_biomass
+NL.RIVM/000010953.FACILITY,Uniper Centrale Den Haag,Netherlands,4.29057,52.07592,NL33,NL,excl_biomass
+UK.CAED/EW_EA-16899.FACILITY,Ardley EfW Plant EPR/FP3134GU,United Kingdom,-1.215424,51.932956,UKJ1,UK,excl_biomass
+https://registry.gdi-de.org/id/de.by.inspire.pf.ied/S00041,SWM Heizkraftwerk Nord,Germany,11.639799553913267,48.18119974964636,DE21,DE,excl_biomass
+https://registry.gdi-de.org/id/de.he.0945.de7.pf.eu_industrie/30001052,EVO - MHKW Offenbach ,Germany,8.76893,50.06489,DE71,DE,excl_biomass
+https://registry.gdi-de.org/id/de.nw.inspire.pf.bube-eureg/arb-2017-570008-500-0050929,Phoenix Zementwerke Krogbeumker GmbH & Co. KG,Germany,8.07317,51.76025,DEA3,DE,excl_biomass
+https://registry.gdi-de.org/id/de.bw.lubw.inspire.pf/pf-450-2719371-00000000,MIRO-Mineralölraffinerie Oberrhein GmbH & Co.KG Werk 1,Germany,8.32905,49.05779,DE12,DE,excl_biomass
+https://registry.gdi-de.org/id/de.rp.inspire.pf.bube-eureg/2000208,OIE AG,Germany,7.17141,49.6035,DEB1,DE,excl_biomass
+NL.RIVM/000019070.FACILITY,Indorama Ventures Europe BV,Netherlands,4.09801,51.96093,NL33,NL,excl_biomass
+DE.EEA/06-08-4864565.FACILITY,Arctic Paper Mochenwangen GmbH,Germany,9.64400412778314,47.8821720837836,DE14,DE,excl_biomass
+SE.CAED/10020499.Facility,Bäckhammars Bruk,Sweden,14.18117,59.16017,SE31,SE,excl_biomass
+EE.KAUR.TTR/93.FACILITY,"Skano Fibreboard OÜ, Pärnu ehitusmaterjalide divisjon",Estonia,24.528791323,58.3879436303,EE00,EE,excl_biomass
+https://registry.gdi-de.org/id/de.rp.inspire.pf.bube-eureg/3000130,Wotan Zement GmbH & Co. KG,Germany,6.76683,50.33399,DEB2,DE,excl_biomass
+NO.EEA/0106.0048.01.FACILITY,FREVAR - Forbrenningsanlegget,Norway,10.9671888,59.18537,NO08,NO,excl_biomass
+NL.RIVM/000024302.FACILITY,Crown van Gelder International B.V.,Netherlands,4.63896,52.46697,NL32,NL,excl_biomass
+UK.SEPA/200000176.Facility,Caledonian Paper Mill,United Kingdom,-4.63957,55.57964,UKM9,UK,excl_biomass
+https://registry.gdi-de.org/id/de.nw.inspire.pf.bube-eureg/arb-2017-978024-900-0884101,Steag GmbH KW Lünen,Germany,7.478144055187683,51.61599067558871,DEA5,DE,excl_biomass
+https://registry.gdi-de.org/id/de.nw.inspire.pf.bube-eureg/arb-2017-170044-100-0382786,TRIMET Aluminium SE Niederlassung Voerde,Germany,6.61541,51.62554,DEA1,DE,excl_biomass
+https://registry.gdi-de.org/id/de.mv.land.inspire.pf.bube/30000226,KNG Kraftwerks- und Netzgesellschaft mbH Kraftwerk Rostock ,Germany,12.13294,54.14281,DE80,DE,excl_biomass
+https://registry.gdi-de.org/id/de.sh/50080603,SWN Stadtwerke Neumünster GmbH ,Germany,9.99102,54.08296,DEF0,DE,excl_biomass
+http://paikkatiedot.fi/so/1002031/pf/ProductionFacility/0000001784.ProductionFacility,"Oulun Energia Oy, Toppilan voimalaitokset",Finland,25.43516,65.03762,FI1D,FI,excl_biomass
+NL.RIVM/000203505.FACILITY,EP NL Rijnmond 2 B.V.,Netherlands,4.35213,51.88984,NL33,NL,excl_biomass
+https://registry.gdi-de.org/id/de.bw.lubw.inspire.pf/pf-450-8683034-00000000,RBB RMHKW Böblingen ,Germany,9.06186,48.69329,DE11,DE,excl_biomass
+SE.CAED/10014500.Facility,"HPC Simpan och Ena Kraft, kraftvärmeverket",Sweden,17.07766,59.62796,SE12,SE,excl_biomass
+https://registry.gdi-de.org/id/de.nw.inspire.pf.bube-eureg/arb-2017-916000-900-0163177,INEOS Solvents Germany GmbH - Werk Herne -,Germany,7.21432,51.53418,DEA5,DE,excl_biomass
+UK.CAED/EW_EA-3048.FACILITY,West Burton Power Station EPR/SP3935LW,United Kingdom,-0.81153637,53.360724,UKF1,UK,excl_biomass
+DK.CAED/000106222.FACILITY,Ørsted Skærbækværket,Denmark,9.618162284288424,55.51252632531211,DK03,DK,excl_biomass
+CZ.MZP.S20B/CZ84413131.FACILITY,CZT,Czechia,13.995878055,49.697813333,CZ02,CZ,excl_biomass
+https://registry.gdi-de.org/id/de.bw.lubw.inspire.pf/pf-450-1926772-00000000,SCHWENK Zement GmbH & Co. KG ,Germany,10.16248,48.65368,DE11,DE,excl_biomass
+IE.CAED/P0378.FACILITY,Mannok Cement Limited,Ireland,-7.579216,54.131276,IE04,IE,excl_biomass
+UK.CAED/EW_EA-2531.FACILITY,Spalding Power Station EPR/BK0701IW,United Kingdom,-0.1321921,52.807839,UKF3,UK,excl_biomass
+https://registry.gdi-de.org/id/de.nw.inspire.pf.bube-eureg/arb-2017-914000-900-0189517,Hagener Umweltservice- und Investitionsgesellschaft mbH (HUI GmbH),Germany,7.47067,51.3776,DEA5,DE,excl_biomass
+NL.RIVM/000101103.FACILITY,BioMCN B.V.,Netherlands,6.96243,53.31375,NL11,NL,excl_biomass
+CZ.MZP.T806/CZ72662053.FACILITY,"VÍTKOVICE STEEL, a. s.",Czechia,18.25685166,49.81623067,CZ08,CZ,excl_biomass
+https://registry.gdi-de.org/id/de.sh/10030084,Steinbeis Energie GmbH ,Germany,9.426,53.78149,DEF0,DE,excl_biomass
+SE.CAED/10021742.Facility,SSAB EMEA AB,Sweden,15.4512,60.4906,SE31,SE,excl_biomass
+https://registry.gdi-de.org/id/de.nw.inspire.pf.bube-eureg/arb-2017-362008-800-0197043,RWE Power AG-Fabrik Fortuna Nord,Germany,6.65805,50.98695,DEA2,DE,excl_biomass
+NO.EEA/1135.0001.01.FACILITY,"ERAMET NORWAY AS, Sauda",Norway,6.360833,59.646965,NO0A,NO,excl_biomass
+DE.EEA/06-05-800-0203946.FACILITY,RWE Power AG Kraftwerk Goldenberg,Germany,6.84341740216134,50.8609945450991,DEA2,DE,excl_biomass
+CZ.MZP.T805/CZ93379263.FACILITY,"Moravskoslezské cukrovary s.r.o., o.z. Opava",Czechia,17.86922797,49.95909306,CZ08,CZ,excl_biomass
+https://registry.gdi-de.org/id/de.nw.inspire.pf.bube-eureg/arb-2017-316000-300-9046797,CURRENTA GmbH & Co. OHG,Germany,6.9859,51.02221,DEA2,DE,excl_biomass
+https://registry.gdi-de.org/id/de.rp.inspire.pf.bube-eureg/5000299,GML - Gemeinschafts-Müllheizkraftwerk Ludwigshafen GmbH,Germany,8.42636,49.48468,DEB3,DE,excl_biomass
+CZ.MZP.A100/CZ26416675.FACILITY,Spalovna Malešice,Czechia,14.54113899,50.07892459,CZ01,CZ,excl_biomass
+https://registry.gdi-de.org/id/de.by.inspire.pf.ied/S00600,"Heidelberg Materials AG, Zementwerk Burglengenfeld",Germany,12.028282784446738,49.21282917234831,DE23,DE,excl_biomass
+UK.CAED/EW_EA-1562.FACILITY,Fiddlers Ferry Power Station EPR/BS8192IV,United Kingdom,-2.6883565,53.373371,UKD6,UK,excl_biomass
+https://registry.gdi-de.org/id/de.be.pf.lisa/760,BSR / MHKW ,Germany,13.23792,52.52904,DE30,DE,excl_biomass
+CZ.MZP.T806/CZ78824241.FACILITY,Koksovna Svoboda,Czechia,18.27581868,49.85923962,CZ08,CZ,excl_biomass
+UK.SEPA/200000015.Facility,"Pulp and Board Plant, Cowie",United Kingdom,-3.86979,56.07711,UKM7,UK,excl_biomass
+https://registry.gdi-de.org/id/de.nw.inspire.pf.bube-eureg/arb-2017-566040-500-0106867,Dyckerhoff GmbH,Germany,7.88783,52.17499,DEA3,DE,excl_biomass
+NL.EEA/24007.FACILITY,Nuon Power Generation BV Purmerend WKC,Netherlands,4.99503,52.51593,NL32,NL,excl_biomass
+NO.EEA/1424.0003.01.FACILITY,"Hydro Aluminium, Årdal Karbon",Norway,7.709004,61.23639,NO0A,NO,excl_biomass
+https://registry.gdi-de.org/id/de.nw.inspire.pf.bube-eureg/arb-2017-112000-100-0388700,DK Recycling und Roheisen GmbH,Germany,6.74199,51.42228,DEA1,DE,excl_biomass
+https://registry.gdi-de.org/id/de.st.lau.pf.anlagen-ied-euregistry/100125,Saale Energie GmbH ,Germany,11.9504,51.39846,DEE0,DE,excl_biomass
+https://registry.gdi-de.org/id/de.hh/pf.bube-eureg_/6856,MVR Müllverwertung Rugenberger Damm GmbH ,Germany,9.93473,53.52117,DE60,DE,excl_biomass
+RO.CAED/105CT0001.FACILITY,ROMCIM SA - PUNCT DE LUCRU MEDGIDIA,Romania,28.307913,44.241846,RO22,RO,excl_biomass
+https://registry.gdi-de.org/id/de.nw.inspire.pf.bube-eureg/arb-2017-978004-900-0205103,STEAG Power GmbH Kraftwerk Bergkamen,Germany,7.61913,51.63717,DEA5,DE,excl_biomass
+CY.CAED/0020020000.FACILITY,"Electricity Authority of Cyprus, Dhekelia Power Station",Cyprus,33.7462,34.9801,CY00,CY,excl_biomass
+NL.RIVM/000201241.FACILITY,EMMTEC Services BV,Netherlands,6.90699,52.77499,NL13,NL,excl_biomass
+EE.KAUR.TTR/213.FACILITY,"Utilitas Tallinna Elektrijaam OÜ, Väo Reservkatlamaja CHP",Estonia,24.9053950825,59.4373788831,EE00,EE,excl_biomass
+UK.CAED/EW_EA-122.FACILITY,Lynemouth Power Station,United Kingdom,-1.5390161,55.20069,UKC2,UK,excl_biomass
+FI.EEA/16212.FACILITY,"Vamy Oy, Myllykosken voimalaitos",Finland,26.774177,60.769068,FI1C,FI,excl_biomass
+http://paikkatiedot.fi/so/1002031/pf/ProductionFacility/0000013337.ProductionFacility,"Nevel Oy, Salon voimalaitos",Finland,23.11114,60.37144,FI1C,FI,excl_biomass
+NL.RIVM/000010951.FACILITY,Uniper Centrale Leiden,Netherlands,4.49404,52.16399,NL33,NL,excl_biomass
+DK.CAED/000105551.FACILITY,I/S Norfors,Denmark,12.492612283553996,55.90108898168228,DK01,DK,excl_biomass
+CZ.MZP.M714/CZ45503087.FACILITY,PRECHEZA a.s.,Czechia,17.43183152,49.44981568,CZ07,CZ,excl_biomass
+https://registry.gdi-de.org/id/de.ni.mu/07244141350,Sappi Alfeld GmbH ,Germany,9.82076,51.98596,DE92,DE,excl_biomass
+https://registry.gdi-de.org/id/de.bw.lubw.inspire.pf/pf-450-4650956-00000000,Schwenk Zement ,Germany,9.7305,48.33197,DE14,DE,excl_biomass
+CZ.MZP.S206/CZ0030745E.FACILITY,SYNTHOS Kralupy a.s.,Czechia,14.330154166666,50.254298333333,CZ02,CZ,excl_biomass
+https://registry.gdi-de.org/id/de.bb.inspire.pf.eureg/45025564,"LEAG, Kraftwerk Jänschwalde",Germany,14.45799,51.8336,DE40,DE,excl_biomass
+http://paikkatiedot.fi/so/1002031/pf/ProductionFacility/0000001431.ProductionFacility,"PVO-Lämpövoima Oy, Kristiinan voimalaitos",Finland,21.3254,62.25581,FI19,FI,excl_biomass
+https://registry.gdi-de.org/id/de.nw.inspire.pf.bube-eureg/arb-2017-162024-100-0082185,Speira GmbH,Germany,6.7806,51.15188,DEA1,DE,excl_biomass
+NO.EEA/1263.0002.01.FACILITY,Equinor avd. Mongstad raffineri,Norway,5.033256,60.8149376,NO0A,NO,excl_biomass
+NO.EEA/1438.0002.01.FACILITY,Elkem Bremanger,Norway,5.29649,61.77319,NO0A,NO,excl_biomass
+CZ.MZP.U423/CZ14819275.FACILITY,energetika,Czechia,14.3803701,50.4622963388889,CZ04,CZ,excl_biomass
+SE.CAED/10019386.Facility,Sävenäs,Sweden,12.05243,57.73201,SE23,SE,excl_biomass
+NL.EEA/44005.FACILITY,Essent Energie Productie BV (Dongecentrale),Netherlands,4.84757,51.69508,NL41,NL,excl_biomass
+CZ.MZP.T801/CZ73899995.FACILITY,Teplárna Krnov,Czechia,17.69186692,50.08738608,CZ08,CZ,excl_biomass
+http://paikkatiedot.fi/so/1002031/pf/ProductionFacility/0100304897.ProductionFacility,"Oulun Energia Oy, Laanilan Biovoimalaitos",Finland,25.51528,65.03573,FI1D,FI,excl_biomass
+NL.EEA/114002.FACILITY,Nuon Power Generation BV (HWC Hogering),Netherlands,5.21568,52.38831,NL23,NL,excl_biomass
+https://registry.gdi-de.org/id/de.bw.lubw.inspire.pf/pf-450-3265552-00000000,OPTERRA Wössingen GmbH Werk Wössingen ,Germany,8.61446,49.01703,DE12,DE,excl_biomass
+NO.EEA/1931.0020.01.FACILITY,Finnfjord,Norway,18.0821819,69.2225952,NO07,NO,excl_biomass
+UK.CAED/EW_EA-1608.FACILITY,Whitwell Works,United Kingdom,-1.1986549,53.270735,UKF1,UK,excl_biomass
+http://paikkatiedot.fi/so/1002031/pf/ProductionFacility/0000001600.ProductionFacility,"Lappeenrannan Lämpövoima Oy, Mertaniemen voimalaitos",Finland,28.1712,61.08038,FI1C,FI,excl_biomass
+UK.CAED/NRW170377.FACILITY,Uskmouth Power Plant,United Kingdom,-2.97486,51.54814,UKL2,UK,excl_biomass
+https://registry.gdi-de.org/id/de.by.inspire.pf.ied/S00839,Solnhofer Portland-Zementwerke GmbH & Co. KG,Germany,10.997724552321378,48.88491198532347,DE25,DE,excl_biomass
+SE.CAED/10024478.Facility,Boliden Mineral AB - Aitikgruv,Sweden,20.96005,67.07162,SE33,SE,excl_biomass
+https://registry.gdi-de.org/id/de.st.lau.pf.anlagen-ied-euregistry/100276,Mercer Stendal GmbH ,Germany,12.00586,52.72827,DEE0,DE,excl_biomass
+https://registry.gdi-de.org/id/de.nw.inspire.pf.bube-eureg/arb-2017-958012-900-0235121,Egger Holzwerkstoffe Brilon GmbH & Co. KG,Germany,8.59807,51.40669,DEA5,DE,excl_biomass
+NL.RIVM/000012177.FACILITY,VPR Energy B.V.,Netherlands,4.21727,51.91026,NL33,NL,excl_biomass
+DK.CAED/000104665.FACILITY,"Ørsted Bioenergy & Thermal Power A/S, Studstrupvær",Denmark,10.34353597045722,56.25139187561966,DK04,DK,excl_biomass
+SE.CAED/10014983.Facility,Kraftvärmeverket i Linköping,Sweden,15.62498,58.41941,SE12,SE,excl_biomass
+https://registry.gdi-de.org/id/de.nw.inspire.pf.bube-eureg/arb-2017-113000-100-0866675,Verallia Deutschland AG,Germany,6.99564,51.53004,DEA1,DE,excl_biomass
+NL.RIVM/000023301.FACILITY,Tata Steel IJmuiden BV,Netherlands,4.59217,52.47656,NL32,NL,excl_biomass
+UK.CAED/EW_EA-18706.FACILITY,Beddington Energy Recovery Facility EPR/TP3836CT,United Kingdom,-0.146744,51.38594,UKI6,UK,excl_biomass
+SE.CAED/10017644.Facility,"Öresundsverket, (ÖVT) - kraftvärme",Sweden,13.03997,55.62603,SE22,SE,excl_biomass
+https://registry.gdi-de.org/id/de.nw.inspire.pf.bube-eureg/arb-2017-914000-900-0071172,thyssenkrupp Hohenlimburg GmbH Warmwalzwerk,Germany,7.59202,51.3457,DEA5,DE,excl_biomass
+https://registry.gdi-de.org/id/de.be.pf.lisa/173145,BEW HKW Moabit ,Germany,13.34494,52.53741,DE30,DE,excl_biomass
+SE.CAED/10022115.Facility,Bomhus Energi,Sweden,17.2693,60.6839,SE31,SE,excl_biomass
+NL.RIVM/000102302.FACILITY,Cosun Beet Company-Vierverlaten,Netherlands,6.49511,53.21379,NL11,NL,excl_biomass
+NL.RIVM/000024000.FACILITY,Vattenfall Power Generation B.V. (Hemweg),Netherlands,4.8471,52.40531,NL32,NL,excl_biomass
+UK.CAED/EW_EA-564.FACILITY,Newark Sugar Factory EPR/BK9385IH,United Kingdom,-0.81741601,53.088135,UKF1,UK,excl_biomass
+DK.CAED/000082948.FACILITY,Ørsted Asnæsværket,Denmark,11.079610019681116,55.659724727218695,DK02,DK,excl_biomass
+UK.SEPA/200000014.Facility,Cameronbridge Distillery,United Kingdom,-3.05514,56.18891,UKM7,UK,excl_biomass
+DK.CAED/000104657.FACILITY,Herningværket,Denmark,9.006448600427822,56.12173431518647,DK04,DK,excl_biomass
+CZ.MZP.T804/CZ32201987.FACILITY,"KOMTERM Morava, s. r. o.",Czechia,18.1333646194444,49.5833249694444,CZ08,CZ,excl_biomass
+https://registry.gdi-de.org/id/de.nw.inspire.pf.bube-eureg/arb-2017-112000-100-0031758,Stadtwerke Duisburg AG,Germany,6.75076,51.42908,DEA1,DE,excl_biomass
+CZ.MZP.S206/CZ91501864.FACILITY,SYNTHOS Kralupy a.s.,Czechia,14.32785848,50.25952056,CZ02,CZ,excl_biomass
+UK.SEPA/200000034.Facility,Longannet Power Station,United Kingdom,-3.68255,56.04996,UKM7,UK,excl_biomass
+RO.CAED/104AG0001.FACILITY,SC HOLCIM ROMANIA SA,Romania,25.1110277,45.2901138,RO31,RO,excl_biomass
+https://registry.gdi-de.org/id/de.he.0945.de7.pf.eu_industrie/30001045,Uniper Kraftwerk Staudinger ,Germany,8.95345,50.08768,DE71,DE,excl_biomass
+NL.RIVM/000010004.FACILITY,Lyondell Chemical Nederland Ltd.,Netherlands,4.25308,51.88297,NL33,NL,excl_biomass
+https://registry.gdi-de.org/id/de.nw.inspire.pf.bube-eureg/arb-2017-915000-900-0079017,RWE Generation SE Kraftwerk Westfalen,Germany,7.96992,51.68261,DEA5,DE,excl_biomass
+NL.EEA/202219.FACILITY,Air Products Nederland BV (Europoort),Netherlands,4.09357,51.95975,NL33,NL,excl_biomass
+https://registry.gdi-de.org/id/de.sl.inspire.pf/0079761-G,NEUE HALBERG-GUSS GmbH,Germany,7.035872844391871,49.21041702843621,DEC0,DE,excl_biomass
+SE.CAED/10015070.Facility,Fiskeby bruk,Sweden,16.1147,58.59262,SE12,SE,excl_biomass
+https://registry.gdi-de.org/id/de.nw.inspire.pf.bube-eureg/arb-2017-513000-500-0073211,Ruhr Oel GmbH Werk Horst,Germany,7.0372,51.53961,DEA3,DE,excl_biomass
+https://registry.gdi-de.org/id/de.nw.inspire.pf.bube-eureg/arb-2017-513000-500-0053929,Ruhr Oel GmbH Werk Scholven,Germany,7.02891,51.59603,DEA3,DE,excl_biomass
+https://registry.gdi-de.org/id/de.bb.inspire.pf.eureg/23020947,CEMEX Zement GmbH,Germany,13.83693,52.48907,DE40,DE,excl_biomass
+CZ.MZP.A100/CZ83095419.FACILITY,Teplárna Malešice PT a.s.,Czechia,14.52542389,50.08482011,CZ01,CZ,excl_biomass
+https://registry.gdi-de.org/id/de.nw.inspire.pf.bube-eureg/arb-2017-512000-500-1185268,ArcelorMittal Bremen GmbH Kokerei Prosper,Germany,6.97077,51.52128,DEA3,DE,excl_biomass
+UK.CAED/EW_EA-2764.FACILITY,Tyseley Energy from Waste Plant,United Kingdom,-1.8417493,52.458434,UKG3,UK,excl_biomass
+https://registry.gdi-de.org/id/de.nw.inspire.pf.bube-eureg/arb-2017-366016-300-0072412,Pfeifer & Langen GmbH & Co. KG Werk Euskirchen,Germany,6.81023,50.65877,DEA2,DE,excl_biomass
+EE.KAUR.TTR/13.FACILITY,"Gren Viru AS, Ahtme tipu- ja reservkatlamaja",Estonia,27.463511,59.314934,EE00,EE,excl_biomass
+https://registry.gdi-de.org/id/de.hh/pf.bube-eureg_/13200,Aurubis AG ,Germany,10.03497,53.51799,DE60,DE,excl_biomass
+SE.CAED/10022071.Facility,Norrsundets Bruk,Sweden,17.13646,60.94,SE31,SE,excl_biomass
+https://registry.gdi-de.org/id/de.ni.mu/06277201660,Smurfit Westrock Hoya Papier & Board GmbH,Germany,9.1502,52.81138,DE92,DE,excl_biomass
+SE.CAED/10019894.Facility,Energi- och miljöcenter Sobacken,Sweden,12.91372,57.65159,SE23,SE,excl_biomass
+https://registry.gdi-de.org/id/de.rp.inspire.pf.bube-eureg/5000152,Südzucker AG Werk Offstein,Germany,8.22098,49.60039,DEB3,DE,excl_biomass
+RO.CAED/102NT0001.FACILITY,HEIDELBERGCEMENT ROMANIA SA,Romania,26.029587,46.897861,RO21,RO,excl_biomass
+https://registry.gdi-de.org/id/de.nw.inspire.pf.bube-eureg/arb-2017-362008-300-0326774,RWE Power AG Kraftwerk Niederaußem,Germany,6.66658,50.97093,DEA2,DE,excl_biomass
+EE.KAUR.TTR/155.FACILITY,"AS Utilitas Tallinn, Mustamäe katlamaja",Estonia,24.6521707066,59.4009138832,EE00,EE,excl_biomass
+https://registry.gdi-de.org/id/de.he.0945.de7.pf.eu_industrie/80007914,Biomasseheizkraftwerk ,Germany,8.26277,50.0453,DE71,DE,excl_biomass
+NL.RIVM/000051105.FACILITY,YARA Sluiskil BV,Netherlands,3.85005,51.27764,NL34,NL,excl_biomass
+NO.EEA/0104.0036.01.FACILITY,"PETERSON LINERBOARD AS, Moss",Norway,10.6677647,59.44151,NO08,NO,excl_biomass
+https://registry.gdi-de.org/id/de.nw.inspire.pf.bube-eureg/arb-2017-974016-900-0014514,thomas zement GmbH & Co. KG Werk Erwitte,Germany,8.33468,51.59721,DEA5,DE,excl_biomass
+https://registry.gdi-de.org/id/de.be.pf.lisa/166927,BEW HKW Reuter ,Germany,13.24556,52.53095,DE30,DE,excl_biomass
+https://registry.gdi-de.org/id/de.rp.inspire.pf.bube-eureg/5000603,EEW Energy from Waste Saarbrücken GmbH,Germany,7.59582,49.22807,DEB3,DE,excl_biomass
+http://paikkatiedot.fi/so/1002031/pf/ProductionFacility/0000002346.ProductionFacility,"Nokianvirran Energia Oy, Nokian voimalaitos",Finland,23.49659,61.47344,FI19,FI,excl_biomass
+https://registry.gdi-de.org/id/de.sl.inspire.pf/0078668-G,ZKS - Zentralkokerei Saar GmbH ,Germany,6.74358,49.34781,DEC0,DE,excl_biomass
+https://registry.gdi-de.org/id/de.nw.inspire.pf.bube-eureg/arb-2017-562032-500-0891848,Ökotech Ingenieurgesellschaft mbH,Germany,7.24972,51.60473,DEA3,DE,excl_biomass
+NL.RIVM/000114757.FACILITY,Eurogen CV,Netherlands,4.25733,51.88462,NL33,NL,excl_biomass
+https://registry.gdi-de.org/id/de.st.lau.pf.anlagen-ied-euregistry/100477,thomas zement GmbH,Germany,11.66034,51.27022,DEE0,DE,excl_biomass
+GB.EEA/EW_EA-1018.FACILITY,Uniper UK Limited,United Kingdom,-2.51293,52.63,UKG2,UK,excl_biomass
+https://registry.gdi-de.org/id/de.nw.inspire.pf.bube-eureg/arb-2017-711000-700-9073508,Stadtwerke Bielefeld GmbH,Germany,8.6181,51.99968,DEA4,DE,excl_biomass
+NL.RIVM/000061424.FACILITY,Veolia Industriediensten BV,Netherlands,5.94187,51.96647,NL22,NL,excl_biomass
+SE.CAED/10017446.Facility,Nymölla bruk,Sweden,14.47983,56.04379,SE22,SE,excl_biomass
+SE.CAED/10013884.Facility,JORDBRO KRAFTVÄRMEVERK,Sweden,18.13086,59.15166,SE11,SE,excl_biomass
+NL.EEA/10062.FACILITY,ExxonMobil Chemical Holland BV (RAP),Netherlands,4.29532,51.87332,NL33,NL,excl_biomass
+UK.SEPA/200000214.Facility,"The Girvan Distillery, Grangeston",United Kingdom,-4.8334,55.26071,UKM9,UK,excl_biomass
+DK.CAED/000095432.FACILITY,HOFOR - Amagerværket,Denmark,12.626106879399748,55.68459741582288,DK01,DK,excl_biomass
+NL.EEA/205168.FACILITY,Nuon Power Generation BV (Eemshaven),Netherlands,6.85915,53.44777,NL11,NL,excl_biomass
+https://registry.gdi-de.org/id/de.by.inspire.pf.ied/S00108,"OMV Deutschland Operations GmbH & Co. KG, Werk Burghausen",Germany,12.836526876207548,48.19300392423097,DE21,DE,excl_biomass
+https://registry.gdi-de.org/id/de.nw.inspire.pf.bube-eureg/arb-2017-315000-300-0213768,"Shell Deutschland GmbH, Shell Energy and Chemicals Park Rheinland Nord",Germany,6.97685,50.85499,DEA2,DE,excl_biomass
+https://registry.gdi-de.org/id/de.rp.inspire.pf.bube-eureg/5000671,BASF SE,Germany,8.42345,49.51739,DEB3,DE,excl_biomass
+https://registry.gdi-de.org/id/de.bw.lubw.inspire.pf/pf-450-2719398-00000000,MIRO-Mineralölraffinerie Oberrhein GmbH & Co.KG Werk 2,Germany,8.34641,49.05682,DE12,DE,excl_biomass
+https://registry.gdi-de.org/id/de.bw.lubw.inspire.pf/pf-450-34044741-00000000,BEB Bioenergie Baden GmbH ,Germany,7.81992,48.5829,DE13,DE,excl_biomass
+EE.KAUR.TTR/35.FACILITY,"Repo Vabrikud AS, Püssi puitlaastplaaditehas",Estonia,27.0456140571,59.3547276495,EE00,EE,excl_biomass
+NO.EEA/1037.0010.01.FACILITY,Eramet Norway Kvinesdal,Norway,6.891349,58.2768364,NO09,NO,excl_biomass
+BG.CAED/012000002.FACILITY,Lime company Ognianovo K,Bulgaria,22.976383,42.90878,BG41,BG,excl_biomass
+NO.EEA/1833.0034.01.FACILITY,Celsa Armeringsstål AS,Norway,14.1576023,66.31329,NO07,NO,excl_biomass
+NL.RIVM/000000151.FACILITY,O-I Netherlands BV (Maastricht),Netherlands,5.70421,50.85899,NL42,NL,excl_biomass
+NL.RIVM/000041521.FACILITY,Afvalstoffen Terminal Moerdijk BV (ATM),Netherlands,4.59954,51.69383,NL41,NL,excl_biomass
+https://registry.gdi-de.org/id/de.by.inspire.pf.ied/S00104,InfraServ GmbH & Co. Gendorf KG,Germany,12.731253884065575,48.17714406076905,DE21,DE,excl_biomass
+http://paikkatiedot.fi/so/1002031/pf/ProductionFacility/0000017269.ProductionFacility,"Nordkalk Oy Ab, LOUHI",Finland,29.02752,61.92459,FI1D,FI,excl_biomass
+NL.RIVM/000074003.FACILITY,Centrale Harculo,Netherlands,6.10739,52.46895,NL21,NL,excl_biomass
+https://registry.gdi-de.org/id/de.ni.mu/10285139970,Felix Schoeller GmbH & Co. KG ,Germany,8.12062,52.27459,DE94,DE,excl_biomass
+UK.CAED/EW_EA-18702.FACILITY,Ridham Biomass Power Plant,United Kingdom,0.76135415,51.380464,UKJ4,UK,excl_biomass
+DE.EEA/06-08-4380932.FACILITY,RWV GmbH,Germany,8.13060705630423,47.5898089880622,DE13,DE,excl_biomass
+NL.RIVM/000024002.FACILITY,Vattenfall Power Generation B.V. (Diemen),Netherlands,5.02118,52.33886,NL32,NL,excl_biomass
+NL.EEA/66321.FACILITY,Minnewit BV (Berkelcentrale),Netherlands,6.5293,52.11812,NL22,NL,excl_biomass
+https://registry.gdi-de.org/id/de.bw.lubw.inspire.pf/pf-450-1195689-00000000,EnBW HKW Stuttgart-Münster (mit MVA) HKW Stuttgart-Münster (mit MVA),Germany,9.21984,48.81432,DE11,DE,excl_biomass
+https://registry.gdi-de.org/id/de.nw.inspire.pf.bube-eureg/arb-2017-978004-900-9139027,Biomasseheizkraftwerk Bergkamen,Germany,7.62976,51.62109,DEA5,DE,excl_biomass
+NL.RIVM/000028176.FACILITY,Vattenfall Power Generation B.V. (IJmond 1),Netherlands,4.60557,52.47489,NL32,NL,excl_biomass
+https://registry.gdi-de.org/id/de.nw.inspire.pf.bube-eureg/arb-2017-974020-900-0009824,Heidelberg Material AG Zementwerk Geseke (Milke),Germany,8.51066,51.61884,DEA5,DE,excl_biomass
+NL.RIVM/000064360.FACILITY,Smurfit Westrock Parenco B.V.,Netherlands,5.72846,51.96997,NL22,NL,excl_biomass
+https://registry.gdi-de.org/id/de.nw.inspire.pf.bube-eureg/arb-2017-358024-300-0907015,Pfeifer & Langen GmbH & Co. KG Werk Jülich,Germany,6.37312,50.91662,DEA2,DE,excl_biomass
+UK.LAED/E100_165.FACILITY,Guardian Industries UK Ltd,United Kingdom,-0.90936,53.6978,UKE1,UK,excl_biomass
+https://registry.gdi-de.org/id/de.nw.inspire.pf.bube-eureg/arb-2017-913000-900-0148555,KG Deutsche Gasrußwerke GmbH & Co,Germany,7.43915,51.54511,DEA5,DE,excl_biomass
+https://registry.gdi-de.org/id/de.nw.inspire.pf.bube-eureg/arb-2017-315000-300-0370387,RheinEnergie AG (GuD-Heizkraftwerk Niehl),Germany,6.99077,50.97411,DEA2,DE,excl_biomass
+DK.CAED/000106181.FACILITY,Avedøreværket,Denmark,12.48152777031473,55.60399886511819,DK01,DK,excl_biomass
+https://registry.gdi-de.org/id/de.nw.inspire.pf.bube-eureg/arb-2017-112000-100-0229264,Stadtwerke Duisburg AG,Germany,6.74807,51.39051,DEA1,DE,excl_biomass
+FI.EEA/1239.FACILITY,"FORTUM POWER AND HEAT OY, INKOON VOIMALAITOS",Finland,23.912,60.0195,FI1B,FI,excl_biomass
+https://registry.gdi-de.org/id/de.bw.lubw.inspire.pf/pf-450-4004094-00000000,LWE Rheinkalk GmbH Werk Istein ,Germany,7.54366,47.66095,DE13,DE,excl_biomass
+EE.KAUR.TTR/48.FACILITY,"KIVIÕLI KEEMIATÖÖSTUSE OSAÜHING, Kiviõli keemiatööstus",Estonia,26.9413822406,59.3549029624,EE00,EE,excl_biomass
+SE.CAED/10017066.Facility,Karlshamnsverket,Sweden,14.83397,56.15316,SE22,SE,excl_biomass
+https://registry.gdi-de.org/id/de.by.inspire.pf.ied/S00962,"Südzucker AG, Werk Ochsenfurt",Germany,10.080158129789456,49.66662751803512,DE26,DE,excl_biomass
+RO.CAED/106BH0001.FACILITY,HOLCIM  (Romania) SA - Ciment Alesd,Romania,22.331876,47.038682,RO11,RO,excl_biomass
+CZ.MZP.S20C/CZ92280475.FACILITY,"Procter & Gamble - Rakona, s.r.o",Czechia,13.72275878,50.09960741,CZ02,CZ,excl_biomass
+https://registry.gdi-de.org/id/de.nw.inspire.pf.bube-eureg/arb-2017-913000-900-0888950,"RWE Generation SE, Region Kundenkraftwerke HKW Dortmund ",Germany,7.47849,51.52015,DEA5,DE,excl_biomass
+NL.EEA/105014.FACILITY,Brunner Mond BV (inrichting bestaat niet meer),Netherlands,6.94789,53.3196,NL11,NL,excl_biomass
+https://registry.gdi-de.org/id/de.nw.inspire.pf.bube-eureg/arb-2017-566044-500-0109203,Calcis Lienen GmbH & Co.KG,Germany,7.96906,52.16274,DEA3,DE,excl_biomass
+https://registry.gdi-de.org/id/de.nw.inspire.pf.bube-eureg/arb-2017-112000-100-0220947,Hüttenwerke Krupp Mannesmann GmbH KW Huckingen,Germany,6.71912,51.3709,DEA1,DE,excl_biomass
+https://registry.gdi-de.org/id/de.nw.inspire.pf.bube-eureg/arb-2017-770028-700-0105516,Uniper Kraftwerke GmbH Kraftwerk Heyden,Germany,8.996,52.38282,DEA4,DE,excl_biomass
+SE.CAED/10017658.Facility,Norcarb Engineered Carbons AB,Sweden,13.03125,55.63645,SE22,SE,excl_biomass
+SE.CAED/10019446.Facility,Rya Värmecentral,Sweden,11.89092,57.69464,SE23,SE,excl_biomass
+BG.CAED/015000049.FACILITY,Pashabahche Bulgaria EAD,Bulgaria,26.312134,43.163099,BG33,BG,excl_biomass
+https://registry.gdi-de.org/id/de.nw.inspire.pf.bube-eureg/arb-2017-112000-100-0888309,Venator Germany GmbH,Germany,6.70524,51.43953,DEA1,DE,excl_biomass
+https://registry.gdi-de.org/id/de.sh/50079832,EEW Energy from Waste Stapelfeld GmbH ,Germany,10.22436,53.6191,DEF0,DE,excl_biomass
+https://registry.gdi-de.org/id/de.nw.inspire.pf.bube-eureg/arb-2017-362040-300-0420058,Evonik Operations GmbH - Werk Wesseling,Germany,6.97511,50.83174,DEA2,DE,excl_biomass
+https://registry.gdi-de.org/id/de.nw.inspire.pf.bube-eureg/arb-2017-124000-100-0848198,Kalkwerke H. Oetelshofen GmbH & Co. KG,Germany,7.0419,51.24815,DEA1,DE,excl_biomass
+https://registry.gdi-de.org/id/de.by.inspire.pf.ied/S00845,Heizkraftwerk an der Friedensbrücke,Germany,9.92325928165318,49.79992751447541,DE26,DE,excl_biomass
+https://registry.gdi-de.org/id/de.he.0945.de7.pf.eu_industrie/50000118,"Städtische Werke, Kraftwerk Kassel ",Germany,9.48333,51.27928,DE73,DE,excl_biomass
+UK.CAED/EW_EA-1048.FACILITY,Cottam Ash Disposal Site,United Kingdom,-0.78142504,53.304777,UKF1,UK,excl_biomass
+UK.SEPA/200000044.Facility,Westfield Biomass Plant,United Kingdom,-3.30583,56.16874,UKM7,UK,excl_biomass
+NL.EEA/10017.FACILITY,Evonik Carbon Black Nederland BV,Netherlands,4.28194,51.87981,NL33,NL,excl_biomass
+UK.LAED/E89_143.FACILITY,Ardagh Glass Doncaster,United Kingdom,-1.085694,53.552344,UKE3,UK,excl_biomass
+https://registry.gdi-de.org/id/de.nw.inspire.pf.bube-eureg/arb-2017-978024-900-0877505,Aurubis AG,Germany,7.50803,51.60659,DEA5,DE,excl_biomass
+https://registry.gdi-de.org/id/de.sh/50082038,Stadtwerke Flensburg GmbH ,Germany,9.43265,54.80498,DEF0,DE,excl_biomass
+https://registry.gdi-de.org/id/de.by.inspire.pf.ied/S00726,TEAtherm GmbH,Germany,10.25021053493264,49.09963093626141,DE25,DE,excl_biomass
+RO.EEA/RO4MH_12.FACILITY,REGIA AUTONOMA PENTRU ACTIVITATI NUCLEARE - Sucursala Romag Termo,Romania,22.688333,44.675444,RO41,RO,excl_biomass
+NL.EEA/44008.FACILITY,Ennatuurlijk; WKC Helmond,Netherlands,5.68868,51.46358,NL41,NL,excl_biomass
+https://registry.gdi-de.org/id/de.nw.inspire.pf.bube-eureg/arb-2017-378004-300-0261171,Zanders Paper GmbH ,Germany,7.12707,50.98891,DEA2,DE,excl_biomass
+DE.EEA/16-85-00100060000.FACILITY,BHT Bau- und Holztechnik Thüringen GmbH,Germany,11.6558697599597,50.5005514387119,DEG0,DE,excl_biomass
+http://paikkatiedot.fi/so/1002031/pf/ProductionFacility/0000011204.ProductionFacility,"Adven Oy, LK174 Hangon kattilalaitos Genencor International Oy:n tehdasalueella ",Finland,23.02385,59.85385,FI1B,FI,excl_biomass
+NL.EEA/9014.FACILITY,Essent Productie Geleen B.V.,Netherlands,5.80661,50.98125,NL42,NL,excl_biomass
+https://registry.gdi-de.org/id/de.nw.inspire.pf.bube-eureg/arb-2017-162024-100-0173542,Aluminium Norf GmbH,Germany,6.76972,51.15049,DEA1,DE,excl_biomass
+NL.EEA/74005.FACILITY,Ennatuurlijk; WKC Enschede,Netherlands,6.82796,52.21402,NL21,NL,excl_biomass
+DK.CAED/900000017.FACILITY,Lynetten (renseanlæg),Denmark,12.61507282,55.69498248,DK01,DK,excl_biomass
+https://registry.gdi-de.org/id/de.nw.inspire.pf.bube-eureg/arb-2017-974044-900-0840277,Calcis Warstein GmbH & Co. KG,Germany,8.37499,51.4361,DEA5,DE,excl_biomass
+https://registry.gdi-de.org/id/de.nw.inspire.pf.bube-eureg/arb-2017-315000-300-0923949,RheinEnergie AG,Germany,6.96337,51.01677,DEA2,DE,excl_biomass
+https://registry.gdi-de.org/id/de.be.pf.lisa/166928,BEW HKW Reuter-West ,Germany,13.24373,52.53526,DE30,DE,excl_biomass
+https://registry.gdi-de.org/id/de.nw.inspire.pf.bube-eureg/arb-2017-362008-300-0181417,Martinswerk GmbH,Germany,6.66665,50.94593,DEA2,DE,excl_biomass
+NL.RIVM/000203496.FACILITY,Reststoffen Energie Centrale (REC),Netherlands,5.4291,53.19045,NL12,NL,excl_biomass
+IE.CAED/P0802.FACILITY,Aurivo Dairy Ingredients Limited,Ireland,-8.568197,53.898192,IE04,IE,excl_biomass
+https://registry.gdi-de.org/id/de.bb.inspire.pf.eureg/23040177,Progroup Power 1 GmbH ,Germany,14.64053,52.17258,DE40,DE,excl_biomass
+CZ.MZP.S207/CZ47823175.FACILITY,Cukrovar Dobrovice,Czechia,14.9645253,50.36812786,CZ02,CZ,excl_biomass
+http://paikkatiedot.fi/so/1002031/pf/ProductionFacility/0000053641.ProductionFacility,"Kotkan Energia Oy, Hyötyvoimalaitos",Finland,26.91075,60.53199,FI1C,FI,excl_biomass
+https://registry.gdi-de.org/id/de.nw.inspire.pf.bube-eureg/arb-2017-170024-100-0989193,Huntsman Products GmbH,Germany,6.64674,51.46969,DEA1,DE,excl_biomass
+https://registry.gdi-de.org/id/de.st.lau.pf.anlagen-ied-euregistry/100194,"TOTALEnergies Raffinerie Mitteldeutschland GmbH (Raffinerie, BB01) ",Germany,12.00012,51.28764,DEE0,DE,excl_biomass
+https://registry.gdi-de.org/id/de.nw.inspire.pf.bube-eureg/arb-2017-954020-900-0125939,Mark-E Aktiengesellschaft Cuno Heizkraftwerk,Germany,7.40853,51.40155,DEA5,DE,excl_biomass
+https://registry.gdi-de.org/id/de.bw.lubw.inspire.pf/pf-450-34064722-00000000,Kraftwerk Grenzach-Wyhlen ,Germany,7.66225,47.55009,DE13,DE,excl_biomass
+http://paikkatiedot.fi/so/1002031/pf/ProductionFacility/0100191651.ProductionFacility,"Westenergy Oy, Mustasaaren jätteenpolttolaitos",Finland,21.76975,63.12516,FI19,FI,excl_biomass
+https://registry.gdi-de.org/id/de.nw.inspire.pf.bube-eureg/arb-2017-112000-100-0077961,Hüttenwerke Krupp Mannesmann GmbH,Germany,6.71227,51.36823,DEA1,DE,excl_biomass
+SE.CAED/10021916.Facility,"Ovako Sweden AB, Hofors",Sweden,16.30633,60.55353,SE31,SE,excl_biomass
