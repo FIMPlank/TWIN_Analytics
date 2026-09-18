@@ -19,6 +19,8 @@ SCRIPTS = [
     "download_eurostat_dii_regional.py",
     "download_eurostat_industry_va_absolute.py",
     "download_nuts2_boundaries.py",
+    "download_cohesion_digital_funding.py",
+    "download_eurostat_energy_consumption.py",
 ]
 # NOTE: the large E-PRTR facility-level file needed for the NUTS2 regional
 # panel (analysis/phase_c_analysis.py, panel v3) is NOT fetched by this
