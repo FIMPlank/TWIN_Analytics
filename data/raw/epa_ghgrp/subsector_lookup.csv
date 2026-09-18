@@ -1,0 +1,72 @@
+subsector_id,subsector_name,subsector_desc,sector_id,subsector_order
+1,D,Power Plants,3,32.0
+2,E,Adipic Acid Production,5,14.0
+3,F,Aluminum Production,6,5.0
+4,G,Ammonia Manufacturing,5,13.0
+5,H,Cement Production,8,2.0
+6,K,Ferroalloy Production,6,18.0
+7,N,Glass Production,8,19.0
+8,O,HCFC-22 Prod./HFC-23 Dest.,5,28.0
+9,P,Hydrogen Production,5,24.0
+10,Q,Iron and Steel Production,6,3.0
+11,R,Lead Production,6,16.0
+12,S,Lime Manufacturing,8,15.0
+13,V,Nitric Acid Production,5,30.0
+14,X,Petrochemical Production,5,6.0
+15,Y,Petroleum Refineries,4,1.0
+16,Z,Phosphoric Acid Production,5,29.0
+17,AA,Pulp and Paper,7,4.0
+18,BB,Silicon Carbide Production,5,22.0
+19,CC,Soda Ash Manufacturing,8,12.0
+20,EE,Titanium Dioxide Production,5,21.0
+21,GG,Zinc Production,6,20.0
+22,HH,Municipal Landfills,2,27.0
+24,C_FOOD,Food Processing,14,
+25,C_ETHANOL,Ethanol Production,14,
+26,C_MANUF,Manufacturing,14,
+27,C_OTHER,Other,14,
+28,C_MIL,Military,14,
+29,C_UNIV,Universities,14,
+34,C_CHEM,Other Chemicals,5,
+35,C_METAL,Other Metals,6,
+36,C_MINERAL,Other Minerals,8,
+37,C_PAPER,Other Paper Producers,7,
+38,PRO,Producer,9,
+39,IMP,Importer,9,
+40,EXP,Exporter,9,
+41,PRO,Producer,10,
+42,IMP,Importer,10,
+43,EXP,Exporter,10,
+44,PRO,Producer,12,
+45,IMP,Importer,12,
+46,EXP,Exporter,12,
+48,IMP,Importer,13,
+49,EXP,Exporter,13,
+50,LDC,Natural Gas Distribution,11,
+51,NGL,Natural Gas Liquids Fractionation,11,
+52,W1,Offshore Petroleum & Natural Gas Production,15,10.0
+53,W2,Onshore Petroleum & Natural Gas Production,15,35.0
+54,W3,Natural Gas Processing,15,8.0
+55,W4,Natural Gas Transmission/Compression,15,9.0
+56,W8,Natural Gas Local Distribution Companies,15,34.0
+57,W5,Underground Natural Gas Storage,15,11.0
+58,W6,Liquefied Natural Gas Storage,15,33.0
+59,W7,Liquefied Natural Gas Imp./Exp. Equipment,15,7.0
+60,L,Fluorinated GHG Production,5,26.0
+61,FF,Underground Coal Mines,14,23.0
+62,DD,Use of Electrical Equipment,14,38.0
+63,I,Electronics Manufacturing,14,25.0
+64,SS,Electrical Equipment Manufacturers,14,31.0
+65,T,Magnesium,6,17.0
+66,TT,Industrial Landfills,2,37.0
+67,II,Wastewater Treatment,2,36.0
+68,C_COMB,Solid Waste Combustion,2,
+69,IMP,Importer,16,
+70,EXP,Exporter,16,
+71,UU,Injection of Carbon Dioxide,17,
+72,RR,Geologic Sequestration of Carbon Dioxide,17,
+73,CAPTURE,CO2 Capture,13,
+74,PROD_WELLS,CO2 Production Wells,13,
+75,W_Other,Other Petroleum and Natural Gas Systems,15,
+76,W9,Petroleum & Natural Gas Gathering & Boosting,15,
+77,W10,Natural Gas Transmission Pipelines,15,

@@ -1,0 +1,17 @@
+sector_id,sector_code,sector_name,sector_type,sector_color,sort_order
+2,WASTE,Waste,E,#9B9EBB,6.0
+3,POWERPLANTS,Power Plants,E,#FFBD59,1.0
+4,REFINERIES,Refineries,E,#FFFF7F,3.0
+5,CHEMICALS,Chemicals,E,#99D8F5,4.0
+6,METALS,Metals,E,#B9B9CF,7.0
+7,PULPANDPAPER,Pulp and Paper,E,#D7D7E4,9.0
+8,MINERALS,Minerals,E,#DDEDF4,8.0
+9,COAL_TO_LIQUIDS_SUP,Coal-based Liquid Fuel Supply,S,,1.0
+10,PETROLEUM_SUP,Petroleum Product Suppliers,S,,2.0
+11,NG_NGL_SUP,Natural Gas and Natural Gas Liquids Suppliers,S,,3.0
+12,IG_SUP,Industrial Gas Suppliers,S,,4.0
+13,CO2_SUP,Suppliers of CO2,S,,5.0
+14,OTHER,Other,E,#C0E6E6,5.0
+15,PETRO_NG,Petroleum and Natural Gas Systems,E,#F7D869,2.0
+16,QQ,Import and Export of Equipment Containing Fluorintaed GHGs,S,,6.0
+17,INJ,Injection of CO2,I,,

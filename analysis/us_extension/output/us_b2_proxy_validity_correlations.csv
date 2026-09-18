@@ -1,0 +1,5 @@
+level,vs,corr
+state,log_co2e_per_employee,-0.5916772606237091
+state,log_private_employment,0.3741408861635413
+state,facilities_per_10k_emp,-0.39182518438018216
+county,log_co2e_per_employee,-0.2630369820208231
