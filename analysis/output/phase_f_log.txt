@@ -1,0 +1,467 @@
+
+====================================================================================================
+SECTION 1: PATENT PANEL QC
+====================================================================================================
+geo dimension: 1986 codes; NUTS3-length 1426; unallocated codes (ZZ/XX): 140
+  1990: EPO applications, NUTS3 rows all countries     28771; unallocated (ZZ/XX)     920; EU27+UK country-total rows     26963
+  2000: EPO applications, NUTS3 rows all countries     54951; unallocated (ZZ/XX)     576; EU27+UK country-total rows     51745
+  2004: EPO applications, NUTS3 rows all countries     59037; unallocated (ZZ/XX)     502; EU27+UK country-total rows     55426
+  2008: EPO applications, NUTS3 rows all countries     60699; unallocated (ZZ/XX)     576; EU27+UK country-total rows     56835
+  2012: EPO applications, NUTS3 rows all countries     49760; unallocated (ZZ/XX)     635; EU27+UK country-total rows     46414
+  NOTE: 2011-2012 totals fall (49.7k in 2012 vs 59k in 2004): late-publication truncation; the baseline stock ends in 2004 so it is unaffected, the 2005-2012 PLACEBO stock is.
+  IPC check 2004 NUTS3: sum of sections A-H = 59024 vs IPC total = 59037 (ratio 1.000) -> class counts are fractional; digital+non-digital = total by construction
+  digital core (G06+G11+H03+H04) 2004 = 8194 = 13.9% of all EPO applications
+  cells with digital core > total (would be negative non-digital): 8 (clipped at 0)
+  NUTS3 x year cells with zero total patents: 24.6%
+  digital core share of all patents (pooled, all NUTS3): 1990 0.074  1997 0.115  2004 0.139
+
+====================================================================================================
+SECTION 2: NUTS-VINTAGE / MERGE QC
+====================================================================================================
+Patents sit on NUTS-2010 codes (verified: e.g. DE401.., DE80x = 18 MV districts, FR 2010 codes);
+GVA/population/employment sit on NUTS-2021. Chain: 2010->2013->2016 (Eurostat correspondence tables,
+pure recodes followed, merges/splits/boundary shifts FLAGGED) + a population-ratio check
+(Eurostat's own patent-side denominator NR/P_MHAB vs 2021-vintage population, tolerance 5%).
+2016->2021: no downloadable table (404); residual risk = code reuse with changed boundary,
+caught only if it moves population > 5%.
+NUTS3: {'n_patent_regions': 1370, 'n_in_gva': 1060, 'n_flagged': 103, 'n_pop_bad': 10, 'n_kept': 1050}
+  population-ratio distribution over matched NUTS3 (n=922): median 1.000, share within 2%: 0.920, within 5%: 0.989
+NUTS2: {'n_nuts2_patent_side': 318, 'n_nuts2_gva_side': 309, 'n_same_children': 197, 'n_stable_strict': 197, 'n_stable_lenient': 206, 'n_pop_bad': 0, 'n_flag': 37}
+NUTS2 lenient: {'n_nuts2_patent_side': 318, 'n_nuts2_gva_side': 309, 'n_same_children': 197, 'n_stable_strict': 197, 'n_stable_lenient': 206, 'n_pop_bad': 0, 'n_flag': 37}
+  EU27 patent regions by country lost (NUTS3 stage): {'BE': 8, 'BG': 2, 'DE': 31, 'EE': 2, 'EL': 10, 'ES': 1, 'FI': 11, 'FR': 2, 'HR': 15, 'IE': 4, 'IS': 2, 'IT': 8, 'LV': 4, 'NL': 17, 'NO': 18, 'PL': 15, 'PT': 25, 'SE': 1, 'SI': 5, 'UK': 139}
+
+--- QC NUTS2_strict ---
+{'n_nuts2_patent_side': 318, 'n_nuts2_gva_side': 309, 'n_same_children': 197, 'n_stable_strict': 197, 'n_stable_lenient': 206, 'n_pop_bad': 0, 'n_flag': 37}
+units by country (EU27): {'AT': 9, 'BE': 9, 'BG': 3, 'CY': 1, 'CZ': 8, 'DE': 34, 'DK': 5, 'EL': 6, 'ES': 16, 'FI': 2, 'FR': 24, 'HU': 8, 'IT': 20, 'LT': 2, 'LU': 1, 'MT': 1, 'NL': 6, 'PL': 10, 'PT': 3, 'RO': 6, 'SE': 8, 'SK': 4}
+non-EU27 units present in raw build (dropped from analysis): ['CH', 'TR']
+EU27 countries with no unit: ['EE', 'HR', 'IE', 'LV', 'SI']
+  share of units with ZERO S_dig_core_d15: 0.059
+  share of units with ZERO S_nondig_d15: 0.000
+  share of units with ZERO S_total_d15: 0.000
+  corr(x_dig, x_nondig) = 0.891
+  missing outcome g_ind: 0 of 186;  missing controls: 0
+
+--- QC NUTS2_lenient ---
+{'n_nuts2_patent_side': 318, 'n_nuts2_gva_side': 309, 'n_same_children': 197, 'n_stable_strict': 197, 'n_stable_lenient': 206, 'n_pop_bad': 0, 'n_flag': 37}
+units by country (EU27): {'AT': 9, 'BE': 11, 'BG': 6, 'CY': 1, 'CZ': 8, 'DE': 35, 'EE': 1, 'EL': 9, 'ES': 17, 'FI': 5, 'FR': 24, 'HR': 1, 'HU': 6, 'IT': 21, 'LU': 1, 'LV': 1, 'MT': 1, 'NL': 10, 'PL': 15, 'PT': 4, 'RO': 8, 'SE': 8, 'SK': 4}
+non-EU27 units present in raw build (dropped from analysis): []
+EU27 countries with no unit: ['DK', 'IE', 'LT', 'SI']
+  share of units with ZERO S_dig_core_d15: 0.073
+  share of units with ZERO S_nondig_d15: 0.000
+  share of units with ZERO S_total_d15: 0.000
+  corr(x_dig, x_nondig) = 0.900
+  missing outcome g_ind: 0 of 206;  missing controls: 0
+
+--- QC NUTS3 ---
+{'n_patent_regions': 1370, 'n_in_gva': 1060, 'n_flagged': 103, 'n_pop_bad': 10, 'n_kept': 1050}
+units by country (EU27): {'AT': 35, 'BE': 36, 'BG': 23, 'CY': 1, 'CZ': 14, 'DE': 381, 'DK': 11, 'EE': 3, 'EL': 35, 'ES': 54, 'FI': 8, 'FR': 98, 'HR': 4, 'HU': 20, 'IE': 4, 'IT': 102, 'LT': 10, 'LU': 1, 'LV': 2, 'MT': 2, 'NL': 23, 'PL': 51, 'PT': 5, 'RO': 39, 'SE': 20, 'SI': 7, 'SK': 8}
+non-EU27 units present in raw build (dropped from analysis): ['CH', 'NO', 'TR']
+EU27 countries with no unit: []
+  share of units with ZERO S_dig_core_d15: 0.166
+  share of units with ZERO S_nondig_d15: 0.024
+  share of units with ZERO S_total_d15: 0.024
+  corr(x_dig, x_nondig) = 0.839
+  missing outcome g_ind: 0 of 997;  missing controls: 0
+  EU27 patents 1977-2004 assigned to NUTS3 regions (excl. unallocated): 722213
+     eu_total_pat_1977_2004  eu_dig_pat_1977_2004  retained_share_total_nuts2_strict  retained_share_dig_nuts2_strict  retained_share_total_nuts3  retained_share_dig_nuts3
+geo                                                                                                                                                                        
+AT                 19431.42               1168.90                              1.000                            1.000                       1.000                     1.000
+BE                 19889.12               1611.38                              0.903                            0.940                       0.923                     0.951
+BG                   277.12                 14.98                              0.822                            0.904                       0.996                     1.000
+CY                    66.29                  8.59                              1.000                            1.000                       1.000                     1.000
+CZ                   727.35                 32.29                              1.000                            1.000                       1.000                     1.000
+DE                352577.57              29608.52                              0.965                            0.976                       0.992                     0.996
+DK                 12863.01               1079.82                              1.000                            1.000                       1.000                     1.000
+EE                    70.03                  6.10                              0.000                            0.000                       0.986                     1.000
+EL                   830.90                 85.56                              0.299                            0.189                       0.325                     0.201
+ES                 10336.01                657.71                              0.992                            0.996                       0.998                     0.998
+FI                 16641.94               5957.67                              0.455                            0.528                       0.611                     0.631
+FR                132972.23              16636.27                              1.000                            1.000                       1.000                     1.000
+HR                   252.99                  9.66                              0.000                            0.000                       0.155                     0.104
+HU                  2371.16                183.41                              1.000                            1.000                       1.000                     1.000
+IE                  2658.95                467.49                              0.000                            0.000                       0.678                     0.749
+IT                 62151.58               3805.52                              0.997                            0.998                       0.997                     0.998
+LT                    49.83                  0.73                              1.000                            1.000                       1.000                     1.000
+LU                  1138.73                 40.57                              1.000                            1.000                       1.000                     1.000
+LV                    53.12                  2.28                              0.000                            0.000                       0.004                     0.000
+MT                    46.70                  1.25                              1.000                            1.000                       1.000                     1.000
+NL                 49654.62              10914.06                              0.211                            0.051                       0.662                     0.893
+PL                   854.97                 45.42                              0.464                            0.627                       0.896                     0.942
+PT                   475.47                 25.40                              0.034                            0.043                       0.100                     0.089
+RO                   138.84                 11.80                              0.919                            0.976                       1.000                     1.000
+SE                 34952.28               4930.00                              1.000                            1.000                       0.960                     0.992
+SI                   564.45                 35.04                              0.000                            0.000                       0.380                     0.447
+SK                   165.88                 11.35                              1.000                            1.000                       1.000                     1.000
+  ==> share of all EU27 1977-2004 patents retained at nuts2_strict: total 0.906, digital 0.811
+  ==> share of all EU27 1977-2004 patents retained at nuts3: total 0.956, digital 0.950
+  UK: patents exist but NO regional GVA in Eurostat's tables after Brexit -> UK regions cannot enter (all 139 NUTS3 lost).
+
+====================================================================================================
+SECTION 2b: SELECTION -- kept vs lost regions on the outcome
+====================================================================================================
+  kept3: mean growth kept 2.59 (n=997) vs lost 2.60 (n=172); EU15 kept 1.89 lost 1.37; ACC kept 5.72 lost 5.03
+  kept2: mean growth kept 2.48 (n=888) vs lost 2.94 (n=281); EU15 kept 1.88 lost 1.56; ACC kept 5.69 lost 5.37
+  NUTS3 outcome regions by country (False=lost, True=kept):
+country  AT  BE  BG  CY  CZ   DE  DK  EE  EL  ES  FI  FR  HR  HU  IE   IT  LT  LU  LV  MT  NL  PL  PT  RO  SE  SI  SK
+kept3                                                                                                                
+False     0   8   5   0   0   19   1   2  17   5  11   3  17   0   4    6   0   0   3   0  18  22  21   4   1   5   0
+True     35  36  23   1  14  381  11   3  35  54   8  98   4  20   4  102  10   1   2   2  23  51   5  39  20   7   8
+
+====================================================================================================
+SECTION 3: MAIN REGRESSIONS
+====================================================================================================
+
+====================================================================================================
+SECTION: REGIONAL RESULTS -- NUTS2
+====================================================================================================
+  IDENTICAL analysis sample: 183 units, 19 countries (EU15 12, accession 7); single-unit countries dropped: ['CY', 'LU', 'MT']
+  units per country: {'AT': 9, 'BE': 9, 'BG': 3, 'CZ': 8, 'DE': 34, 'DK': 5, 'EL': 6, 'ES': 16, 'FI': 2, 'FR': 24, 'HU': 8, 'IT': 20, 'LT': 2, 'NL': 6, 'PL': 10, 'PT': 3, 'RO': 6, 'SE': 8, 'SK': 4}
+ [A] country-FE regressions, y = industrial (B-E) GVA growth 2005-2019, %/yr
+  A1 FE: dig only                                            n= 183 G=19 b=-0.041 se=0.074 p_z=0.581 p_t=0.588 p_wild=0.599 p_webb=0.600 G*=4.0/6.8 top=HU(0.37)
+  A2 FE: dig + controls                                      n= 183 G=19 b=-0.018 se=0.086 p_z=0.834 p_t=0.836 p_wild=0.840 p_webb=0.833 G*=5.5/7.5 top=DE(0.30)
+  A3 FE: dig + nondig + controls  [CLAIM]                    n= 183 G=19 b=-0.052 se=0.116 p_z=0.654 p_t=0.659 p_wild=0.672 p_webb=0.666 G*=5.6/9.5 top=FR(0.29)
+  A3b FE: same, target = NON-digital                         n= 183 G=19 b=+0.111 se=0.225 p_z=0.623 p_t=0.629 p_wild=0.701 p_webb=0.697 G*=2.1/10.9 top=FR(0.67)
+  A4 FE: total patents + controls                            n= 183 G=19 b=+0.049 se=0.165 p_z=0.765 p_t=0.768 p_wild=0.772 p_webb=0.780 G*=2.6/7.9 top=FR(0.55)
+  A5 FE: tilt (dig-nondig) + sum + controls                  n= 183 G=19 b=-0.081 se=0.157 p_z=0.606 p_t=0.612 p_wild=0.654 p_webb=0.659 G*=2.4/12.1 top=FR(0.62)
+ [A-w] same FE regressions, EQUAL total weight per country (limits Germany/France/Italy dominance)
+  Aw2 FE equal-country-weight: dig + controls                n= 183 G=19 b=-0.218 se=0.168 p_z=0.195 p_t=0.211 p_wild=0.410 p_webb=0.420 G*=1.9/10.3 top=FI(0.71)
+  Aw3 FE equal-country-weight: dig + nondig + controls       n= 183 G=19 b=-0.267 se=0.177 p_z=0.131 p_t=0.149 p_wild=0.285 p_webb=0.268 G*=2.2/11.0 top=FI(0.66)
+  Aw4 FE equal-country-weight: total patents + controls      n= 183 G=19 b=-0.028 se=0.226 p_z=0.903 p_t=0.904 p_wild=0.894 p_webb=0.901 G*=2.9/10.6 top=FI(0.48)
+ [B] pooled (NO country FE), y = growth minus national B-E deflator
+  B1 pooled: dig + controls                                  n= 183 G=19 b=+0.318 se=0.127 p_z=0.012 p_t=0.022 p_wild=0.074 p_webb=0.074 G*=5.4/9.3 top=EL(0.34)
+  B2 pooled: dig + nondig + controls                         n= 183 G=19 b=+0.173 se=0.103 p_z=0.093 p_t=0.110 p_wild=0.159 p_webb=0.158 G*=7.3/11.4 top=FR(0.23)
+  B3 pooled: + accession dummy                               n= 183 G=19 b=+0.105 se=0.077 p_z=0.173 p_t=0.190 p_wild=0.203 p_webb=0.213 G*=7.8/11.9 top=PL(0.24)
+ [C] accession split of the claim regression (own country FE in each subsample)
+  C EU15 only: dig + nondig + controls                       n= 142 G=12 b=-0.011 se=0.142 p_z=0.938 p_t=0.939 p_wild=0.941 p_webb=0.941 G*=4.8/7.5 top=IT(0.28)
+  C ACC only: dig + nondig + controls                        n=  41 G= 7 b=-0.301 se=0.298 p_z=0.313 p_t=0.352 p_wild=0.641 p_webb=0.624 G*=2.3/2.5 top=PL(0.52)
+  C interaction: dig x ACC (own-group slopes for dig & nondig) n= 183 G=19 b=-0.275 se=0.279 p_z=0.325 p_t=0.338 p_wild=0.490 p_webb=0.480 G*=3.5/4.1 top=HU(0.38)
+ [D] robustness of the claim regression (same sample S, same y unless noted)
+  D depreciation d10                                         n= 183 G=19 b=-0.047 se=0.116 p_z=0.683 p_t=0.687 p_wild=0.702 p_webb=0.699 G*=5.7/9.7 top=FR(0.25)
+  D depreciation d20                                         n= 183 G=19 b=-0.053 se=0.116 p_z=0.647 p_t=0.653 p_wild=0.669 p_webb=0.660 G*=5.4/9.3 top=FR(0.32)
+  D depreciation cum                                         n= 183 G=19 b=-0.023 se=0.119 p_z=0.843 p_t=0.846 p_wild=0.856 p_webb=0.847 G*=5.0/9.9 top=DE(0.28)
+  D normalised per emp                                       n= 183 G=19 b=-0.068 se=0.097 p_z=0.483 p_t=0.492 p_wild=0.516 p_webb=0.511 G*=6.2/9.5 top=IT(0.26)
+  D normalised per gva                                       n= 183 G=19 b=+0.008 se=0.198 p_z=0.967 p_t=0.968 p_wild=0.969 p_webb=0.965 G*=4.4/7.0 top=FR(0.36)
+  D log1p instead of asinh                                   n= 183 G=19 b=-0.042 se=0.133 p_z=0.750 p_t=0.754 p_wild=0.762 p_webb=0.755 G*=5.0/8.9 top=FR(0.33)
+  D broad digital (+H01,G05,G08,G09) vs matching non-digital n= 183 G=19 b=-0.142 se=0.155 p_z=0.358 p_t=0.370 p_wild=0.425 p_webb=0.425 G*=4.9/9.4 top=DE(0.29)
+  D comparison field = mech/chem (B,C,F sections) instead of non-digital n= 183 G=19 b=-0.045 se=0.105 p_z=0.667 p_t=0.672 p_wild=0.682 p_webb=0.685 G*=6.4/8.6 top=DE(0.22)
+  D + ln population control                                  n= 183 G=19 b=+0.063 se=0.124 p_z=0.614 p_t=0.620 p_wild=0.641 p_webb=0.644 G*=5.5/8.8 top=FR(0.28)
+  D outcome: 3-yr endpoint averages                          n= 183 G=19 b=-0.033 se=0.107 p_z=0.756 p_t=0.760 p_wild=0.773 p_webb=0.759 G*=6.3/9.5 top=FR(0.23)
+  D outcome: manufacturing (C) growth                        n= 183 G=19 b=-0.089 se=0.144 p_z=0.537 p_t=0.545 p_wild=0.576 p_webb=0.564 G*=3.5/9.5 top=FR(0.46)
+  D outcome: TOTAL-economy GVA growth (specificity check)    n= 183 G=19 b=+0.018 se=0.060 p_z=0.765 p_t=0.768 p_wild=0.775 p_webb=0.780 G*=4.5/9.5 top=DE(0.39)
+  D outcome: growth 2005-2012 only                           n= 183 G=19 b=-0.230 se=0.171 p_z=0.179 p_t=0.195 p_wild=0.200 p_webb=0.204 G*=4.7/9.5 top=FI(0.37)
+  D outcome: growth 2012-2019 only                           n= 183 G=19 b=+0.126 se=0.135 p_z=0.349 p_t=0.362 p_wild=0.431 p_webb=0.413 G*=3.9/9.5 top=FR(0.41)
+
+====================================================================================================
+SECTION: REGIONAL RESULTS -- NUTS3
+====================================================================================================
+  IDENTICAL analysis sample: 995 units, 25 countries (EU15 13, accession 12); single-unit countries dropped: ['CY', 'LU']
+  units per country: {'AT': 35, 'BE': 36, 'BG': 23, 'CZ': 14, 'DE': 381, 'DK': 11, 'EE': 3, 'EL': 35, 'ES': 54, 'FI': 8, 'FR': 98, 'HR': 4, 'HU': 20, 'IE': 4, 'IT': 102, 'LT': 10, 'LV': 2, 'MT': 2, 'NL': 23, 'PL': 51, 'PT': 5, 'RO': 39, 'SE': 20, 'SI': 7, 'SK': 8}
+ [A] country-FE regressions, y = industrial (B-E) GVA growth 2005-2019, %/yr
+  A1 FE: dig only                                            n= 995 G=25 b=+0.020 se=0.038 p_z=0.607 p_t=0.611 p_wild=0.616 p_webb=0.626 G*=4.2/3.4 top=DE(0.35)
+  A2 FE: dig + controls                                      n= 995 G=25 b=+0.068 se=0.030 p_z=0.025 p_t=0.035 p_wild=0.137 p_webb=0.120 G*=4.3/3.3 top=FR(0.36)
+  A3 FE: dig + nondig + controls  [CLAIM]                    n= 995 G=25 b=-0.025 se=0.068 p_z=0.715 p_t=0.718 p_wild=0.836 p_webb=0.831 G*=2.0/5.1 top=IT(0.69)
+  A3b FE: same, target = NON-digital                         n= 995 G=25 b=+0.265 se=0.177 p_z=0.134 p_t=0.147 p_wild=0.169 p_webb=0.170 G*=2.3/8.6 top=IT(0.60)
+  A4 FE: total patents + controls                            n= 995 G=25 b=+0.236 se=0.125 p_z=0.060 p_t=0.072 p_wild=0.011 p_webb=0.015 G*=3.0/5.5 top=IT(0.45)
+  A5 FE: tilt (dig-nondig) + sum + controls                  n= 995 G=25 b=-0.145 se=0.119 p_z=0.224 p_t=0.236 p_wild=0.381 p_webb=0.362 G*=2.1/8.9 top=IT(0.66)
+ [A-w] same FE regressions, EQUAL total weight per country (limits Germany/France/Italy dominance)
+  Aw2 FE equal-country-weight: dig + controls                n= 995 G=25 b=+0.005 se=0.096 p_z=0.961 p_t=0.962 p_wild=0.969 p_webb=0.967 G*=3.0/14.6 top=FI(0.50)
+  Aw3 FE equal-country-weight: dig + nondig + controls       n= 995 G=25 b=-0.089 se=0.091 p_z=0.329 p_t=0.339 p_wild=0.414 p_webb=0.414 G*=3.5/15.3 top=FI(0.49)
+  Aw4 FE equal-country-weight: total patents + controls      n= 995 G=25 b=+0.330 se=0.167 p_z=0.048 p_t=0.059 p_wild=0.078 p_webb=0.076 G*=4.3/13.8 top=HR(0.39)
+ [B] pooled (NO country FE), y = growth minus national B-E deflator
+  B1 pooled: dig + controls                                  n= 995 G=25 b=+0.327 se=0.096 p_z=0.001 p_t=0.002 p_wild=0.051 p_webb=0.055 G*=2.4/4.5 top=EL(0.63)
+  B2 pooled: dig + nondig + controls                         n= 995 G=25 b=+0.090 se=0.062 p_z=0.150 p_t=0.162 p_wild=0.167 p_webb=0.165 G*=5.3/5.9 top=IT(0.31)
+  B3 pooled: + accession dummy                               n= 995 G=25 b=+0.029 se=0.061 p_z=0.627 p_t=0.631 p_wild=0.596 p_webb=0.595 G*=6.9/6.2 top=IT(0.28)
+ [C] accession split of the claim regression (own country FE in each subsample)
+  C EU15 only: dig + nondig + controls                       n= 812 G=13 b=-0.031 se=0.097 p_z=0.747 p_t=0.753 p_wild=0.898 p_webb=0.885 G*=1.9/4.4 top=IT(0.71)
+  C ACC only: dig + nondig + controls                        n= 183 G=12 b=-0.097 se=0.095 p_z=0.310 p_t=0.331 p_wild=0.291 p_webb=0.288 G*=3.3/4.8 top=HU(0.45)
+  C interaction: dig x ACC (own-group slopes for dig & nondig) n= 995 G=25 b=-0.164 se=0.111 p_z=0.139 p_t=0.152 p_wild=0.196 p_webb=0.198 G*=6.5/6.3 top=IT(0.27)
+ [D] robustness of the claim regression (same sample S, same y unless noted)
+  D depreciation d10                                         n= 995 G=25 b=-0.021 se=0.068 p_z=0.757 p_t=0.760 p_wild=0.844 p_webb=0.851 G*=2.1/5.3 top=IT(0.67)
+  D depreciation d20                                         n= 995 G=25 b=-0.026 se=0.069 p_z=0.702 p_t=0.705 p_wild=0.833 p_webb=0.833 G*=1.9/4.9 top=IT(0.70)
+  D depreciation cum                                         n= 995 G=25 b=-0.002 se=0.068 p_z=0.976 p_t=0.976 p_wild=0.980 p_webb=0.980 G*=2.8/5.7 top=IT(0.55)
+  D normalised per emp                                       n= 995 G=25 b=-0.036 se=0.058 p_z=0.529 p_t=0.535 p_wild=0.705 p_webb=0.699 G*=2.1/6.0 top=IT(0.66)
+  D normalised per gva                                       n= 995 G=25 b=+0.033 se=0.135 p_z=0.808 p_t=0.810 p_wild=0.824 p_webb=0.818 G*=2.1/3.3 top=IT(0.66)
+  D log1p instead of asinh                                   n= 995 G=25 b=-0.022 se=0.084 p_z=0.789 p_t=0.791 p_wild=0.887 p_webb=0.878 G*=2.0/4.7 top=IT(0.69)
+  D broad digital (+H01,G05,G08,G09) vs matching non-digital n= 995 G=25 b=+0.012 se=0.095 p_z=0.902 p_t=0.903 p_wild=0.844 p_webb=0.865 G*=2.3/6.0 top=IT(0.53)
+  D comparison field = mech/chem (B,C,F sections) instead of non-digital n= 995 G=25 b=+0.008 se=0.067 p_z=0.904 p_t=0.905 p_wild=0.919 p_webb=0.928 G*=2.1/4.5 top=IT(0.67)
+  D + ln population control                                  n= 995 G=25 b=-0.011 se=0.069 p_z=0.871 p_t=0.873 p_wild=0.921 p_webb=0.923 G*=2.0/4.4 top=IT(0.68)
+  D outcome: 3-yr endpoint averages                          n= 993 G=25 b=-0.041 se=0.069 p_z=0.552 p_t=0.558 p_wild=0.752 p_webb=0.743 G*=2.1/5.1 top=IT(0.67)
+  D outcome: manufacturing (C) growth                        n= 995 G=25 b=-0.066 se=0.083 p_z=0.429 p_t=0.437 p_wild=0.579 p_webb=0.592 G*=2.0/5.1 top=IT(0.66)
+  D outcome: TOTAL-economy GVA growth (specificity check)    n= 995 G=25 b=+0.044 se=0.022 p_z=0.043 p_t=0.055 p_wild=0.153 p_webb=0.149 G*=4.2/5.1 top=IT(0.43)
+  D outcome: growth 2005-2012 only                           n= 995 G=25 b=-0.085 se=0.075 p_z=0.258 p_t=0.270 p_wild=0.308 p_webb=0.301 G*=4.7/5.1 top=DE(0.35)
+  D outcome: growth 2012-2019 only                           n= 995 G=25 b=+0.035 se=0.092 p_z=0.706 p_t=0.709 p_wild=0.789 p_webb=0.788 G*=1.9/5.1 top=IT(0.72)
+
+====================================================================================================
+SECTION: REGIONAL RESULTS -- NUTS2_lenient
+====================================================================================================
+  IDENTICAL analysis sample: 200 units, 17 countries (EU15 11, accession 6); single-unit countries dropped: ['CY', 'EE', 'HR', 'LU', 'LV', 'MT']
+  units per country: {'AT': 9, 'BE': 11, 'BG': 6, 'CZ': 8, 'DE': 35, 'EL': 9, 'ES': 17, 'FI': 5, 'FR': 24, 'HU': 6, 'IT': 21, 'NL': 10, 'PL': 15, 'PT': 4, 'RO': 8, 'SE': 8, 'SK': 4}
+ [A] country-FE regressions, y = industrial (B-E) GVA growth 2005-2019, %/yr
+  A1 FE: dig only                                            n= 200 G=17 b=+0.020 se=0.075 p_z=0.794 p_t=0.797 p_wild=0.796 p_webb=0.793 G*=3.9/7.3 top=IT(0.41)
+  A2 FE: dig + controls                                      n= 200 G=17 b=+0.041 se=0.101 p_z=0.686 p_t=0.692 p_wild=0.697 p_webb=0.709 G*=4.1/8.2 top=FI(0.41)
+  A3 FE: dig + nondig + controls  [CLAIM]                    n= 200 G=17 b=-0.037 se=0.119 p_z=0.754 p_t=0.758 p_wild=0.775 p_webb=0.772 G*=4.2/9.8 top=FI(0.41)
+  A3b FE: same, target = NON-digital                         n= 200 G=17 b=+0.240 se=0.254 p_z=0.345 p_t=0.359 p_wild=0.425 p_webb=0.424 G*=2.6/11.7 top=FR(0.59)
+  A4 FE: total patents + controls                            n= 200 G=17 b=+0.189 se=0.204 p_z=0.355 p_t=0.369 p_wild=0.403 p_webb=0.400 G*=3.1/9.1 top=FR(0.48)
+  A5 FE: tilt (dig-nondig) + sum + controls                  n= 200 G=17 b=-0.138 se=0.168 p_z=0.409 p_t=0.421 p_wild=0.479 p_webb=0.473 G*=3.0/12.1 top=FR(0.54)
+ [A-w] same FE regressions, EQUAL total weight per country (limits Germany/France/Italy dominance)
+  Aw2 FE equal-country-weight: dig + controls                n= 200 G=17 b=-0.079 se=0.168 p_z=0.635 p_t=0.642 p_wild=0.785 p_webb=0.783 G*=2.1/11.1 top=FI(0.66)
+  Aw3 FE equal-country-weight: dig + nondig + controls       n= 200 G=17 b=-0.184 se=0.170 p_z=0.280 p_t=0.296 p_wild=0.509 p_webb=0.489 G*=2.0/11.8 top=FI(0.71)
+  Aw4 FE equal-country-weight: total patents + controls      n= 200 G=17 b=+0.202 se=0.198 p_z=0.309 p_t=0.324 p_wild=0.326 p_webb=0.337 G*=6.1/11.5 top=NL(0.24)
+ [B] pooled (NO country FE), y = growth minus national B-E deflator
+  B1 pooled: dig + controls                                  n= 200 G=17 b=+0.322 se=0.137 p_z=0.019 p_t=0.032 p_wild=0.083 p_webb=0.082 G*=5.9/10.4 top=EL(0.27)
+  B2 pooled: dig + nondig + controls                         n= 200 G=17 b=+0.134 se=0.140 p_z=0.340 p_t=0.354 p_wild=0.367 p_webb=0.372 G*=5.6/11.4 top=FI(0.30)
+  B3 pooled: + accession dummy                               n= 200 G=17 b=+0.071 se=0.110 p_z=0.521 p_t=0.530 p_wild=0.539 p_webb=0.530 G*=5.8/11.6 top=FI(0.34)
+ [C] accession split of the claim regression (own country FE in each subsample)
+  C EU15 only: dig + nondig + controls                       n= 153 G=11 b=-0.032 se=0.164 p_z=0.847 p_t=0.851 p_wild=0.858 p_webb=0.868 G*=3.8/8.0 top=FI(0.41)
+  C ACC only: dig + nondig + controls                        n=  47 G= 6 b=-0.068 se=0.181 p_z=0.707 p_t=0.722 p_wild=0.719 p_webb=0.699 G*=2.4/2.0 top=PL(0.62)
+  C interaction: dig x ACC (own-group slopes for dig & nondig) n= 200 G=17 b=-0.043 se=0.197 p_z=0.825 p_t=0.828 p_wild=0.839 p_webb=0.836 G*=4.5/3.3 top=PL(0.35)
+ [D] robustness of the claim regression (same sample S, same y unless noted)
+  D depreciation d10                                         n= 200 G=17 b=-0.036 se=0.121 p_z=0.764 p_t=0.768 p_wild=0.782 p_webb=0.780 G*=4.2/10.0 top=FI(0.40)
+  D depreciation d20                                         n= 200 G=17 b=-0.035 se=0.118 p_z=0.766 p_t=0.770 p_wild=0.787 p_webb=0.778 G*=4.1/9.6 top=FI(0.41)
+  D depreciation cum                                         n= 200 G=17 b=-0.017 se=0.123 p_z=0.892 p_t=0.893 p_wild=0.901 p_webb=0.906 G*=4.2/10.3 top=FI(0.37)
+  D normalised per emp                                       n= 200 G=17 b=-0.073 se=0.104 p_z=0.482 p_t=0.492 p_wild=0.517 p_webb=0.525 G*=5.1/10.0 top=FI(0.35)
+  D normalised per gva                                       n= 200 G=17 b=+0.027 se=0.203 p_z=0.894 p_t=0.895 p_wild=0.907 p_webb=0.910 G*=3.6/7.7 top=FI(0.42)
+  D log1p instead of asinh                                   n= 200 G=17 b=-0.029 se=0.138 p_z=0.834 p_t=0.836 p_wild=0.846 p_webb=0.852 G*=4.0/9.3 top=FI(0.40)
+  D broad digital (+H01,G05,G08,G09) vs matching non-digital n= 200 G=17 b=-0.115 se=0.146 p_z=0.429 p_t=0.441 p_wild=0.472 p_webb=0.468 G*=5.1/10.6 top=FI(0.26)
+  D comparison field = mech/chem (B,C,F sections) instead of non-digital n= 200 G=17 b=-0.010 se=0.107 p_z=0.922 p_t=0.923 p_wild=0.930 p_webb=0.927 G*=3.8/9.2 top=FI(0.47)
+  D + ln population control                                  n= 200 G=17 b=+0.117 se=0.104 p_z=0.262 p_t=0.279 p_wild=0.305 p_webb=0.309 G*=6.8/9.1 top=IT(0.22)
+  D outcome: 3-yr endpoint averages                          n= 200 G=17 b=-0.007 se=0.114 p_z=0.950 p_t=0.950 p_wild=0.956 p_webb=0.952 G*=3.6/9.8 top=FI(0.47)
+  D outcome: manufacturing (C) growth                        n= 200 G=17 b=-0.081 se=0.156 p_z=0.605 p_t=0.612 p_wild=0.648 p_webb=0.652 G*=3.2/9.8 top=FI(0.44)
+  D outcome: TOTAL-economy GVA growth (specificity check)    n= 200 G=17 b=+0.031 se=0.058 p_z=0.596 p_t=0.603 p_wild=0.605 p_webb=0.609 G*=5.5/9.8 top=DE(0.29)
+  D outcome: growth 2005-2012 only                           n= 200 G=17 b=-0.254 se=0.185 p_z=0.170 p_t=0.189 p_wild=0.206 p_webb=0.206 G*=4.1/9.8 top=FI(0.40)
+  D outcome: growth 2012-2019 only                           n= 200 G=17 b=+0.179 se=0.120 p_z=0.136 p_t=0.155 p_wild=0.207 p_webb=0.208 G*=5.4/9.8 top=IT(0.32)
+
+--- Leave-one-country-out on A3: x_dig+x_nondig, target x_dig -- NUTS2 ---
+dropped  n_dropped_units   n  G    coef     se  p_t_Gm1  p_wild
+     AT                9 174 18 -0.0321 0.1177   0.7885  0.7984
+     BE                9 174 18 -0.0627 0.1208   0.6106  0.6189
+     BG                3 180 18 -0.0499 0.1172   0.6754  0.6883
+     CZ                8 175 18 -0.0521 0.1206   0.6710  0.6857
+     DE               34 149 18 -0.1037 0.1185   0.3939  0.3891
+     DK                5 178 18 -0.0525 0.1225   0.6739  0.6799
+     EL                6 177 18 -0.0424 0.1159   0.7191  0.7223
+     ES               16 167 18 -0.0678 0.1260   0.5973  0.6051
+     FI                2 181 18 -0.0040 0.0999   0.9686  0.9698
+     FR               24 159 18 -0.1153 0.1192   0.3470  0.3651
+     HU                8 175 18 -0.0199 0.1024   0.8482  0.8468
+     IT               20 163 18  0.0192 0.1188   0.8735  0.8816
+     LT                2 181 18 -0.0486 0.1168   0.6829  0.6895
+     NL                6 177 18 -0.0408 0.1143   0.7252  0.7371
+     PL               10 173 18 -0.0625 0.1353   0.6498  0.6625
+     PT                3 180 18 -0.0604 0.1217   0.6258  0.6335
+     RO                6 177 18 -0.0422 0.1189   0.7270  0.7349
+     SE                8 175 18 -0.0764 0.1240   0.5459  0.5505
+     SK                4 179 18 -0.0510 0.1153   0.6636  0.6687
+  coef range [-0.115, +0.019]; p_wild<0.05 in 0/19 runs; p_t<0.05 in 0/19 runs
+
+--- Leave-one-country-out on A3: x_dig+x_nondig, target x_dig -- NUTS3 ---
+dropped  n_dropped_units   n  G    coef     se  p_t_Gm1  p_wild
+     AT               35 960 24 -0.0274 0.0735   0.7129  0.8412
+     BE               36 959 24 -0.0237 0.0695   0.7364  0.8550
+     BG               23 972 24 -0.0272 0.0705   0.7029  0.8358
+     CZ               14 981 24 -0.0247 0.0697   0.7262  0.8490
+     DE              381 614 24 -0.0233 0.0815   0.7773  0.8534
+     DK               11 984 24 -0.0262 0.0687   0.7065  0.8348
+     EE                3 992 24 -0.0251 0.0689   0.7187  0.8442
+     EL               35 960 24 -0.0360 0.0721   0.6225  0.7958
+     ES               54 941 24 -0.0213 0.0726   0.7722  0.8896
+     FI                8 987 24 -0.0154 0.0672   0.8210  0.9268
+     FR               98 897 24 -0.0568 0.0647   0.3888  0.6403
+     HR                4 991 24 -0.0193 0.0690   0.7826  0.8806
+     HU               20 975 24 -0.0302 0.0690   0.6654  0.7950
+     IE                4 991 24 -0.0260 0.0685   0.7075  0.8270
+     IT              102 893 24  0.0444 0.0375   0.2481  0.3455
+     LT               10 985 24 -0.0201 0.0709   0.7789  0.8856
+     LV                2 993 24 -0.0248 0.0683   0.7195  0.8404
+     MT                2 993 24 -0.0247 0.0682   0.7211  0.8416
+     NL               23 972 24 -0.0288 0.0701   0.6845  0.8044
+     PL               51 944 24 -0.0353 0.0743   0.6394  0.8092
+     PT                5 990 24 -0.0251 0.0689   0.7192  0.8434
+     RO               39 956 24 -0.0223 0.0715   0.7575  0.8740
+     SE               20 975 24 -0.0311 0.0700   0.6613  0.7992
+     SI                7 988 24 -0.0253 0.0699   0.7209  0.8502
+     SK                8 987 24 -0.0255 0.0680   0.7116  0.8394
+  coef range [-0.057, +0.044]; p_wild<0.05 in 0/25 runs; p_t<0.05 in 0/25 runs
+
+--- Leave-one-country-out on A3: x_dig+x_nondig, target x_dig -- NUTS2_lenient ---
+dropped  n_dropped_units   n  G    coef     se  p_t_Gm1  p_wild
+     AT                9 191 16 -0.0150 0.1181   0.9007  0.9052
+     BE               11 189 16 -0.0481 0.1210   0.6968  0.7113
+     BG                6 194 16 -0.0285 0.1201   0.8156  0.8210
+     CZ                8 192 16 -0.0416 0.1245   0.7427  0.7550
+     DE               35 165 16 -0.0858 0.1187   0.4809  0.5269
+     EL                9 191 16 -0.0221 0.1173   0.8532  0.8672
+     ES               17 183 16 -0.0528 0.1262   0.6815  0.7029
+     FI                5 195 16  0.0461 0.0864   0.6013  0.6057
+     FR               24 176 16 -0.0876 0.1320   0.5168  0.6083
+     HU                6 194 16 -0.0349 0.1213   0.7777  0.7974
+     IT               21 179 16  0.0258 0.1294   0.8447  0.8476
+     NL               10 190 16 -0.0514 0.1297   0.6975  0.7241
+     PL               15 185 16 -0.0518 0.1392   0.7150  0.7307
+     PT                4 196 16 -0.0402 0.1262   0.7545  0.7690
+     RO                8 192 16 -0.0282 0.1244   0.8235  0.8416
+     SE                8 192 16 -0.0557 0.1249   0.6621  0.6857
+     SK                4 196 16 -0.0359 0.1179   0.7647  0.7812
+  coef range [-0.088, +0.046]; p_wild<0.05 in 0/17 runs; p_t<0.05 in 0/17 runs
+
+--- Leave-one-country-out on A2: x_dig, target x_dig -- NUTS3 ---
+dropped  n_dropped_units   n  G   coef     se  p_t_Gm1  p_wild
+     AT               35 960 24 0.0688 0.0318   0.0411  0.1558
+     BE               36 959 24 0.0702 0.0301   0.0288  0.1194
+     BG               23 972 24 0.0678 0.0305   0.0360  0.1408
+     CZ               14 981 24 0.0675 0.0304   0.0363  0.1430
+     DE              381 614 24 0.0734 0.0622   0.2497  0.3353
+     DK               11 984 24 0.0665 0.0304   0.0390  0.1592
+     EE                3 992 24 0.0672 0.0302   0.0361  0.1496
+     EL               35 960 24 0.0724 0.0311   0.0293  0.1124
+     ES               54 941 24 0.0708 0.0312   0.0330  0.1300
+     FI                8 987 24 0.0770 0.0300   0.0173  0.0366
+     FR               98 897 24 0.0469 0.0249   0.0725  0.3059
+     HR                4 991 24 0.0679 0.0302   0.0347  0.1462
+     HU               20 975 24 0.0656 0.0304   0.0419  0.1674
+     IE                4 991 24 0.0700 0.0304   0.0306  0.1284
+     IT              102 893 24 0.0781 0.0339   0.0305  0.1306
+     LT               10 985 24 0.0668 0.0304   0.0383  0.1554
+     LV                2 993 24 0.0676 0.0302   0.0352  0.1482
+     MT                2 993 24 0.0677 0.0302   0.0348  0.1468
+     NL               23 972 24 0.0514 0.0269   0.0682  0.2989
+     PL               51 944 24 0.0631 0.0304   0.0495  0.1924
+     PT                5 990 24 0.0670 0.0300   0.0357  0.1434
+     RO               39 956 24 0.0705 0.0313   0.0342  0.1278
+     SE               20 975 24 0.0646 0.0308   0.0470  0.1842
+     SI                7 988 24 0.0679 0.0304   0.0358  0.1422
+     SK                8 987 24 0.0675 0.0302   0.0356  0.1390
+  coef range [+0.047, +0.078]; p_wild<0.05 in 1/25 runs; p_t<0.05 in 22/25 runs
+
+--- Leave-one-country-out on A4: x_total, target x_total -- NUTS3 ---
+dropped  n_dropped_units   n  G   coef     se  p_t_Gm1  p_wild
+     AT               35 960 24 0.2315 0.1244   0.0756  0.0144
+     BE               36 959 24 0.2343 0.1254   0.0746  0.0148
+     BG               23 972 24 0.2432 0.1314   0.0770  0.0112
+     CZ               14 981 24 0.2342 0.1261   0.0761  0.0138
+     DE              381 614 24 0.3417 0.1409   0.0236  0.0220
+     DK               11 984 24 0.2360 0.1268   0.0754  0.0124
+     EE                3 992 24 0.2358 0.1275   0.0773  0.0136
+     EL               35 960 24 0.2716 0.1394   0.0637  0.0016
+     ES               54 941 24 0.2426 0.1398   0.0961  0.0216
+     FI                8 987 24 0.2428 0.1274   0.0692  0.0076
+     FR               98 897 24 0.2438 0.1396   0.0942  0.0188
+     HR                4 991 24 0.2247 0.1241   0.0833  0.0172
+     HU               20 975 24 0.2409 0.1280   0.0725  0.0122
+     IE                4 991 24 0.2452 0.1286   0.0691  0.0104
+     IT              102 893 24 0.1356 0.0740   0.0797  0.0178
+     LT               10 985 24 0.2225 0.1259   0.0904  0.0198
+     LV                2 993 24 0.2360 0.1256   0.0730  0.0128
+     MT                2 993 24 0.2359 0.1255   0.0728  0.0126
+     NL               23 972 24 0.1982 0.1121   0.0903  0.0210
+     PL               51 944 24 0.2405 0.1313   0.0800  0.0162
+     PT                5 990 24 0.2345 0.1253   0.0740  0.0134
+     RO               39 956 24 0.2400 0.1330   0.0842  0.0148
+     SE               20 975 24 0.2350 0.1266   0.0763  0.0138
+     SI                7 988 24 0.2348 0.1258   0.0748  0.0138
+     SK                8 987 24 0.2375 0.1258   0.0718  0.0112
+  coef range [+0.136, +0.342]; p_wild<0.05 in 25/25 runs; p_t<0.05 in 1/25 runs
+
+--- Leave-one-country-out on A4: x_total, target x_total -- NUTS2 ---
+dropped  n_dropped_units   n  G    coef     se  p_t_Gm1  p_wild
+     AT                9 174 18  0.0422 0.1663   0.8026  0.8028
+     BE                9 174 18 -0.0455 0.1305   0.7315  0.7976
+     BG                3 180 18  0.0442 0.1646   0.7917  0.7998
+     CZ                8 175 18  0.0397 0.1700   0.8183  0.8230
+     DE               34 149 18  0.0110 0.1871   0.9538  0.9424
+     DK                5 178 18  0.0296 0.1613   0.8565  0.8560
+     EL                6 177 18  0.0566 0.1791   0.7558  0.7670
+     ES               16 167 18  0.0699 0.1827   0.7069  0.7277
+     FI                2 181 18  0.0748 0.1734   0.6715  0.6867
+     FR               24 159 18  0.2403 0.1561   0.1421  0.1556
+     HU                8 175 18  0.0596 0.1819   0.7472  0.7598
+     IT               20 163 18  0.0091 0.1458   0.9508  0.9466
+     LT                2 181 18  0.0472 0.1647   0.7779  0.7760
+     NL                6 177 18  0.0481 0.1682   0.7785  0.7788
+     PL               10 173 18  0.0263 0.1681   0.8774  0.8658
+     PT                3 180 18  0.0550 0.1672   0.7463  0.7465
+     RO                6 177 18  0.0706 0.1666   0.6771  0.6857
+     SE                8 175 18  0.0557 0.1688   0.7455  0.7415
+     SK                4 179 18  0.0484 0.1669   0.7753  0.7708
+  coef range [-0.046, +0.240]; p_wild<0.05 in 0/19 runs; p_t<0.05 in 0/19 runs
+
+--- LOO within the accession subsample, NUTS3 ---
+   drop BG: n= 160 G=11 b=-0.071 p_t=0.450 p_wild=0.414
+   drop CZ: n= 169 G=11 b=-0.117 p_t=0.297 p_wild=0.280
+   drop EE: n= 180 G=11 b=-0.114 p_t=0.271 p_wild=0.268
+   drop HR: n= 179 G=11 b=-0.081 p_t=0.413 p_wild=0.357
+   drop HU: n= 163 G=11 b=-0.173 p_t=0.090 p_wild=0.163
+   drop LT: n= 173 G=11 b=-0.077 p_t=0.437 p_wild=0.374
+   drop LV: n= 181 G=11 b=-0.096 p_t=0.339 p_wild=0.294
+   drop MT: n= 181 G=11 b=-0.094 p_t=0.346 p_wild=0.302
+   drop PL: n= 132 G=11 b=-0.121 p_t=0.431 p_wild=0.432
+   drop RO: n= 144 G=11 b=-0.034 p_t=0.698 p_wild=0.641
+   drop SI: n= 176 G=11 b=-0.119 p_t=0.361 p_wild=0.296
+   drop SK: n= 175 G=11 b=-0.100 p_t=0.317 p_wild=0.300
+
+====================================================================================================
+SECTION: FALSIFICATION / PLACEBO -- NUTS2
+====================================================================================================
+  placebo sample (identical across P-specs): 174 units, 18 countries
+  corr(stock through 1999, stock 2005-12 flow) digital: 0.877; non-digital: 0.964
+  y = industrial GVA growth 2000-2004 (4 yrs only -> noisy; nominal, FE absorbs the national deflator)
+  P0 FE: stock through 1999 (predetermined for 2000-04): dig n= 174 G=18 b=-0.245 se=0.173 p_z=0.157 p_t=0.175 p_wild=0.167 p_webb=0.164 G*=3.4/7.8 top=BG(0.51)
+  P1 FE: stock 2005-12 ONLY (future) : dig  [PLACEBO]        n= 174 G=18 b=-0.088 se=0.228 p_z=0.699 p_t=0.703 p_wild=0.702 p_webb=0.704 G*=7.3/8.7 top=BG(0.22)
+  P2 FE: both windows in one model: dig(1999 stock)          n= 174 G=18 b=-0.296 se=0.181 p_z=0.102 p_t=0.120 p_wild=0.113 p_webb=0.116 G*=6.2/7.9 top=BG(0.30)
+  P2 FE: both windows in one model: dig(2005-12 flow)        n= 174 G=18 b=+0.093 se=0.243 p_z=0.701 p_t=0.706 p_wild=0.703 p_webb=0.707 G*=7.4/10.2 top=PL(0.23)
+  P3 FE: stock through 2004 (baseline of main design) on 2000-04 growth [overlaps] n= 174 G=18 b=-0.163 se=0.226 p_z=0.470 p_t=0.480 p_wild=0.551 p_webb=0.560 G*=3.0/8.8 top=IT(0.51)
+  P4 FE: total-economy growth 2000-04 on stock through 1999  n= 174 G=18 b=-0.148 se=0.080 p_z=0.064 p_t=0.081 p_wild=0.072 p_webb=0.072 G*=4.1/7.8 top=BG(0.44)
+
+====================================================================================================
+SECTION: FALSIFICATION / PLACEBO -- NUTS3
+====================================================================================================
+  placebo sample (identical across P-specs): 959 units, 24 countries
+  corr(stock through 1999, stock 2005-12 flow) digital: 0.839; non-digital: 0.940
+  y = industrial GVA growth 2000-2004 (4 yrs only -> noisy; nominal, FE absorbs the national deflator)
+  P0 FE: stock through 1999 (predetermined for 2000-04): dig n= 959 G=24 b=-0.101 se=0.072 p_z=0.158 p_t=0.171 p_wild=0.149 p_webb=0.142 G*=7.8/3.4 top=IT(0.20)
+  P1 FE: stock 2005-12 ONLY (future) : dig  [PLACEBO]        n= 959 G=24 b=-0.127 se=0.114 p_z=0.266 p_t=0.278 p_wild=0.272 p_webb=0.273 G*=4.1/5.6 top=DE(0.42)
+  P2 FE: both windows in one model: dig(1999 stock)          n= 959 G=24 b=-0.141 se=0.072 p_z=0.050 p_t=0.063 p_wild=0.267 p_webb=0.248 G*=6.9/3.4 top=SE(0.25)
+  P2 FE: both windows in one model: dig(2005-12 flow)        n= 959 G=24 b=+0.012 se=0.162 p_z=0.940 p_t=0.941 p_wild=0.955 p_webb=0.956 G*=2.9/5.6 top=DE(0.55)
+  P3 FE: stock through 2004 (baseline of main design) on 2000-04 growth [overlaps] n= 959 G=24 b=-0.149 se=0.101 p_z=0.141 p_t=0.155 p_wild=0.213 p_webb=0.213 G*=6.2/4.7 top=SE(0.28)
+  P4 FE: total-economy growth 2000-04 on stock through 1999  n= 959 G=24 b=+0.026 se=0.047 p_z=0.578 p_t=0.583 p_wild=0.764 p_webb=0.743 G*=2.5/3.4 top=DE(0.57)
+
+====================================================================================================
+SECTION: FALSIFICATION / PLACEBO -- NUTS2_lenient
+====================================================================================================
+  placebo sample (identical across P-specs): 189 units, 16 countries
+  corr(stock through 1999, stock 2005-12 flow) digital: 0.892; non-digital: 0.962
+  y = industrial GVA growth 2000-2004 (4 yrs only -> noisy; nominal, FE absorbs the national deflator)
+  P0 FE: stock through 1999 (predetermined for 2000-04): dig n= 189 G=16 b=-0.226 se=0.198 p_z=0.252 p_t=0.270 p_wild=0.248 p_webb=0.247 G*=7.5/7.5 top=BG(0.22)
+  P1 FE: stock 2005-12 ONLY (future) : dig  [PLACEBO]        n= 189 G=16 b=-0.015 se=0.303 p_z=0.959 p_t=0.960 p_wild=0.964 p_webb=0.959 G*=4.8/8.5 top=PL(0.36)
+  P2 FE: both windows in one model: dig(1999 stock)          n= 189 G=16 b=-0.310 se=0.235 p_z=0.187 p_t=0.207 p_wild=0.222 p_webb=0.221 G*=3.6/7.2 top=PL(0.44)
+  P2 FE: both windows in one model: dig(2005-12 flow)        n= 189 G=16 b=+0.171 se=0.318 p_z=0.592 p_t=0.599 p_wild=0.681 p_webb=0.672 G*=2.9/9.5 top=PL(0.56)
+  P3 FE: stock through 2004 (baseline of main design) on 2000-04 growth [overlaps] n= 189 G=16 b=-0.255 se=0.221 p_z=0.249 p_t=0.267 p_wild=0.349 p_webb=0.358 G*=2.7/9.2 top=IT(0.59)
+  P4 FE: total-economy growth 2000-04 on stock through 1999  n= 189 G=16 b=-0.129 se=0.066 p_z=0.052 p_t=0.071 p_wild=0.060 p_webb=0.065 G*=4.6/7.5 top=BG(0.41)
+
+====================================================================================================
+SECTION: COUNTRY-LEVEL VERIFIED EU-ETS EMISSIONS (descriptive, N~22)
+====================================================================================================
+
+  --- country-level analogue: national industrial (B-E) real GVA growth 2005-2019, %/yr, on predetermined stock ---
+   N=27 EU27 countries; excluded: []
+   dig only                                 b_dig=-0.256 HC3 se=0.133 p(t,N-k)=0.066  LOO range [-0.320, -0.193]
+   dig + controls                           b_dig=-0.517 HC3 se=0.266 p(t,N-k)=0.064  LOO range [-0.643, -0.385]
+   dig + nondig + controls                  b_dig=-0.270 HC3 se=0.570 p(t,N-k)=0.640  LOO range [-0.429, +0.146]
+   dig + nondig + controls + ACC dummy      b_dig=-0.087 HC3 se=0.552 p(t,N-k)=0.877  LOO range [-0.244, +0.369]
+
+  outcome: 100*ln(verified ETS emissions 2019 / 2005); N=24; excluded (missing 2005 or 2019 ETS data, or no patent/pop data): ['BG', 'HR', 'RO', 'UK']
+   NOTE: ETS scope changed in 2013 (new sectors/gases) and 2021 (UK exit) -> levels are not like-for-like.
+   Spearman(dig stock pc, emissions change) = +0.05 (p=0.834)
+   dig only                                   b_dig=  +0.91 HC3 se=  2.87 p(t,N-k)=0.753  LOO range [-0.5, +2.0]
+   dig + nondig                               b_dig= +13.71 HC3 se= 10.69 p(t,N-k)=0.214  LOO range [+6.8, +19.8]
+   dig + nondig + ln GDPpc + ACC dummy        b_dig= +13.74 HC3 se= 11.48 p(t,N-k)=0.246  LOO range [+7.0, +20.5]
+
+  outcome: 100*ln(verified ETS emissions 2023 / 2005); N=24; excluded (missing 2005 or 2023 ETS data, or no patent/pop data): ['BG', 'HR', 'RO', 'UK']
+   NOTE: ETS scope changed in 2013 (new sectors/gases) and 2021 (UK exit) -> levels are not like-for-like.
+   Spearman(dig stock pc, emissions change) = +0.04 (p=0.865)
+   dig only                                   b_dig=  +0.85 HC3 se=  3.25 p(t,N-k)=0.796  LOO range [-0.7, +2.1]
+   dig + nondig                               b_dig= +10.64 HC3 se= 12.21 p(t,N-k)=0.394  LOO range [+5.9, +19.3]
+   dig + nondig + ln GDPpc + ACC dummy        b_dig= +11.83 HC3 se= 14.20 p(t,N-k)=0.415  LOO range [+4.3, +21.7]
+
+Done. Outputs in analysis/output/phase_f_*
+FINISHED

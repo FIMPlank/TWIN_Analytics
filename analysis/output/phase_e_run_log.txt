@@ -1,0 +1,144 @@
+Countries in speed: 31 | technology: 31 | rural (DEG3) cells: 4562
+isoc_r_broad_h: units ['PC_HH', 'PC_HH_IACC'] geo units 361 years 2006 2021
+
+=== FIRST STAGE F (cluster-robust CR1, F(1,G-1) reference; single instrument => KP rk-F equals this) ===
+sample                    ACC2004+                                                                      EU15                                                                       all                                                                                                                            
+spec           S1 Phase-D controls S2 +GDPpc2013 x EU-FTTP shock S3 +GDPpc2013 x year FE S1 Phase-D controls S2 +GDPpc2013 x EU-FTTP shock S3 +GDPpc2013 x year FE S1 Phase-D controls S2 +GDPpc2013 x EU-FTTP shock S3 +GDPpc2013 x year FE S4 country FE + year FE S5 country FE + year FE + GDPpc2013 x year FE
+instrument                                                                                                                                                                                                                                                                                                        
+Z_DOCSISxFTTP                  4.0                           2.0                     1.1                 0.8                           0.3                     0.4                 4.9                           1.5                     1.4                    12.2                                           3.0
+Z_DOCSISxG100                  4.2                           1.7                     1.0                 0.7                           0.3                     0.3                 4.3                           1.4                     1.2                     9.4                                           1.7
+Z_DOCSISzxFTTP                 4.0                           2.0                     1.1                11.9                           5.6                     4.2                18.7                           8.0                     5.5                     6.6                                           2.1
+Z_DOCSISzxG100                 4.2                           1.7                     1.0                11.4                           5.8                     4.0                17.1                           7.7                     4.9                     5.5                                           1.2
+Z_DSLxFTTP                     1.3                           0.0                     0.0                 0.2                           5.8                     4.2                 0.6                           0.8                     0.6                     2.2                                           0.0
+Z_DSLxG100                     1.2                           0.0                     0.0                 0.3                           3.6                     3.5                 0.4                           0.6                     0.6                     4.6                                           0.3
+Z_G100xFTTP                   11.3                           1.7                     0.8                 3.3                           0.8                     0.5                10.2                           2.2                     1.2                     8.5                                           2.8
+Z_G100xG100                   10.1                           1.5                     0.7                 2.8                           0.7                     0.3                 8.6                           1.9                     0.9                     7.1                                           1.7
+Z_NGAxFTTP                     0.4                           0.3                     0.7                20.4                          14.9                    12.1                19.5                           7.7                     4.9                     4.4                                           1.1
+Z_NGAxG100                     0.3                           0.5                     0.8                19.7                          15.4                    11.7                17.8                           7.4                     4.4                     4.4                                           0.8
+Z_VDSLxFTTP                    8.3                           2.1                     2.2                 0.9                           0.1                     0.1                 3.4                           0.0                     0.0                     3.7                                           0.8
+Z_VDSLxG100                    7.5                           1.4                     1.8                 0.8                           0.1                     0.1                 3.1                           0.0                     0.0                     4.1                                           0.8
+Z_lag2_G100                    1.0                           0.1                     0.0                 2.1                           1.1                     0.2                 2.8                           1.3                     0.2                     5.7                                           2.1
+Z_ruralgap_NGA                 0.1                           1.7                     2.0                 0.6                           3.6                     5.0                 0.4                           3.8                     6.2                     0.3                                           0.4
+
+Cells with k > G (CR1 covariance rank-deficient -> F optimistic, UNRELIABLE):
+  sample                                          spec   n  G  k
+     all                       S4 country FE + year FE 284 28 41
+     all S5 country FE + year FE + GDPpc2013 x year FE 284 28 52
+    EU15                       S3 +GDPpc2013 x year FE 155 15 25
+ACC2004+                           S1 Phase-D controls 129 13 14
+ACC2004+                 S2 +GDPpc2013 x EU-FTTP shock 129 13 15
+ACC2004+                       S3 +GDPpc2013 x year FE 129 13 25
+     all                       S3 +GDPpc2013 x year FE 258 25 26
+    EU15                 S2 +GDPpc2013 x EU-FTTP shock 144 14 15
+    EU15                           S1 Phase-D controls 136 13 14
+
+Sample sizes (n, G) per candidate, full sample:
+    instrument   n  G  partial_R2  fs_coef
+    Z_NGAxFTTP 284 28       0.198    0.399
+    Z_NGAxG100 284 28       0.198    0.292
+   Z_VDSLxFTTP 258 25       0.085    0.223
+   Z_VDSLxG100 258 25       0.082    0.161
+ Z_DOCSISxFTTP 265 26       0.059    0.202
+ Z_DOCSISxG100 265 26       0.053    0.141
+Z_DOCSISzxFTTP 284 28       0.153    0.295
+Z_DOCSISzxG100 284 28       0.150    0.215
+    Z_DSLxFTTP 284 28       0.008    0.118
+    Z_DSLxG100 284 28       0.006    0.076
+   Z_G100xFTTP 284 28       0.143    0.270
+   Z_G100xG100 284 28       0.132    0.190
+Z_ruralgap_NGA 284 28       0.006   -0.001
+   Z_lag2_G100 284 28       0.058    0.001
+
+=== GATE: F>=10 in S3 for BOTH full sample and EU-15 ===
+sample          ACC2004+  EU15  all  pass_gate
+instrument                                    
+Z_DOCSISxFTTP        1.1   0.4  1.4      False
+Z_DOCSISxG100        1.0   0.3  1.2      False
+Z_DOCSISzxFTTP       1.1   4.2  5.5      False
+Z_DOCSISzxG100       1.0   4.0  4.9      False
+Z_DSLxFTTP           0.0   4.2  0.6      False
+Z_DSLxG100           0.0   3.5  0.6      False
+Z_G100xFTTP          0.8   0.5  1.2      False
+Z_G100xG100          0.7   0.3  0.9      False
+Z_NGAxFTTP           0.7  12.1  4.9      False
+Z_NGAxG100           0.8  11.7  4.4      False
+Z_VDSLxFTTP          2.2   0.1  0.0      False
+Z_VDSLxG100          1.8   0.1  0.0      False
+Z_lag2_G100          0.0   0.2  0.2      False
+Z_ruralgap_NGA       2.0   5.0  6.2      False
+Candidates passing gate: 0 of 14
+
+=== First-stage inference for Z_NGAxFTTP : CR1 F vs wild-cluster bootstrap p (same coefficient) ===
+  sample                                          spec   n  G  k   F_CR1  p_CR1  p_wild_first_stage  cr1_reliable
+     all                           S1 Phase-D controls 284 28 15 19.5349 0.0001              0.0090          True
+     all                 S2 +GDPpc2013 x EU-FTTP shock 284 28 16  7.6563 0.0101              0.0340          True
+     all                       S3 +GDPpc2013 x year FE 284 28 26  4.8513 0.0363              0.0635          True
+     all                       S4 country FE + year FE 284 28 41  4.3582 0.0464              0.0560         False
+     all S5 country FE + year FE + GDPpc2013 x year FE 284 28 52  1.0508 0.3144              0.3320         False
+    EU15                           S1 Phase-D controls 155 15 14 20.4089 0.0005              0.0180          True
+    EU15                 S2 +GDPpc2013 x EU-FTTP shock 155 15 15 14.8591 0.0018              0.0180          True
+    EU15                       S3 +GDPpc2013 x year FE 155 15 25 12.0628 0.0037              0.0270         False
+ACC2004+                           S1 Phase-D controls 129 13 14  0.3930 0.5425              0.8025         False
+ACC2004+                 S2 +GDPpc2013 x EU-FTTP shock 129 13 15  0.2936 0.5978              0.6030         False
+ACC2004+                       S3 +GDPpc2013 x year FE 129 13 25  0.6560 0.4337              0.4035         False
+
+=== E1: baseline (2013) coverage vs development level (cross-section of sample countries) ===
+   baseline   n  corr_gdp13  R2_on_gdp13  R2_on_gdp13_eu15  mean_EU15  mean_ACC
+0     b_NGA  28        0.39         0.15              0.31      66.43     63.98
+1  b_DOCSIS  26        0.35         0.12              0.12      54.18     41.96
+2    b_VDSL  25        0.45         0.20              0.36      37.59     31.66
+3    b_G100  28        0.40         0.16              0.31      46.76     42.34
+
+=== E2: baseline coverage vs PRE-PERIOD (2006-13 mean) industrial VA growth (cross-country, HC3) ===
+  baseline    spec   n  coef_per_100pp  t_HC3      p
+0    b_NGA    bare  28           0.004  0.141  0.888
+1    b_NGA   +eu15  28           0.007  0.307  0.759
+2    b_NGA  +gdp13  28           0.022  0.970  0.332
+3   b_G100    bare  28           0.001  0.033  0.973
+4   b_G100   +eu15  28           0.004  0.253  0.800
+5   b_G100  +gdp13  28           0.016  0.914  0.361
+
+GATE FAILED for every candidate -> NO headline second stage. Diagnostic-only blocks for the highest-F candidate follow, to document WHY exclusion fails (RF, IV, AR set). These are not results.
+
+=== DIAGNOSTIC-ONLY: OLS / reduced form / IV for Z_NGAxFTTP (AR grid beta in [-3,3], step .01; ref F(1,G-1)) ===
+            outcome    sample                                           spec    n   G   k  CR1_reliable    FS_F    OLS  OLS_p_wild     RF  RF_p_wild     IV           AR95_kind  AR95_lo  AR95_hi
+0          d_log_va       all                            S1 Phase-D controls  284  28  15          True  19.535  0.066       0.008  0.051      0.027  0.127             bounded     0.02     0.32
+1   d_log_emissions       all                            S1 Phase-D controls  284  28  15          True  19.535  0.081       0.315 -0.022      0.572 -0.055             bounded    -0.34     0.13
+2          d_log_va       all                  S2 +GDPpc2013 x EU-FTTP shock  284  28  16          True   7.656  0.023       0.308  0.011      0.631  0.043             bounded    -0.19     0.34
+3   d_log_emissions       all                  S2 +GDPpc2013 x EU-FTTP shock  284  28  16          True   7.656  0.058       0.552 -0.069      0.242 -0.275             bounded    -1.80     0.17
+4          d_log_va       all                        S3 +GDPpc2013 x year FE  284  28  26          True   4.851  0.011       0.597 -0.006      0.777 -0.028             bounded    -0.84     0.42
+5   d_log_emissions       all                        S3 +GDPpc2013 x year FE  284  28  26          True   4.851  0.076       0.464 -0.059      0.367 -0.293  unbounded/disjoint    -3.00     0.27
+6          d_log_va       all                        S4 country FE + year FE  284  28  41         False   4.358  0.028       0.468  0.114      0.120  0.341  unbounded/disjoint    -0.06     3.00
+7   d_log_emissions       all                        S4 country FE + year FE  284  28  41         False   4.358  0.290       0.006  0.227      0.535  0.681  unbounded/disjoint    -3.00     3.00
+8          d_log_va       all  S5 country FE + year FE + GDPpc2013 x year FE  284  28  52         False   1.051  0.030       0.547  0.111      0.284  0.610  unbounded/disjoint    -3.00     3.00
+9   d_log_emissions       all  S5 country FE + year FE + GDPpc2013 x year FE  284  28  52         False   1.051  0.288       0.006  0.233      0.688  1.277  unbounded/disjoint    -3.00     3.00
+10         d_log_va      EU15                            S1 Phase-D controls  155  15  14          True  20.409  0.047       0.038  0.060      0.080  0.116             bounded    -0.01     0.32
+11  d_log_emissions      EU15                            S1 Phase-D controls  155  15  14          True  20.409  0.037       0.566 -0.018      0.724 -0.035             bounded    -0.32     0.16
+12         d_log_va      EU15                  S2 +GDPpc2013 x EU-FTTP shock  155  15  15          True  14.859  0.014       0.624  0.027      0.310  0.065             bounded    -0.10     0.25
+13  d_log_emissions      EU15                  S2 +GDPpc2013 x EU-FTTP shock  155  15  15          True  14.859  0.048       0.593 -0.022      0.711 -0.054             bounded    -0.47     0.26
+14         d_log_va      EU15                        S3 +GDPpc2013 x year FE  155  15  25         False  12.063 -0.002       0.923  0.012      0.686  0.033             bounded    -0.17     0.30
+15  d_log_emissions      EU15                        S3 +GDPpc2013 x year FE  155  15  25         False  12.063  0.063       0.507 -0.004      0.946 -0.011             bounded    -0.61     0.32
+16         d_log_va  ACC2004+                            S1 Phase-D controls  129  13  14         False   0.393  0.104       0.056  0.020      0.326  0.202  unbounded/disjoint    -3.00     3.00
+17  d_log_emissions  ACC2004+                            S1 Phase-D controls  129  13  14         False   0.393  0.179       0.715 -0.073      0.140 -0.728  unbounded/disjoint    -3.00     3.00
+18         d_log_va  ACC2004+                  S2 +GDPpc2013 x EU-FTTP shock  129  13  15         False   0.294  0.046       0.096 -0.018      0.448  0.282  unbounded/disjoint    -3.00     3.00
+19  d_log_emissions  ACC2004+                  S2 +GDPpc2013 x EU-FTTP shock  129  13  15         False   0.294  0.074       0.760 -0.163      0.113  2.495  unbounded/disjoint    -3.00     3.00
+20         d_log_va  ACC2004+                        S3 +GDPpc2013 x year FE  129  13  25         False   0.656  0.039       0.183 -0.028      0.254  0.265  unbounded/disjoint    -3.00     3.00
+21  d_log_emissions  ACC2004+                        S3 +GDPpc2013 x year FE  129  13  25         False   0.656 -0.024       0.938 -0.161      0.092  1.533  unbounded/disjoint    -3.00     3.00
+
+=== Leave-one-country-out, first stage of Z_NGAxFTTP ===
+                         F_min  F_med  F_max  RFt_min  RFt_max
+spec                                                          
+S1 Phase-D controls      12.21  19.18  24.03     1.99     2.80
+S3 +GDPpc2013 x year FE   2.14   4.81   7.34    -0.75     0.18
+S1 Phase-D controls | lowest-F drops: [('IT', 12.2), ('NL', 14.0), ('MT', 14.0)] | highest: [('CY', 23.1), ('LU', 24.0)]
+S3 +GDPpc2013 x year FE | lowest-F drops: [('IT', 2.1), ('NL', 2.8), ('FR', 2.8)] | highest: [('LT', 7.1), ('HR', 7.3)]
+OLS reference d_log_va: coef=+0.0660 se=0.0241 n=284 G=28 (Phase D G5 for VA: +0.0728 on its own n=257 sample)
+OLS reference d_log_emissions: coef=+0.0809 se=0.0722 n=284 G=28 (Phase D G5 for VA: +0.0728 on its own n=257 sample)
+
+=== Leave-one-out WITHIN EU-15 (first stage F and just-identified IV for VA growth) ===
+                          F_min   F_med   F_max  IV_min  IV_max
+spec                                                           
+S1 Phase-D controls      12.754  18.942  27.178   0.067   0.143
+S3 +GDPpc2013 x year FE   6.644  10.988  12.463  -0.006   0.086
+S1 Phase-D controls | lowest-F drops: [('NL', 12.8), ('BE', 15.0), ('IT', 15.6)]
+S3 +GDPpc2013 x year FE | lowest-F drops: [('NL', 6.6), ('BE', 7.3), ('IT', 8.1)]
